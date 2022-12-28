@@ -1,27 +1,57 @@
-import React from 'react'
+import { useState } from "react";
+import {
+    Accordion,
+    AccordionHeader,
+    AccordionBody,
+} from "@material-tailwind/react";
 
-const Questionandanswer = ({QandA}) => {
-    
+
+function Icon({ id, open }) {
     return (
-        <div id="accordion-flush" className='basis-1/2 xs:mt-[50px] md:mt-0' data-accordion="collapse" data-active-classes="bg-white text-gray-900 dark:text-gray-500" data-inactive-classes="dark:text-[#171717]">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className={`${
+          id === open ? "rotate-180" : ""
+        } h-5 w-5 transition-transform`}
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={2}
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    );
+  }
+
+
+const Questionandanswer = ({ QandA }) => {
+
+    const [open, setOpen] = useState(0);
+
+    const handleOpen = (value) => {
+        setOpen(open === value ? 0 : value);
+    };
+
+    const customAnimation = {
+        mount: { scale: 1 },
+        unmount: { scale: 0.9 },
+    };
+
+    return (
+        <div className='basis-1/2 xs:mt-[50px] md:mt-0'>
             {QandA.map((qanda, i) =>
-                <div key={i}>
-                    <h2 id={qanda.accordionHeader}>
-                        <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left border-b border-gray-200" data-accordion-target={"#" + qanda.accordionBody} aria-expanded="true" aria-controls={qanda.accordionBody}>
-                            <span className='font-Rubik'>{qanda.question}</span>
-                            <svg data-accordion-icon className="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                        </button>
-                    </h2>
-                    <div id={qanda.accordionBody} className="hidden" aria-labelledby={qanda.accordionHeader}>
-                        <div className="py-5 px-3 font-light border-b border-gray-200">
-                            <ol type="1" className='list-decimal'>
-                                {qanda.ans.map((anstext, p) =>
-                                    <li key={p}><p className="mb-2 dark:text-[#A3A3A3] font-Rubik">{anstext}</p></li>
-                                )}
-                            </ol>
-                        </div>
-                    </div>
-                </div>
+                <Accordion open={open === qanda.num} className="py-2" icon={<Icon id={1} open={open} />} animate={customAnimation} key={i}>
+                    <AccordionHeader onClick={() => handleOpen(qanda.num)} className="text-[17px] text-left text-[#171717] font-normal font-Roboto">
+                        {qanda.question}
+                    </AccordionHeader>
+                    <AccordionBody className="px-6 py-3 font-light border-b border-gray-200">
+                        <ol type="1" className='list-decimal'>
+                            {qanda.ans.map((anstext, p) =>
+                                <li key={p}><p className="mb-2 text-[15px] dark:text-[#A3A3A3] font-Roboto">{anstext}</p></li>
+                            )}
+                        </ol>
+                    </AccordionBody>
+                </Accordion>
             )}
         </div>
     )

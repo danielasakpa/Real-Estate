@@ -1,50 +1,53 @@
 import React, { useState } from 'react'
 import navLogo from "../assets/navlogo.svg";
+import { Link } from "react-router-dom"
 
 const Nav = () => {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
     const navLinks = [
         { id: 1, name: "Properties", link: "/properties" },
-        { id: 2, name: "Agent", link: "/agent" },
+        { id: 2, name: "Agents", link: "/agents" },
         { id: 3, name: "Blog", link: "/blog" },
         { id: 4, name: "About", link: "/about" },
         { id: 5, name: "Contact", link: "/contact" }
     ]
     return (
-        <div className='flex justify-between align-middle h-[100%] py-8'>
-            <img src={navLogo} alt="navLog" />
-            <nav className='list-none xs:hidden lg:flex'>
-                {navLinks.map((Link) => (
-                    <li
-                        key={Link.id}
-                        className='
-                    px-5 
-                    py-1
-                    mr-3
-                    text-lg
-                    font-Rubik
-                    text-[#17171]
-                    cursor-pointer
-                    hover:border-solid 
-                    transition ease-in delay-50
-                    hover:shadow-md
-                    hover:border-opacity-25
-                    hover:border
-                    hover:border-[#1e293b]
-                    duration-300 
-                    hover:rounded-md'
-                    >
-                        {Link.name}
-                    </li>
+        <div className='flex justify-between items-center h-[100%] py-8'>
+            <Link to="/">
+                <img src={navLogo} alt="navLog" />
+            </Link>
+            <nav className='list-none xs:hidden justify-between lg:flex'>
+                {navLinks.map((link) => (
+                    <Link to={link.link}>
+
+                        <li
+                            key={link.id}
+                            className='
+                        px-3
+                        py-1
+                        mr-5
+                        text-sm
+                        font-Roboto
+                        text-[#171717]
+                        cursor-pointer
+                        hover:border-opacity-25
+                        hover:border
+                        hover:border-[#1e293b]
+                        hover:rounded-md'
+                        >
+                            {link.name}
+                        </li>
+                    </Link>
                 ))}
             </nav>
             <button className='
             px-3
             py-2 
-            xs:hidden 
+            xs:hidden
+            text-sm 
             lg:block
-            font-Rubik
+            font-Roboto
             bg-[#171717] 
             rounded-md 
             text-stone-50
@@ -86,26 +89,26 @@ const Nav = () => {
                         </svg>
                     </div>
                     <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-                        <li className="font-Rubik mt-10 mb-5 uppercase">
+                        <li className="font-Roboto mt-10 mb-5 uppercase">
                             <a href="/properties">Properties</a>
                         </li>
-                        <li className="font-Rubik my-5 uppercase">
-                            <a href="/agent">Agent</a>
+                        <li className="font-Roboto my-5 uppercase">
+                            <a href="/agents">Agents</a>
                         </li>
-                        <li className="font-Rubik my-5 uppercase">
+                        <li className="font-Roboto my-5 uppercase">
                             <a href="/blog">Blog</a>
                         </li>
-                        <li className="font-Rubik my-5 uppercase">
+                        <li className="font-Roboto my-5 uppercase">
                             <a href="/about">About</a>
                         </li>
-                        <li className="font-Rubik my-5 uppercase">
+                        <li className="font-Roboto my-5 uppercase">
                             <a href="/contact">Contact</a>
                         </li>
                     </ul>
                     <button className='
                     w-[80%]
                     py-2 
-                    font-Rubik
+                    font-Roboto
                     bg-black 
                     rounded-md 
                     text-stone-50

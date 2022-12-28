@@ -1,6 +1,6 @@
 import React, { useEffect, useState, } from 'react';
-import { realEstateOptions, fetchData } from '../utils/fetchData';
-import Property from './Property';
+// import { realEstateOptions, fetchData } from '../utils/fetchData';
+import PropertyCard from './PropertyCard';
 import CardSkeleton from './CardSkeleton';
 
 
@@ -23,7 +23,7 @@ const Properties = () => {
                 {properties.length <= 0 ?
                     CardSkeletons.map(num => <CardSkeleton key={num} />) :
                     properties.map(property =>
-                        <Property key={property.id} property={property} />
+                        <PropertyCard key={property.id} property={property} />
                     )
                 }
             </div>
@@ -34,8 +34,8 @@ const Properties = () => {
             py-4
             xs:hidden 
             lg:block
-            font-Rubik
-            bg-[#f1f5f9]
+            font-Roboto
+            bg-[#FFFFFF]
             border-solid
             border
             border-[#1e293b]

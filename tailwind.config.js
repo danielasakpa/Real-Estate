@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {
       fontFamily: {
-        'Rubik': ["Rubik"],
+        'Roboto': ["Roboto"],
       },
       maxWidth: {
         '2/3': '90%',
@@ -21,5 +22,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-}
+  plugins: []
+};

@@ -1,11 +1,15 @@
-import Home from "./pages/Home";
+import React from 'react'
+import MainRouter from './MainRouter'
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <div className="max-w-2/3 mx-auto my-0">
-      <Home/>
+      <BrowserRouter>
+        <MainRouter />
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

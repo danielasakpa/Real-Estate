@@ -10,7 +10,7 @@ const Download = () => {
   return (
     <section className='relative mt-[150px] flex xs:flex-col lg:flex-row'>
       <div className='h-[700px] xs:w-[100%] flex lg:w-[50%] bg-black'>
-        <div className='xs:h-[500px] md:h-[520px] xs:w-[80%] p-6 self-center mx-auto md:w-[300px] rounded-lg bg-[#ffffff]'>
+        <div className='xs:h-[500px] md:h-[520px] xs:w-[80%] p-6 self-center mx-auto md:w-[300px] rounded-lg bg-[#F5FAFF]'>
           <img src={navLogo} alt="navLog" />
           <div className='mt-7 flex justify-between px-5'>
             <div>
@@ -24,15 +24,15 @@ const Download = () => {
             </div>
           </div>
           <p className='mt-[30px] xs:text-[10px] md:text-[12px] text-[#171717] mb-3 font-bold'>BECOME A LEGENDARY DESIGNER</p>
-            <h1 className='xs:text-[20px] md:text-[26px] font-Rubik text-[#171717]-left xs:leading-[20px] md:leading-[30px] font-bold'>A headline to make big impact on visitors</h1>
-            <p className='xs:text-[12px] md:text-[15px] text-[#A3A3A3] mt-4 font-Rubik'>A subheading that addresses the what, the why we should care and hopefully some social proof.</p>
+            <h1 className='xs:text-[20px] md:text-[26px] font-Roboto text-[#171717]-left xs:leading-[20px] md:leading-[30px] font-bold'>A headline to make big impact on visitors</h1>
+            <p className='xs:text-[12px] md:text-[15px] text-[#A3A3A3] mt-4 font-Roboto'>A subheading that addresses the what, the why we should care and hopefully some social proof.</p>
             <button className='
             xs:mt-10
             md:mt-7
             w-[100%]
             px-3
             py-2 
-            font-Rubik
+            font-Roboto
             bg-[#171717]
             rounded-md 
             text-stone-50
@@ -49,8 +49,8 @@ const Download = () => {
             mt-3
             w-[100%]
             py-2
-            font-Rubik
-            bg-[#f1f5f9]
+            font-Roboto
+            bg-[#FFFFFF]
             border-solid
             border
             border-[#171717]
@@ -71,8 +71,8 @@ const Download = () => {
         <div className='lg:pl-20 xs:mt-[50px] lg:mt-[220px] xs:block'>
           <div className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
             <p className='text-[15px] text-[#171717] mb-3 font-bold'>DOWNLOAD OUR APP FOR IOS & ANDROID</p>
-            <h1 className='xs:text-[35px] lg:text-[40px] text-[#171717] xl:text-[50px] font-Rubik text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>Finding your home has never been so easy</h1>
-            <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Rubik'>Innovative technologies and expert agents will help you find the best place to call home.</p>
+            <h1 className='xs:text-[35px] lg:text-[40px] text-[#171717] xl:text-[50px] font-Roboto text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>Finding your home has never been so easy</h1>
+            <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>Innovative technologies and expert agents will help you find the best place to call home.</p>
             <div className="flex xs:flex-col md:flex-row mt-10">
               <button className='mr-3 transition ease-in delay-50 hover:-translate-y-1 hover:scale-110 duration-300 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
               <button className='mr-3 xs:mt-4 md:mt-0 transition ease-in delay-50 hover:-translate-y-1 hover:scale-110 duration-300 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
