@@ -22,14 +22,14 @@ const Hero = () => {
 
   return (
     <section>
-      <div className='py-14 xs:block overflow-hidden lg:flex'>
+      <div className='overflow-hidden py-14 xs:block lg:flex'>
         <div className='mx-auto md:mt-[30px] px-4 lg:mt-[200px] xl:mt-[230px] basis-1/2 text-left'>
           <p className='xs:text-[15px] xl:text-[20px] text-[#171717] mb-3 font-bold'>EXPLORE DREAM PROPERTIES</p>
           <h1 className='xs:text-[35px] xl:text-[55px] font-Roboto text-[#171717] text-left xs:leading-[45px] lg:leading-[50px] xl:leading-[60px]  font-bold'>Find the place that's perfect for you</h1>
           <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>The best solution ever for those who're looking for an exceptional home and life</p>
           <div className="flex mt-6">
-            <button className='mr-3 transition ease-in delay-50 hover:-translate-y-1 hover:scale-110 duration-300 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
-            <button className='mr-3 transition ease-in delay-50 hover:-translate-y-1 hover:scale-110 duration-300 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
+            <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
+            <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
           </div>
           <div className='flex xs:mt-[50px] lg:mt-[40px] xs:justify-between lg:justify-start'>
             {ratings.map((rating, i) =>
@@ -40,7 +40,7 @@ const Hero = () => {
             )}
           </div>
         </div>
-          <img className='basis-1/4 mt-[50px] w-[100%] mx-auto' src={heroImg} alt="heroImg" />
+          <img loading="lazy" className='basis-1/4 mt-[50px] w-[100%] mx-auto' src={heroImg} alt="heroImg" />
       </div>
       <h2 className='xs:text-[25px] xl:text-[40px] text-[#171717] mt-10 text-center font-Roboto lg:leading-[50px] xl:leading-[70px] font-bold'>Your home anywhere in the world</h2>
     </section>

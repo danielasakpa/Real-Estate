@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Hero from '../components/Hero';
-import Properties from '../components/Properties';
+import Properties from '../components/Prperties';
 import Download from '../components/Download';
 import Testimonial from '../components/Testimonial';
 import Questionandanswer from '../components/Questionandanswer';
@@ -49,7 +49,13 @@ const Home = () => {
         <>
             <Nav />
             <Hero />
-            <Properties />
+            <div>
+            <Properties Pagination={false} />
+            <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden  lg:block font-Roboto bg-[#FFFFFF] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
+            >
+                Browse all property
+            </button>
+            </div>
             <Download />
             <section>
                 <div className='py-14 xs:block mt-[60px] lg:flex'>
@@ -58,38 +64,25 @@ const Home = () => {
                         <h1 className='xs:text-[45px] lg:text-[30px] xl:text-[50px] text-[#171717] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>A headline to make an impact on visitors</h1>
                         <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>We work to elevate you experience and help you make <br className='xs:hidden lg:block' /> inhtmlFormed decisions.</p>
                         <div className='flex mt-[30px] xs:flex-col md:flex-row md:items-center'>
-                            <button className='
-                            mr-3
-                            px-4
-                            py-2 
-                            font-Roboto
-                            bg-[#171717] 
-                            rounded-md 
-                            text-stone-50
-                            hover:bg-stone-100 
-                            hover:text-stone-900
-                            hover:border-solid 
-                            hover:border
-                            hover:border-opacity-25
-                            hover:border-[#1e293b]'
+                            <button className='mr-3 px-4 py-2  font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                             >
                                 Start now
                             </button>
                             <div className='flex xs:mt-7 md:mt-0 md:items-center'>
-                                <img className='mr-3' src={rating} alt="rating" />
+                                <img loading="lazy" className='mr-3' src={rating} alt="rating" />
                                 <p className='text-[14px] text-[#A3A3A3] font-Roboto'>from 100+ reviews</p>
                             </div>
                         </div>
                     </div>
-                    <img className='basis-1/4 mt-[50px] xs:w-[100%] object-cover mx-auto lg:h-[350px] xl:h-[400px]' src={trustImg} alt="trustImg" />
+                    <img loading="lazy" className='basis-1/4 mt-[50px] xs:w-[100%] object-cover mx-auto lg:h-[350px] xl:h-[400px]' src={trustImg} alt="trustImg" />
                 </div>
                 <div className='mt-[60px]'>
                     <p className='xs:text-[15px] xl:text-[15px] text-[#171717] text-center mb-3 font-medium font-Roboto'>WHY TO CHOOSE HOMEQ</p>
                     <h1 className='xs:text-[30px] xl:text-[35px] mt-8 text-[#171717] font-Roboto text-center xs:leading-[35px] lg:leading-[50px] xl:leading-[45px] font-bold'>The best experience to sell/rent <br className='xs:hidden lg:block' /> your house</h1>
                 </div>
-                <div className='grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  m-10 mx-auto gap-4'>
-                    {experiences.map(experience =>
-                        <div className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg shadow-lg bg-[#FFFFFF]'>
+                <div className='grid gap-4 m-10 mx-auto xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                    {experiences.map((experience, i) =>
+                        <div key={i} className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg shadow-md bg-[#FFFFFF]'>
                             <div className='p-1 w-[40px] flex justify-center bg-[#F5F5F5] items-center h-[40px]  rounded-full'>
                                 <experience.icon size={25} />
                             </div>
@@ -108,25 +101,12 @@ const Home = () => {
                 <div className='my-[150px]'>
                     <Testimonial />
                 </div>
-                <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col md:flex-row'>
-                    <div className='basis-1/2 text-left'>
+                <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
+                    <div className='text-left basis-1/2'>
                         <h1 className='xs:text-[45px] lg:text-[30px] xl:text-[37px] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>Guides to get started</h1>
                         <p className='xs:text-[18px] xl:text-[17px]  text-[#A3A3A3] mt-3 font-Roboto'>It's important for us to help you make informed decisions.</p>
                         <div className='mt-[30px]'>
-                            <button className='
-                            mr-3
-                            px-4
-                            py-2 
-                            font-Roboto
-                            bg-[#171717] 
-                            rounded-md 
-                            text-stone-50
-                            hover:bg-stone-100 
-                            hover:text-stone-900
-                            hover:border-solid 
-                            hover:border
-                            hover:border-opacity-25
-                            hover:border-[#1e293b]'
+                            <button className='mr-3 px-4 py-2 font-Roboto bg-[#171717] rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                             >
                                 Contact us
                             </button>
@@ -134,8 +114,8 @@ const Home = () => {
                     </div>
                     <Questionandanswer QandA={QandA} />
                 </div>
-                <Footer />
             </section>
+            <Footer />
         </>
     )
 }

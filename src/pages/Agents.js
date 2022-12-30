@@ -6,7 +6,6 @@ import QandA from "../data/OtherQandA"
 import AgentCard from "../components/AgentCard"
 import Questionandanswer from '../components/Questionandanswer';
 
-
 const Agents = () => {
 
     return (
@@ -22,8 +21,8 @@ const Agents = () => {
                     <AgentCard key={index} agent={agent} />
                 )}
             </div>
-            <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col md:flex-row'>
-                <div className='basis-1/2 text-left'>
+            <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
+                <div className='text-left basis-1/2'>
                     <h1 className='xs:text-[30px] lg:text-[35px] xl:text-[37px] font-Roboto text-left xs:leading-[35px] lg:leading-[40px] xl:leading-[50px] font-bold'>Frequently Asked Questions</h1>
                     <p className='xs:text-[18px] xl:text-[17px]  text-[#A3A3A3] mt-6 font-Roboto'>Can’t find answers you’re looking for?</p>
                     <p className='xs:text-[18px] xl:text-[17px]  text-[#A3A3A3] mt-1 font-Roboto'>Drop us a line. We'll be happy to help you.</p>

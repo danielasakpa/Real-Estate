@@ -38,7 +38,7 @@ const Questionandanswer = ({ QandA }) => {
     };
 
     return (
-        <div className='basis-1/2 xs:mt-[50px] md:mt-0'>
+        <div className='basis-1/2 xs:mt-[50px] lg:mt-0'>
             {QandA.map((qanda, i) =>
                 <Accordion open={open === qanda.num} className="py-2" icon={<Icon id={1} open={open} />} animate={customAnimation} key={i}>
                     <AccordionHeader onClick={() => handleOpen(qanda.num)} className="text-[17px] text-left text-[#171717] font-normal font-Roboto">
