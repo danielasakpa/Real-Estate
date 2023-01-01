@@ -45,7 +45,7 @@ const About = () => {
     },
   ]
 
-  
+
 
   return (
     <div>
@@ -110,7 +110,7 @@ const About = () => {
             </div>
           )}
         </div>
-      <p className='xs:text-[18px] xl:text-[20px] text-center text-[#A3A3A3] mt-8 font-Roboto'>Drop us a line. We'll be happy to help you.</p>
+        <p className='xs:text-[18px] xl:text-[20px] text-center text-[#A3A3A3] mt-8 font-Roboto'>Drop us a line. We'll be happy to help you.</p>
       </div>
       <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
         <div className='text-left basis-1/2'>

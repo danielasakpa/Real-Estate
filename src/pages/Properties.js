@@ -32,16 +32,16 @@ const Properties = () => {
                 <Prperties Pagination={true} />
             </div>
             <div className='xs:mt-[160px] lg:mt-[220px] xs:block'>
-                    <div className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
-                        <p className='text-[15px] text-[#171717] mb-3 font-bold'>THE PERFECT SOLUTION FOR YOUR NEEDS</p>
-                        <h1 className='xs:text-[35px] lg:text-[40px] text-[#171717] xl:text-[50px] font-Roboto text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>A team of professional agents</h1>
-                        <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus justo sit amet felis pulvinar tempus.</p>
-                        <div className="flex mt-10 xs:flex-col md:flex-row">
-                            <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
-                            <button className='mr-3 transition duration-300 ease-in xs:mt-4 md:mt-0 delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
-                        </div>
+                <div className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
+                    <p className='text-[15px] text-[#171717] mb-3 font-bold'>THE PERFECT SOLUTION FOR YOUR NEEDS</p>
+                    <h1 className='xs:text-[35px] lg:text-[40px] text-[#171717] xl:text-[50px] font-Roboto text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>A team of professional agents</h1>
+                    <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus justo sit amet felis pulvinar tempus.</p>
+                    <div className="flex mt-10 xs:flex-col md:flex-row">
+                        <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
+                        <button className='mr-3 transition duration-300 ease-in xs:mt-4 md:mt-0 delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
                     </div>
                 </div>
+            </div>
             <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
                 <div className='text-left basis-1/2'>
                     <h1 className='xs:text-[30px] lg:text-[35px] xl:text-[37px] font-Roboto text-left xs:leading-[35px] lg:leading-[40px] xl:leading-[50px] font-bold'>Frequently Asked Questions</h1>

@@ -39,15 +39,15 @@ h1 {
 
 .pagination {
   display: flex;
-  width: 50%;
   margin: 60px auto;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   cursor: pointer;
 }
 
 .pagination a {
   padding: 10px;
+  margin-right: 10px;
   border-radius: 5px;
   border: 1px solid #a3a3a3;
   color: #171717;
@@ -66,6 +66,15 @@ h1 {
 .pagination__link--disabled a {
   color: rgb(198, 197, 202);
   border: 1px solid rgb(198, 197, 202);
+}
+
+.carousel {
+  height: 290px;
+}
+
+.control-dots {
+  /* margin-top: 1000px !important; */
+  bottom: 1px;
 }
 
 @media screen and (max-width: 1200px) {

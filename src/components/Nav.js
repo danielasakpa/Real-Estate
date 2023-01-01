@@ -6,7 +6,7 @@ const Nav = () => {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
     const navLinks = [
-        { id: 1, name: "Properties", link: "/properties" },
+        { id: 1, name: "Properties", link: "/properties/page/" },
         { id: 2, name: "Agents", link: "/agents" },
         { id: 3, name: "Blog", link: "/blog" },
         { id: 4, name: "About", link: "/about" },
@@ -19,16 +19,16 @@ const Nav = () => {
             </Link>
             <nav>
                 <ul className='justify-between list-none xs:hidden lg:flex'>
-                {navLinks.map((link, i) => (
-                    <Link key={link.id} to={link.link}>
-                        <li
-                            key={link.id}
-                            className='px-3 py-1 mr-5 text-sm font-Roboto text-[#171717] cursor-pointer border-opacity-0 hover:border-opacity-25 border border-[#1e293b] rounded-md'
-                        >
-                            {link.name}
-                        </li>
-                    </Link>
-                ))}
+                    {navLinks.map((link, i) => (
+                        <Link key={link.id} to={link.link}>
+                            <li
+                                key={link.id}
+                                className='px-4 py-2 mr-5 text-sm font-Roboto text-[#171717] cursor-pointer border-opacity-0 hover:border-opacity-25 border border-[#1e293b] rounded-md'
+                            >
+                                {link.name}
+                            </li>
+                        </Link>
+                    ))}
                 </ul>
             </nav>
             <button className='px-3 py-2  xs:hidden text-sm  lg:block font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-5 border-[#1e293b]'
@@ -103,7 +103,7 @@ const Nav = () => {
                     flex-direction: column;
                     justify-content: space-evenly;
                     align-items: center;
-                }`    
+                }`
             }</style>
         </div>
     )

@@ -40,7 +40,7 @@ const Hero = () => {
             )}
           </div>
         </div>
-          <img loading="lazy" className='basis-1/4 mt-[50px] w-[100%] mx-auto' src={heroImg} alt="heroImg" />
+        <img loading="lazy" className='basis-1/4 mt-[50px] w-[100%] mx-auto' src={heroImg} alt="heroImg" />
       </div>
       <h2 className='xs:text-[25px] xl:text-[40px] text-[#171717] mt-10 text-center font-Roboto lg:leading-[50px] xl:leading-[70px] font-bold'>Your home anywhere in the world</h2>
     </section>

@@ -8,22 +8,22 @@ import { usePaginate } from '../hooks/Paginate';
 const Properties = ({ Pagination }) => {
 
     const { isError, isSuccess, isLoading, data, error } = useQuery(
-        ["products"],
+        ["properties"],
         fetchProperties,
-        { staleTime: "Infinity" }
+        { staleTime: Infinity },
+        { cacheTime: Infinity }
     );
 
     const { handlePageClick, currentItems, pageCount, } = usePaginate(data === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : data, 12);
 
     if (isError) {
         console.log("Error: ", error);
-        return <div>Error...</div>;
     }
 
     return (
         <section>
             <div className='grid xs:grid-cols-1 mt-[50px] mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
-                {isLoading ?
+                {true ?
                     [1, 2, 3, 4, 5, 6, 7, 8].map(num => <CardSkeleton key={num} />) :
                     currentItems.map(property =>
                         <PropertyCard key={property.id} property={property} />

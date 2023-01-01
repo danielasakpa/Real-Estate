@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 const Properties = () => {
-    
+
     const [properties, setProperties] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
