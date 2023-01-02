@@ -9,33 +9,40 @@ import { fetchAgents } from "../fetchers/Agents"
 import { usePaginate } from '../hooks/Paginate';
 import CardSkeleton from '../components/CardSkeleton';
 import ReactPaginate from 'react-paginate';
+import { motion as m } from "framer-motion"
+import { container, item } from "../animation";
 
 const Agents = () => {
 
-    const { status, isLoading, data, error } = useQuery(
-        ["properties"],
-        fetchAgents,
-        { staleTime: Infinity },
-        { cacheTime: Infinity }
-    );
+    // const { status, isLoading, data, error } = useQuery(
+    //     ["properties"],
+    //     fetchAgents,
+    //     { staleTime: Infinity },
+    //     { cacheTime: Infinity }
+    // );
 
-    const { handlePageClick, currentItems, pageCount, } = usePaginate(data === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : data, 12);
+    const { handlePageClick, currentItems, pageCount, } = usePaginate(true === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : "data", 12);
 
-    if(status === 'error') {
-        console.log(error)
-    }
+    // if(status === 'error') {
+    //     console.log(error)
+    // }
 
     return (
         <div>
             <Nav />
-            <div className='mt-10 xs:w-[100%] lg:w-[50%] mx-auto'>
-                <p className='text-[17px] text-center text-[#171717] mb-3 font-medium'>PROFESSIONAL ASSISTANCE</p>
-                <h1 className='xs:text-[40px] xl:text-[50px] font-Roboto text-[#171717] text-center xs:leading-[50px] lg:leading-[50px] font-bold'>The right agent can lead the way</h1>
-                <p className='xs:text-[18px] lg:text-[20px] text-[#A3A3A3] text-center mt-4 font-Roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin nibh, mattis posuere massa.</p>
-            </div>
+            <m.div
+                ariants={container}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.7 }}
+                className='mt-10 xs:w-[100%] lg:w-[50%] mx-auto'>
+                <m.p variants={item} className='text-[17px] text-center text-[#171717] mb-3 font-medium'>PROFESSIONAL ASSISTANCE</m.p>
+                <m.h1 variants={item} className='xs:text-[40px] xl:text-[50px] font-Roboto text-[#171717] text-center xs:leading-[50px] lg:leading-[50px] font-bold'>The right agent can lead the way</m.h1>
+                <m.p variants={item} className='xs:text-[18px] lg:text-[20px] text-[#A3A3A3] text-center mt-4 font-Roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin nibh, mattis posuere massa.</m.p>
+            </m.div>
             <div className='grid xs:grid-cols-1 mt-[120px] md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                {status === 'loading' ?
-                    [1, 2, 3, 4, 5, 6, 7, 8].map(num => <CardSkeleton key={num} />) : 
+                {true ?
+                    [1, 2, 3, 4, 5, 6, 7, 8].map(num => <CardSkeleton key={num} />) :
                     currentItems.map((agent, index) =>
                         <AgentCard key={index} agent={agent} />
                     )}

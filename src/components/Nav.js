@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import navLogo from "../assets/navlogo.svg";
 import { Link } from "react-router-dom"
+import { motion as m } from "framer-motion"
 
 const Nav = () => {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
     const navLinks = [
-        { id: 1, name: "Properties", link: "/properties/page/" },
-        { id: 2, name: "Agents", link: "/agents" },
+        { id: 1, name: "Properties", link: '/properties' },
+        { id: 2, name: "Agents", link: '/agents' },
         { id: 3, name: "Blog", link: "/blog" },
         { id: 4, name: "About", link: "/about" },
         { id: 5, name: "Contact", link: "/contact" }
@@ -21,12 +22,15 @@ const Nav = () => {
                 <ul className='justify-between list-none xs:hidden lg:flex'>
                     {navLinks.map((link, i) => (
                         <Link key={link.id} to={link.link}>
-                            <li
+                            <m.li
+                                initial={{ x: "100px" }}
+                                whileInView={{ x: "0" }}
+                                transition={{ duration: 0.6, ease: "easeOut" }}
                                 key={link.id}
                                 className='px-4 py-2 mr-5 text-sm font-Roboto text-[#171717] cursor-pointer border-opacity-0 hover:border-opacity-25 border border-[#1e293b] rounded-md'
                             >
                                 {link.name}
-                            </li>
+                            </m.li>
                         </Link>
                     ))}
                 </ul>

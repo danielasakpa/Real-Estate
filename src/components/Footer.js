@@ -2,11 +2,12 @@ import React from 'react'
 import footerLogo from "../assets/navlogo.svg";
 import { Link } from "react-router-dom"
 import { IoLogoFacebook, IoLogoTwitter, IoLogoLinkedin, IoLogoInstagram } from "react-icons/io5";
+import { motion as m } from "framer-motion"
 
 const Footer = () => {
     const navLinks = [
-        { id: 1, name: "Properties", link: "/properties" },
-        { id: 2, name: "Agents", link: "/agents" },
+        { id: 1, name: "Properties", link: '/properties' },
+        { id: 2, name: "Agents", link: '/agents' },
         { id: 3, name: "Blog", link: "/blog" },
         { id: 4, name: "About", link: "/about" },
         { id: 5, name: "Contact", link: "/contact" }
@@ -27,14 +28,17 @@ const Footer = () => {
                     </Link>
                     <nav className='flex mt-6 list-none xs:flex-col md:flex-row'>
                         {navLinks.map((link) =>
-                            <li
+                            <m.li
+                                initial={{ x: "100px" }}
+                                whileInView={{ x: "0" }}
+                                transition={{ duration: 0.8, ease: "easeOut" }}
                                 key={link.id}
                                 className='py-1 xs:mb-6 md:mb-0 mr-5 text-[#171717] hover:text-[#A3A3A3] xs:text-[15px] lg:text-sm font-Roboto cursor-pointer'
                             >
                                 <Link to={link.link}>
                                     {link.name}
                                 </Link>
-                            </li>
+                            </m.li>
                         )}
                     </nav>
                 </div>

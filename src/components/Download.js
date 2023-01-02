@@ -4,12 +4,18 @@ import Apple from "../assets/Apple.svg"
 import Play from "../assets/Play.svg"
 import { IoLocationOutline, IoBedOutline } from "react-icons/io5";
 import { TbBath } from "react-icons/tb";
+import { motion as m } from "framer-motion"
+import { container, item } from "../animation";
 
 const Download = () => {
 
   return (
     <section className='relative mt-[150px] flex xs:flex-col lg:flex-row'>
-      <div className='h-[700px] xs:w-[100%] flex lg:w-[50%] bg-black'>
+      <m.div
+        initial={{ x: "-100%" }}
+        whileInView={{ x: "0" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className='h-[700px] xs:w-[100%] flex lg:w-[50%] bg-black'>
         <div className='xs:h-[500px] md:h-[520px] xs:w-[80%] p-6 self-center mx-auto md:w-[300px] rounded-lg bg-[#F5FAFF]'>
           <img loading="lazy" src={navLogo} alt="navLog" />
           <div className='flex justify-between px-5 mt-7'>
@@ -35,18 +41,23 @@ const Download = () => {
             Browse all property
           </button>
         </div>
-      </div>
+      </m.div>
       <div className='lg:h-[700px] xs:w-[100%] lg:w-[50%]'>
         <div className='lg:pl-20 xs:mt-[50px] lg:mt-[220px] xs:block'>
-          <div className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
-            <p className='text-[15px] text-[#171717] mb-3 font-bold'>DOWNLOAD OUR APP FOR IOS & ANDROID</p>
-            <h1 className='xs:text-[35px] lg:text-[40px] text-[#171717] xl:text-[50px] font-Roboto text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>Finding your home has never been so easy</h1>
-            <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>Innovative technologies and expert agents will help you find the best place to call home.</p>
-            <div className="flex mt-10 xs:flex-col md:flex-row">
+          <m.div
+            ariants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
+            <m.p variants={item} className='text-[15px] text-[#171717] mb-3 font-bold'>DOWNLOAD OUR APP FOR IOS & ANDROID</m.p>
+            <m.h1 variants={item} className='xs:text-[35px] lg:text-[40px] text-[#171717] xl:text-[50px] font-Roboto text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>Finding your home has never been so easy</m.h1>
+            <m.p variants={item} className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>Innovative technologies and expert agents will help you find the best place to call home.</m.p>
+            <m.div variants={item} className="flex mt-10 xs:flex-col md:flex-row">
               <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
               <button className='mr-3 transition duration-300 ease-in xs:mt-4 md:mt-0 delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
-            </div>
-          </div>
+            </m.div>
+          </m.div>
         </div>
       </div>
     </section>

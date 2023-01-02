@@ -15,6 +15,8 @@ import { TbBath } from "react-icons/tb";
 import { IoEarthOutline } from "react-icons/io5";
 import { AiOutlineDownload } from "react-icons/ai";
 import { IoBedOutline, IoChevronDownCircleOutline } from "react-icons/io5";
+import { motion as m } from "framer-motion"
+import { container, item } from "../animation";
 
 const Home = () => {
 
@@ -46,24 +48,35 @@ const Home = () => {
     ]
 
     return (
-        <>
+        <m.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className="overflow-hidden"
+        >
             <Nav />
             <Hero />
             <div>
-            <Properties Pagination={false} />
-            <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden  lg:block font-Roboto bg-[#FFFFFF] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
-            >
-                Browse all property
-            </button>
+                <Properties Pagination={false} />
+                <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden lg:block font-Roboto bg-[#FFFFFF] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
+                >
+                    Browse all property
+                </button>
             </div>
             <Download />
             <section>
                 <div className='py-14 xs:block mt-[60px] lg:flex'>
-                    <div className='mx-auto md:mt-[30px] lg:mt-[90px] xl:mt-[110px] basis-1/2 text-left'>
-                        <p className='xs:text-[15px] xl:text-[15px] text-[#1e293b] mb-3 font-medium font-Roboto'>YOUR TRUST HELPS</p>
-                        <h1 className='xs:text-[45px] lg:text-[30px] xl:text-[50px] text-[#171717] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>A headline to make an impact on visitors</h1>
-                        <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>We work to elevate you experience and help you make <br className='xs:hidden lg:block' /> inhtmlFormed decisions.</p>
-                        <div className='flex mt-[30px] xs:flex-col md:flex-row md:items-center'>
+                    <m.div
+                        ariants={container}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true, amount: 0.7 }}
+                        className='mx-auto md:mt-[30px] lg:mt-[90px] xl:mt-[110px] basis-1/2 text-left'>
+                        <m.p variants={item} className='xs:text-[15px] xl:text-[15px] text-[#1e293b] mb-3 font-medium font-Roboto'>YOUR TRUST HELPS</m.p>
+                        <m.h1 variants={item} className='xs:text-[45px] lg:text-[30px] xl:text-[50px] text-[#171717] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>A headline to make an impact on visitors</m.h1>
+                        <m.p variants={item} className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>We work to elevate you experience and help you make <br className='xs:hidden lg:block' /> inhtmlFormed decisions.</m.p>
+                        <m.div variants={item} className='flex mt-[30px] xs:flex-col md:flex-row md:items-center'>
                             <button className='mr-3 px-4 py-2  font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                             >
                                 Start now
@@ -72,23 +85,37 @@ const Home = () => {
                                 <img loading="lazy" className='mr-3' src={rating} alt="rating" />
                                 <p className='text-[14px] text-[#A3A3A3] font-Roboto'>from 100+ reviews</p>
                             </div>
-                        </div>
-                    </div>
-                    <img loading="lazy" className='basis-1/4 mt-[50px] xs:w-[100%] object-cover mx-auto lg:h-[350px] xl:h-[400px]' src={trustImg} alt="trustImg" />
+                        </m.div>
+                    </m.div>
+                    <m.img
+                        initial={{ x: "100%" }}
+                        whileInView={{ x: "0" }}
+                        transition={{ duration: 0.6, ease: "easeOut" }}
+                        loading="lazy"
+                        className='basis-1/4 mt-[50px] xs:w-[100%] object-cover mx-auto lg:h-[350px] xl:h-[400px]' src={trustImg} alt="trustImg" />
                 </div>
-                <div className='mt-[60px]'>
-                    <p className='xs:text-[15px] xl:text-[15px] text-[#171717] text-center mb-3 font-medium font-Roboto'>WHY TO CHOOSE HOMEQ</p>
-                    <h1 className='xs:text-[30px] xl:text-[35px] mt-8 text-[#171717] font-Roboto text-center xs:leading-[35px] lg:leading-[50px] xl:leading-[45px] font-bold'>The best experience to sell/rent <br className='xs:hidden lg:block' /> your house</h1>
-                </div>
+                <m.div
+                    ariants={container}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.7 }}
+                    className='mt-[60px]'>
+                    <m.p variants={item} className='xs:text-[15px] xl:text-[15px] text-[#171717] text-center mb-3 font-medium font-Roboto'>WHY TO CHOOSE HOMEQ</m.p>
+                    <m.h1 variants={item} className='xs:text-[30px] xl:text-[35px] mt-8 text-[#171717] font-Roboto text-center xs:leading-[35px] lg:leading-[50px] xl:leading-[45px] font-bold'>The best experience to sell/rent <br className='xs:hidden lg:block' /> your house</m.h1>
+                </m.div>
                 <div className='grid gap-4 m-10 mx-auto xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                     {experiences.map((experience, i) =>
-                        <div key={i} className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg shadow-md bg-[#FFFFFF]'>
+                        <m.div
+                            initial={{ y: "100%" }}
+                            whileInView={{ y: "0" }}
+                            transition={{ duration: 0.6, ease: "easeOut" }}
+                            key={i} className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg shadow-md bg-[#FFFFFF]'>
                             <div className='p-1 w-[40px] flex justify-center bg-[#F5F5F5] items-center h-[40px]  rounded-full'>
                                 <experience.icon size={25} />
                             </div>
                             <p className='xs:text-[16px] xl:text-[20px] mt-4 font-Roboto text-[#171717] text-left font-medium'>{experience.title}</p>
                             <p className='text-[16px] text-[#A3A3A3] mt-3 font-Roboto'>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
-                        </div>
+                        </m.div>
                     )}
                 </div>
                 <div className='mt-[90px]'>
@@ -101,22 +128,28 @@ const Home = () => {
                 <div className='my-[150px]'>
                     <Testimonial />
                 </div>
-                <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
-                    <div className='text-left basis-1/2'>
-                        <h1 className='xs:text-[45px] lg:text-[30px] xl:text-[37px] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>Guides to get started</h1>
-                        <p className='xs:text-[18px] xl:text-[17px]  text-[#A3A3A3] mt-3 font-Roboto'>It's important for us to help you make informed decisions.</p>
-                        <div className='mt-[30px]'>
+                <div
+                    className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
+                    <m.div
+                        ariants={container}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true, amount: 0.7 }}
+                        className='text-left basis-1/2'>
+                        <m.h1 variants={item} className='xs:text-[45px] lg:text-[30px] xl:text-[37px] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>Guides to get started</m.h1>
+                        <m.p variants={item} className='xs:text-[18px] xl:text-[17px]  text-[#A3A3A3] mt-3 font-Roboto'>It's important for us to help you make informed decisions.</m.p>
+                        <m.div variants={item} className='mt-[30px]'>
                             <button className='mr-3 px-4 py-2 font-Roboto bg-[#171717] rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                             >
                                 Contact us
                             </button>
-                        </div>
-                    </div>
+                        </m.div>
+                    </m.div>
                     <Questionandanswer QandA={QandA} />
                 </div>
             </section>
             <Footer />
-        </>
+        </m.div>
     )
 }
 

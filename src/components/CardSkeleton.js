@@ -1,8 +1,13 @@
 import React from 'react'
+import { motion as m } from "framer-motion"
 
 const CardSkeleton = () => {
     return (
-        <div className="max-w-sm rounded overflow-hidden animate-pulse shadow-lg">
+        <m.div
+            initial={{ x: "100%" }}
+            whileInView={{ x: "0" }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="max-w-sm rounded overflow-hidden animate-pulse shadow-lg">
             <div className="w-full h-[170px] bg-[#94a3b8]"></div>
             <div className="px-6 py-4">
                 <div className='flex items-center h-[100%]'>
@@ -20,7 +25,7 @@ const CardSkeleton = () => {
 
                 <div className="w-[200px] h-[20px] mt-4 bg-[#94a3b8]"></div>
             </div>
-        </div>
+        </m.div>
     )
 }
 

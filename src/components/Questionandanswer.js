@@ -4,6 +4,7 @@ import {
     AccordionHeader,
     AccordionBody,
 } from "@material-tailwind/react";
+import { motion as m } from "framer-motion"
 
 
 function Icon({ id, open }) {
@@ -37,20 +38,27 @@ const Questionandanswer = ({ QandA }) => {
     };
 
     return (
-        <div className='basis-1/2 xs:mt-[50px] lg:mt-0'>
+        <div className='basis-1/2 xs:mt-[50px] overflow-hidden lg:mt-0'>
             {QandA.map((qanda, i) =>
-                <Accordion open={open === qanda.num} className="py-2" icon={<Icon id={1} open={open} />} animate={customAnimation} key={i}>
-                    <AccordionHeader onClick={() => handleOpen(qanda.num)} className="text-[17px] text-left text-[#171717] font-normal font-Roboto">
-                        {qanda.question}
-                    </AccordionHeader>
-                    <AccordionBody className="px-6 py-3 font-light border-b border-gray-200">
-                        <ol type="1" className='list-decimal'>
-                            {qanda.ans.map((anstext, p) =>
-                                <li key={p}><p className="mb-2 text-[15px] dark:text-[#A3A3A3] font-Roboto">{anstext}</p></li>
-                            )}
-                        </ol>
-                    </AccordionBody>
-                </Accordion>
+                <m.div
+                    initial={{ x: "100px" }}
+                    whileInView={{ x: "0" }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                >
+                    <Accordion
+                        open={open === qanda.num} className="py-2" icon={<Icon id={1} open={open} />} animate={customAnimation} key={i}>
+                        <AccordionHeader onClick={() => handleOpen(qanda.num)} className="text-[17px] text-left text-[#171717] font-normal font-Roboto">
+                            {qanda.question}
+                        </AccordionHeader>
+                        <AccordionBody className="px-6 py-3 font-light border-b border-gray-200">
+                            <ol type="1" className='list-decimal'>
+                                {qanda.ans.map((anstext, p) =>
+                                    <li key={p}><p className="mb-2 text-[15px] dark:text-[#A3A3A3] font-Roboto">{anstext}</p></li>
+                                )}
+                            </ol>
+                        </AccordionBody>
+                    </Accordion>
+                </m.div>
             )}
         </div>
     )
