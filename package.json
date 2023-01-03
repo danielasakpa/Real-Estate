@@ -18,6 +18,7 @@
     "react-dom": "^18.2.0",
     "react-horizontal-scrolling-menu": "^3.2.3",
     "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
     "react-paginate": "^8.1.4",
     "react-query": "^3.39.2",
     "react-responsive-carousel": "^3.2.23",

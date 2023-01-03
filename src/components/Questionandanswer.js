@@ -44,6 +44,7 @@ const Questionandanswer = ({ QandA }) => {
                     initial={{ x: "100px" }}
                     whileInView={{ x: "0" }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
+                    viewport={{ once: true }}
                 >
                     <Accordion
                         open={open === qanda.num} className="py-2" icon={<Icon id={1} open={open} />} animate={customAnimation} key={i}>

@@ -8,9 +8,8 @@ const Footer = () => {
     const navLinks = [
         { id: 1, name: "Properties", link: '/properties' },
         { id: 2, name: "Agents", link: '/agents' },
-        { id: 3, name: "Blog", link: "/blog" },
-        { id: 4, name: "About", link: "/about" },
-        { id: 5, name: "Contact", link: "/contact" }
+        { id: 3, name: "About", link: "/about" },
+        { id: 4, name: "Contact", link: "/contact" }
     ]
     const logoLinks = [
         { id: 1, logo: <IoLogoFacebook size={25} color="#A3A3A3" />, link: "#" },
@@ -32,6 +31,7 @@ const Footer = () => {
                                 initial={{ x: "100px" }}
                                 whileInView={{ x: "0" }}
                                 transition={{ duration: 0.8, ease: "easeOut" }}
+                                viewport={{ once: true }}
                                 key={link.id}
                                 className='py-1 xs:mb-6 md:mb-0 mr-5 text-[#171717] hover:text-[#A3A3A3] xs:text-[15px] lg:text-sm font-Roboto cursor-pointer'
                             >

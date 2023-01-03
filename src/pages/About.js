@@ -67,11 +67,21 @@ const About = () => {
         <m.h1 variants={item} className='xs:text-[40px] xl:text-[50px] font-Roboto text-[#171717] text-center xs:leading-[50px] lg:leading-[50px] font-bold'>Our story is made of our client's experiences.</m.h1>
         <m.p variants={item} className='xs:text-[18px] lg:text-[20px] text-[#A3A3A3] text-center mt-4 font-Roboto'>We work to elevate your experience and help you make informed decisions to find a place to call home.</m.p>
       </m.div>
-      <m.img
-        initial={{ scale: 1.5 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        loading="lazy" className='mt-20 xs:hidden md:flex mx-auto xs:w-[100%] lg:w-[60%] rounded-lg' src={about1Img} alt="about1Img" />
+      <div className='relative mx-auto mt-20 xs:hidden  md:block xs:w-[100%] overflow-hidden lg:w-[60%] h-[500px]'>
+        <m.img
+          initial={{ scale: 1.2 }}
+          whileInView={{ scale: 1 }}
+          transition={{ duration: 0.75, ease: "easeIn" }}
+          viewport={{ once: true }}
+          className='rounded-lg  h-[500px]' src={about1Img} alt="about1Img" />
+        <m.div
+          initial={{ width: "100%" }}
+          whileInView={{ width: "0" }}
+          transition={{ duration: 0.75, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          className='absolute top-0 right-0 w-full h-full bg-[#f5faff]'>
+        </m.div>
+      </div>
       <div className='mt-[100px] flex xs:flex-col md:flex-row justify-between md:items-center'>
         <m.div
           ariants={container}
@@ -115,7 +125,7 @@ const About = () => {
       </div>
       <div className='flex xs:flex-col lg:flex-row overflow-hidden xs:mt-[70px] lg:mt-[200px] justify-between'>
         <div className='flex xs:flex-col lg:flex-row'>
-          <img loading="lazy" className="h-[30px] mr-6 xs:mb-4 lg:mb-0" src={quoteImg} alt="quoteImg" />
+          <img className="h-[30px] mr-6 xs:mb-4 lg:mb-0" src={quoteImg} alt="quoteImg" />
           <div className='mr-6'>
             <p className='xs:text-[20px] xl:text-[28px] text-[#171717] font-Roboto text-left leading-[35px] font-bold'>have several friends looking for homes and thinking about selling, and we always recommend HomeQ to them!</p>
             <p className='xs:text-[17px] xl:text-[21px] text-[#A3A3A3] mt-7 text-left font-Roboto'>Ac faucibus orci id quis consectetur laoreet sed. Enim congue molestie nam odio pulvinar ac ultricies. Elementum ut pellentesque volutpat mi. Faucibus sit posuere nisi aenean ultrices. Suscipit malesuada aenean nullam et sit dapibus eget a eu. Nisl tortor arcu et.</p>
@@ -124,11 +134,21 @@ const About = () => {
           </div>
         </div>
         <div>
-          <m.img
-            initial={{ x: "100%" }}
-            whileInView={{ x: "0" }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-            loading="lazy" className='xs:h-[100%] lg:h-[400px] xs:mt-5 lg:mt-0 lg:mb-0 mx object-cover lg:w-[2500px] rounded-lg' src={testimonialImg} alt="testimonialImg" />
+          <div className='relative overflow-hidden xs:mt-5 lg:mt-0 lg:mb-0 lg:w-[600px] lg:h-[370px]'>
+            <m.img
+              initial={{ scale: 1.2 }}
+              whileInView={{ scale: 1 }}
+              transition={{ duration: 0.75, ease: "easeIn" }}
+              viewport={{ once: true }}
+              className='object-cover lg:w-[600px] lg:h-[370px] rounded-lg' src={testimonialImg} alt="testimonialImg" />
+            <m.div
+              initial={{ width: "100%" }}
+              whileInView={{ width: "0" }}
+              transition={{ duration: 0.75, ease: "easeInOut" }}
+              viewport={{ once: true }}
+              className='absolute top-0 right-0 w-full h-full bg-[#f5faff]'>
+            </m.div>
+          </div>
         </div>
       </div>
       <div className='xs:mt-[100px] flex flex-col items-center lg:mt-[200px]'>
@@ -139,10 +159,10 @@ const About = () => {
               initial={{ y: "100%" }}
               whileInView={{ y: "0" }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.3 }}
               key={i}
               className='flex h-[170px] w-[280px] px-3 py-5 justify-center items-center rounded-lg shadow-md bg-[#FFFFFF]'>
-              <img loading="lazy" src={image} alt="compImg" />
+              <img src={image} alt="compImg" />
             </m.div>
           )}
         </div>
@@ -153,7 +173,7 @@ const About = () => {
           ariants={container}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
           className='text-left basis-1/2'>
           <m.h1 variants={item} className='xs:text-[30px] lg:text-[35px] xl:text-[37px] font-Roboto text-left xs:leading-[35px] lg:leading-[40px] xl:leading-[50px] font-bold'>Frequently Asked Questions</m.h1>
           <m.p variants={item} className='xs:text-[18px] xl:text-[17px]  text-[#A3A3A3] mt-6 font-Roboto'>Can’t find answers you’re looking for?</m.p>

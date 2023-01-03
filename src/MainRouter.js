@@ -4,6 +4,7 @@ import Agents from "./pages/Agents";
 import Properties from "./pages/Properties";
 import Property from "./pages/Property";
 import Agent from "./pages/Agent";
+import Contact from "./pages/Contact"
 import { useLocation } from "react-router-dom"
 
 import { Routes, Route } from "react-router-dom";
@@ -19,6 +20,7 @@ function MainRouter() {
         <Route path="/about" element={<About />} />
         <Route path="/agents" element={<Agents />} />
         <Route path="/properties" element={<Properties />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/properties/:id" element={<Property />} />
         <Route path="/agents/:id" element={<Agent />} />
       </Routes>

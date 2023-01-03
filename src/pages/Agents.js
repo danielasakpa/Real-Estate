@@ -7,25 +7,25 @@ import Questionandanswer from '../components/Questionandanswer';
 import { useQuery } from "@tanstack/react-query";
 import { fetchAgents } from "../fetchers/Agents"
 import { usePaginate } from '../hooks/Paginate';
-import CardSkeleton from '../components/CardSkeleton';
+import AgentCardSkeleton from '../components/AgentCardSkeleton';
 import ReactPaginate from 'react-paginate';
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
 
 const Agents = () => {
 
-    // const { status, isLoading, data, error } = useQuery(
-    //     ["properties"],
-    //     fetchAgents,
-    //     { staleTime: Infinity },
-    //     { cacheTime: Infinity }
-    // );
+    const { status, data, error } = useQuery(
+        ["properties"],
+        fetchAgents,
+        { staleTime: Infinity },
+        { cacheTime: Infinity }
+    );
 
-    const { handlePageClick, currentItems, pageCount, } = usePaginate(true === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : "data", 12);
+    const { handlePageClick, currentItems, pageCount, } = usePaginate(data === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : data, 12);
 
-    // if(status === 'error') {
-    //     console.log(error)
-    // }
+    if(status === 'error') {
+        console.log(error)
+    }
 
     return (
         <div>
@@ -41,8 +41,8 @@ const Agents = () => {
                 <m.p variants={item} className='xs:text-[18px] lg:text-[20px] text-[#A3A3A3] text-center mt-4 font-Roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin nibh, mattis posuere massa.</m.p>
             </m.div>
             <div className='grid xs:grid-cols-1 mt-[120px] md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                {true ?
-                    [1, 2, 3, 4, 5, 6, 7, 8].map(num => <CardSkeleton key={num} />) :
+                {status === 'loading' ?
+                    [1, 2, 3, 4, 5, 6, 7, 8].map(num => <AgentCardSkeleton key={num} />) :
                     currentItems.map((agent, index) =>
                         <AgentCard key={index} agent={agent} />
                     )}

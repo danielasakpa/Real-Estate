@@ -1,33 +1,33 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchProperties } from "../fetchers/Properties"
 import PropertyCard from './PropertyCard';
-import CardSkeleton from './CardSkeleton';
+import PropertyCardSkeleton from './PropertyCardSkeleton';
 import ReactPaginate from 'react-paginate';
 import { usePaginate } from '../hooks/Paginate';
 
 const Properties = ({ Pagination }) => {
 
 
-    // const { isError, isSuccess, isLoading, data, error } = useQuery(
-    //     ["properties"],
-    //     fetchProperties,
-    //     { staleTime: Infinity },
-    //     { cacheTime: Infinity }
-    // );
+    const { status, data, error } = useQuery(
+        ["properties"],
+        fetchProperties,
+        { staleTime: Infinity },
+        { cacheTime: Infinity }
+    );
 
 
-    const { handlePageClick, currentItems, pageCount } = usePaginate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 6);
+    const { handlePageClick, currentItems, pageCount } = usePaginate(data === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : data, 12);
 
-    // if (isError) {
-    //     console.log("Error: ", error);
-    // }
+    if (status === "error") {
+        console.log("Error: ", error);
+    }
 
 
     return (
         <section>
             <div className='grid xs:grid-cols-1 mt-[50px] overflow-hidden mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
-                {true ?
-                    currentItems.map(num => <CardSkeleton key={num} />) :
+                {status === "loading" ?
+                    currentItems.map(num => <PropertyCardSkeleton key={num} />) :
                     currentItems.map(property =>
                         <PropertyCard key={property.id} property={property} />
                     )}

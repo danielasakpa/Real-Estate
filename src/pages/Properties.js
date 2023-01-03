@@ -33,11 +33,21 @@ const Properties = () => {
                         </button>
                     </m.div>
                 </m.div>
-                <m.img
-                    initial={{ x: "100%" }}
-                    whileInView={{ x: "0" }}
-                    transition={{ duration: 0.6, ease: "easeOut" }}
-                    className='xs:w-[100%] lg:w-[600px] h-[400px] xs:mt-[70px] lg:mt-0 basis-1/3' src={propertiesImg} alt="propertiesImg" />
+                <div className='relative xs:mt-[70px] overflow-hidden lg:mt-0 basis-1/2'>
+                    <m.img
+                        initial={{ scale: 1.2 }}
+                        whileInView={{ scale: 1 }}
+                        transition={{ duration: 0.75, ease: "easeIn" }}
+                        viewport={{ once: true }}
+                        className='xs:w-[100%] lg:w-[700px] h-[400px]' src={propertiesImg} alt="propertiesImg" />
+                    <m.div
+                        initial={{ width: "100%" }}
+                        whileInView={{ width: "0" }}
+                        transition={{ duration: 0.75, ease: "easeInOut" }}
+                        viewport={{ once: true }}
+                        className='absolute top-0 right-0 w-full h-full bg-[#f5faff]'>
+                    </m.div>
+                </div>
             </div>
             <div className='mt-[170px]'>
                 <Prperties Pagination={true} />

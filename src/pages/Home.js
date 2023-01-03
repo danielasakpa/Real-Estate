@@ -17,6 +17,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { IoBedOutline, IoChevronDownCircleOutline } from "react-icons/io5";
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
+import { Link } from "react-router-dom"
 
 const Home = () => {
 
@@ -57,12 +58,14 @@ const Home = () => {
         >
             <Nav />
             <Hero />
-            <div>
+            <div className='list-none'>
                 <Properties Pagination={false} />
-                <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden lg:block font-Roboto bg-[#FFFFFF] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
-                >
-                    Browse all property
-                </button>
+                <Link to='/properties'>
+                    <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden lg:block font-Roboto bg-[#FFFFFF] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
+                    >
+                        Browse all property
+                    </button>
+                </Link>
             </div>
             <Download />
             <section>
@@ -87,12 +90,22 @@ const Home = () => {
                             </div>
                         </m.div>
                     </m.div>
-                    <m.img
-                        initial={{ x: "100%" }}
-                        whileInView={{ x: "0" }}
-                        transition={{ duration: 0.6, ease: "easeOut" }}
-                        loading="lazy"
-                        className='basis-1/4 mt-[50px] xs:w-[100%] object-cover mx-auto lg:h-[350px] xl:h-[400px]' src={trustImg} alt="trustImg" />
+                    <div className='basis-1/2 overflow-hidden relative mt-[50px] xs:w-[100%] mx-auto'>
+                        <m.img
+                            initial={{ scale: 1.2 }}
+                            whileInView={{ scale: 1 }}
+                            transition={{ duration: 0.75, ease: "easeIn" }}
+                            viewport={{ once: true }}
+                            className='xs:w-[100%] object-cover lg:h-[350px] xl:h-[400px]' src={trustImg} alt="trustImg" />
+                        <m.div
+                            initial={{ width: "100%" }}
+                            whileInView={{ width: "0" }}
+                            transition={{ duration: 0.75, ease: "easeInOut" }}
+                            viewport={{ once: true }}
+                            className='absolute top-0 right-0 w-full h-full bg-[#f5faff]'>
+
+                        </m.div>
+                    </div>
                 </div>
                 <m.div
                     ariants={container}
@@ -109,6 +122,7 @@ const Home = () => {
                             initial={{ y: "100%" }}
                             whileInView={{ y: "0" }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
+                            viewport={{ once: true }}
                             key={i} className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg shadow-md bg-[#FFFFFF]'>
                             <div className='p-1 w-[40px] flex justify-center bg-[#F5F5F5] items-center h-[40px]  rounded-full'>
                                 <experience.icon size={25} />

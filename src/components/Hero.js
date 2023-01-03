@@ -57,12 +57,22 @@ const Hero = () => {
             )}
           </m.div>
         </m.div>
-        <m.img
-          initial={{ x: "100%" }}
-          whileInView={{ x: "0" }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          loading="lazy"
-          className='basis-1/4 mt-[50px] xs:w-[100%] lg:w-[750px] mx-auto' src={heroImg} alt="heroImg" />
+        <div className='basis-1/2 relative mt-[50px] xs:w-[100%] overflow-hidden lg:w-[750px] mx-auto'>
+          <m.img
+            initial={{ scale: 1.2 }}
+            whileInView={{ scale: 1 }}
+            transition={{ duration: 0.75, ease: "easeIn" }}
+            viewport={{ once: true }}
+            className='xs:w-[100%] lg:w-[750px]' src={heroImg} alt="heroImg" />
+          <m.div
+            initial={{ width: "100%" }}
+            whileInView={{ width: "0" }}
+            transition={{ duration: 0.75, ease: "easeInOut" }}
+            viewport={{ once: true }}
+            className='absolute top-0 right-0 w-full h-full bg-[#f5faff]'>
+
+          </m.div>
+        </div>
       </div>
       <h2 className='xs:text-[25px] xl:text-[40px] text-[#171717] mt-10 text-center font-Roboto lg:leading-[50px] xl:leading-[70px] font-bold'>Your home anywhere in the world</h2>
     </section>

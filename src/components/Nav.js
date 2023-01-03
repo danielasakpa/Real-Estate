@@ -9,23 +9,23 @@ const Nav = () => {
     const navLinks = [
         { id: 1, name: "Properties", link: '/properties' },
         { id: 2, name: "Agents", link: '/agents' },
-        { id: 3, name: "Blog", link: "/blog" },
-        { id: 4, name: "About", link: "/about" },
-        { id: 5, name: "Contact", link: "/contact" }
+        { id: 3, name: "About", link: "/about" },
+        { id: 4, name: "Contact", link: "/contact" }
     ]
     return (
-        <div className='flex justify-between items-center h-[100%] py-8'>
+        <div className='flex justify-between list-none items-center h-[100%] py-8'>
             <Link to="/">
                 <img src={navLogo} alt="navLog" />
             </Link>
             <nav>
-                <ul className='justify-between list-none xs:hidden lg:flex'>
+                <ul className='justify-between xs:hidden lg:flex'>
                     {navLinks.map((link, i) => (
                         <Link key={link.id} to={link.link}>
                             <m.li
                                 initial={{ x: "100px" }}
                                 whileInView={{ x: "0" }}
                                 transition={{ duration: 0.6, ease: "easeOut" }}
+                                viewport={{ once: true }}
                                 key={link.id}
                                 className='px-4 py-2 mr-5 text-sm font-Roboto text-[#171717] cursor-pointer border-opacity-0 hover:border-opacity-25 border border-[#1e293b] rounded-md'
                             >
@@ -35,10 +35,12 @@ const Nav = () => {
                     ))}
                 </ul>
             </nav>
-            <button className='px-3 py-2  xs:hidden text-sm  lg:block font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-5 border-[#1e293b]'
-            >
-                Browse all
-            </button>
+            <Link to='/properties'>
+                <button className='px-3 py-2  xs:hidden text-sm  lg:block font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-5 border-[#1e293b]'
+                >
+                    Browse all
+                </button>
+            </Link>
             <section className="flex MOBILE-MENU lg:hidden">
                 <div
                     className="HAMBURGER-ICON space-y-1.5 mt-[9px]"
@@ -73,9 +75,6 @@ const Nav = () => {
                         </li>
                         <li className="my-5 uppercase font-Roboto">
                             <a href="/agents">Agents</a>
-                        </li>
-                        <li className="my-5 uppercase font-Roboto">
-                            <a href="/blog">Blog</a>
                         </li>
                         <li className="my-5 uppercase font-Roboto">
                             <a href="/about">About</a>

@@ -7,6 +7,7 @@ import Footer from "../components/Footer"
 import { Carousel } from 'react-responsive-carousel';
 import { IoLocationOutline, IoBedOutline, IoChevronDownCircleOutline, IoHammerOutline } from "react-icons/io5"
 import { TbBath } from "react-icons/tb";
+import Loader from '../components/Loader'
 
 const Property = () => {
 
@@ -28,7 +29,7 @@ const Property = () => {
     <>
       <Nav />
       {status === 'loading' ?
-        <div>Loading...</div>
+        <Loader />
         : <>
           <div className='mt-[70px] flex justify-center'>
             <Carousel className='w-[900px] xs:h-[300px] md:h-[450px]' showArrows={true} showThumbs={false} showIndicators={false}>

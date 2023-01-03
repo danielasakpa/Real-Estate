@@ -15,9 +15,10 @@ const Download = () => {
         initial={{ x: "-100%" }}
         whileInView={{ x: "0" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: true }}
         className='h-[700px] xs:w-[100%] flex lg:w-[50%] bg-black'>
         <div className='xs:h-[500px] md:h-[520px] xs:w-[80%] p-6 self-center mx-auto md:w-[300px] rounded-lg bg-[#F5FAFF]'>
-          <img loading="lazy" src={navLogo} alt="navLog" />
+          <img src={navLogo} alt="navLog" />
           <div className='flex justify-between px-5 mt-7'>
             <div>
               <IoLocationOutline size={30} />
