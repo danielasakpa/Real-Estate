@@ -11,6 +11,7 @@ import quoteImg from "../assets/Quote Light.svg"
 import testimonialImg from "../assets/Testimonial.webp"
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
+import { useTitle } from '../hooks/useTitle';
 
 function importAll(r) {
   let images = {};
@@ -21,33 +22,32 @@ function importAll(r) {
 const images = importAll(require.context('../assets/Company Logos', false, /\.(png|jpe?g|svg)$/));
 var result = Object.keys(images).map((key) => images[key]);
 
+const ratings = [
+  {
+    icon: IoIosPeople,
+    name: '200+',
+    text: "Happy clients"
+  },
+  {
+    icon: IoMdFolderOpen,
+    name: '100+',
+    text: "offices worldwide"
+  },
+  {
+    icon: AiOutlineDownload,
+    name: '10k+',
+    text: "Annual sales"
+  },
+  {
+    icon: IoEarthOutline,
+    name: '15+',
+    text: "Countries"
+  },
+]
 
 const About = () => {
 
-  const ratings = [
-    {
-      icon: IoIosPeople,
-      name: '200+',
-      text: "Happy clients"
-    },
-    {
-      icon: IoMdFolderOpen,
-      name: '100+',
-      text: "offices worldwide"
-    },
-    {
-      icon: AiOutlineDownload,
-      name: '10k+',
-      text: "Annual sales"
-    },
-    {
-      icon: IoEarthOutline,
-      name: '15+',
-      text: "Countries"
-    },
-  ]
-
-
+  useTitle("About");
 
   return (
     <m.div

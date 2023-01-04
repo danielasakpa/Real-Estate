@@ -1,9 +1,9 @@
-import { useQuery } from "@tanstack/react-query";
-import { fetchProperties } from "../fetchers/Properties"
 import PropertyCard from './PropertyCard';
 import PropertyCardSkeleton from './PropertyCardSkeleton';
 import ReactPaginate from 'react-paginate';
-import { usePaginate } from '../hooks/Paginate';
+import { useQuery } from "@tanstack/react-query";
+import { fetchProperties } from "../fetchers/Properties"
+import { usePaginate } from '../hooks/usePaginate';
 
 const Properties = ({ Pagination }) => {
 

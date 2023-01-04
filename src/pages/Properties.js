@@ -3,14 +3,17 @@ import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import QandA from "../data/OtherQandA"
 import Questionandanswer from '../components/Questionandanswer';
-import propertiesImg from "../assets/Properties.jpg"
 import Prperties from "../components/Prperties";
+import propertiesImg from "../assets/Properties.jpg"
 import Apple from "../assets/Apple.svg"
 import Play from "../assets/Play.svg"
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
+import { useTitle } from "../hooks/useTitle";
 
 const Properties = () => {
+
+    useTitle("Properties");
 
     return (
         <div>

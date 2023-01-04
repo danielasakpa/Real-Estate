@@ -6,13 +6,16 @@ import AgentCard from "../components/AgentCard"
 import Questionandanswer from '../components/Questionandanswer';
 import { useQuery } from "@tanstack/react-query";
 import { fetchAgents } from "../fetchers/Agents"
-import { usePaginate } from '../hooks/Paginate';
-import AgentCardSkeleton from '../components/AgentCardSkeleton';
-import ReactPaginate from 'react-paginate';
+import { usePaginate } from '../hooks/usePaginate';
+import { useTitle } from "../hooks/useTitle";
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
+import AgentCardSkeleton from '../components/AgentCardSkeleton';
+import ReactPaginate from 'react-paginate';
 
 const Agents = () => {
+
+    useTitle("Agents");
 
     const { status, data, error } = useQuery(
         ["properties"],
@@ -23,7 +26,7 @@ const Agents = () => {
 
     const { handlePageClick, currentItems, pageCount, } = usePaginate(data === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : data, 12);
 
-    if(status === 'error') {
+    if (status === 'error') {
         console.log(error)
     }
 

@@ -1,9 +1,9 @@
 import React from 'react'
+import Nav from "../components/Nav"
+import Footer from "../components/Footer"
 import { useParams } from 'react-router-dom';
 import { useQuery } from "@tanstack/react-query";
 import { fetchProperty } from "../fetchers/Properties"
-import Nav from "../components/Nav"
-import Footer from "../components/Footer"
 import { Carousel } from 'react-responsive-carousel';
 import { IoLocationOutline, IoBedOutline, IoChevronDownCircleOutline, IoHammerOutline } from "react-icons/io5"
 import { TbBath } from "react-icons/tb";
