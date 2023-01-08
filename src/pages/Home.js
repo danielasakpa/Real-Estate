@@ -59,7 +59,7 @@ const Home = () => {
             <Nav />
             <Hero />
             <div className='list-none'>
-                <Properties Pagination={false} />
+                {/* <Properties Pagination={false} /> */}
                 <Link to='/properties'>
                     <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden lg:block font-Roboto bg-[#FFFFFF] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
                     >

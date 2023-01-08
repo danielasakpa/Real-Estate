@@ -30,7 +30,7 @@ const Hero = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className='mx-auto md:mt-[30px] px-4 lg:mt-[200px] xl:mt-[230px] basis-1/2 text-left'>
+          className='mx-auto md:mt-[30px] px-4 lg:mt-[100px] xl:mt-[150px] basis-1/2 text-left'>
           <m.p
             variants={item}
             className='xs:text-[15px] xl:text-[20px] text-[#171717] mb-3 font-bold'>EXPLORE DREAM PROPERTIES</m.p>
@@ -48,7 +48,7 @@ const Hero = () => {
           </m.div>
           <m.div
             variants={item}
-            className='flex xs:mt-[50px] lg:mt-[40px] xs:justify-between lg:justify-start'>
+            className='flex xs:mt-[50px] lg:mt-[70px] xl:mt-[90px] xs:justify-between lg:justify-start'>
             {ratings.map((rating, i) =>
               <div key={i} className='flex flex-col xs:mr-[10px] md:mr-[60px]'>
                 <p className='xs:text-[20px] xl:text-[25px] text-[#171717] font-Roboto text-left leading-[30px] font-medium'>{rating.name}</p>
