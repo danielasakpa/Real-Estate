@@ -11,10 +11,10 @@ export default function AgentCard({ agent }) {
           <p variant="h5" color="blue-gray" className='text-[20px] text-[#171717] mt-3 font-Roboto'>
             {agent.person_name}
           </p>
-          <p color="blue" className='text-[15px] text-[#A3A3A3] mt-2 font-Roboto' textGradient>
+          <p color="blue" className='text-[15px] text-[#A3A3A3] mt-2 font-Roboto'>
             {agent.title}
           </p>
-          <p color="blue" className='text-[15px] text-[#A3A3A3] mt-2 font-Roboto' textGradient>
+          <p color="blue" className='text-[15px] text-[#A3A3A3] mt-2 font-Roboto'>
             <span className='xs:text-[15px] xl:text-[18px] text-[#171717]'>Office:</span> {agent.office.name}
           </p>
         </div>

@@ -7,6 +7,6 @@ export const fetchAgents = async () => {
     const response = await axios.request('https://realty-in-us.p.rapidapi.com/agents/list', AgentsOptions)
     const agents = response;
 
-    console.log("agents", agents.data.agents);
+    console.log("agents", agents.data);
     if (agents) return agents.data.agents;
 }

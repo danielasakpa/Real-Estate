@@ -11,7 +11,6 @@ import quoteImg from "../assets/Quote Light.svg"
 import testimonialImg from "../assets/Testimonial.webp"
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
-import { useTitle } from '../hooks/useTitle';
 
 function importAll(r) {
   let images = {};
@@ -46,8 +45,6 @@ const ratings = [
 ]
 
 const About = () => {
-
-  useTitle("About");
 
   return (
     <m.div

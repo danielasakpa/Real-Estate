@@ -7,7 +7,6 @@ import Questionandanswer from '../components/Questionandanswer';
 import { useQuery } from "@tanstack/react-query";
 import { fetchAgents } from "../fetchers/Agents"
 import { usePaginate } from '../hooks/usePaginate';
-import { useTitle } from "../hooks/useTitle";
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
 import AgentCardSkeleton from '../components/AgentCardSkeleton';
@@ -15,10 +14,8 @@ import ReactPaginate from 'react-paginate';
 
 const Agents = () => {
 
-    useTitle("Agents");
-
     const { status, data, error } = useQuery(
-        ["properties"],
+        ["agents"],
         fetchAgents,
         { staleTime: Infinity },
         { cacheTime: Infinity }
@@ -45,7 +42,7 @@ const Agents = () => {
             </m.div>
             <div className='grid xs:grid-cols-1 mt-[120px] md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {status === 'loading' ?
-                    [1, 2, 3, 4, 5, 6, 7, 8].map(num => <AgentCardSkeleton key={num} />) :
+                    currentItems.map(num => <AgentCardSkeleton key={num} />) :
                     currentItems.map((agent, index) =>
                         <AgentCard key={index} agent={agent} />
                     )}

@@ -9,11 +9,8 @@ import Apple from "../assets/Apple.svg"
 import Play from "../assets/Play.svg"
 import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
-import { useTitle } from "../hooks/useTitle";
 
 const Properties = () => {
-
-    useTitle("Properties");
 
     return (
         <div>

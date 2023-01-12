@@ -13,29 +13,29 @@ const Property = () => {
 
   let { id } = useParams();
 
-  const { data, error, status } = useQuery(
+  const { data, error, status, isRefetching } = useQuery(
     ["property"],
     async () => await fetchProperty(id),
-    { staleTime: Infinity },
-    { cacheTime: Infinity },
   );
 
   if (status === "error") {
     console.log("Error: ", error);
   }
 
+  console.log(isRefetching);
+
 
   return (
     <>
       <Nav />
-      {status === 'loading' ?
+      {status === 'loading' || isRefetching ?
         <Loader />
         : <>
           <div className='mt-[70px] flex justify-center'>
-            <Carousel className='w-[900px] xs:h-[300px] md:h-[450px]' showArrows={true} showThumbs={false} showIndicators={false}>
+            <Carousel className='w-[900px] h-[100%]' showArrows={true} showThumbs={false} showIndicators={false}>
               {
                 data.photos.map((img, i) =>
-                  <img key={i} className='w-[900px] xs:h-[300px] md:h-[450px] rounded-md' src={img.href} alt="homeImg" />
+                  <img key={i} className='w-[900px] xs:h-[300px] md:h-[450px] object-cover rounded-md' src={img.href} alt="homeImg" />
                 )
               }
             </Carousel>
@@ -80,7 +80,7 @@ const Property = () => {
             <p className="xs:text-[15px] mt-2 xl:text-[18px] text-[#171717] font-Roboto text-left">{data.description}</p>
             <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Agent:</p>
             <div className="flex items-center mt-2">
-              <img className="rounded-full w-[50px]  h-[50px] mr-6 object-cover" src={data.agents[0].photo.href} alt="agent pics" />
+              <img className="rounded-full w-[50px]  h-[50px] mr-6 object-cover" src={data.agents[0].photo ? data.agents[0].photo.href : ""} alt="agent pics" />
               <div>
                 <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left">{data.agents[0].profile_name}</p>
                 <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left"><span className='xs:text-[15px] xl:text-[18px] text-[#171717] font-medium '>Office:</span> {data.agents[0].office_name}</p>
