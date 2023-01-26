@@ -100,7 +100,7 @@ const Nav = () => {
                     height: 100vh;
                     top: 0;
                     left: 0;
-                    background:  e;
+                    background: #f5faff;
                     z-index: 10;
                     display: flex;
                     flex-direction: column;
