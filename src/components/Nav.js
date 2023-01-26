@@ -13,7 +13,7 @@ const Nav = () => {
         { id: 4, name: "Contact", link: "/contact" }
     ]
     return (
-        <div className='flex justify-between list-none items-center h-[100%] py-8'>
+        <div className='flex justify-between list-none items-center h-[100%] py-8 mt-5 md:mt-0'>
             <Link to="/">
                 <img src={navLogo} alt="navLog" />
             </Link>
@@ -69,7 +69,7 @@ const Nav = () => {
                             <line x1="6" y1="6" x2="18" y2="18" />
                         </svg>
                     </div>
-                    <ul className="MENU-LINK-MOBILE-OPEN mt-5 flex flex-col items-center justify-between min-h-[250px]">
+                    <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
                         <li className="mb-5 uppercase font-Roboto">
                             <Link to="/properties">Properties</Link>
                         </li>
