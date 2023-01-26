@@ -19,7 +19,7 @@ const Footer = () => {
     ]
 
     return (
-        <div className='xs:mt-[100px] md:mt-[170px] mx-auto'>
+        <div className='xs:mt-[100px] md:mt-[170px] mx-auto overflow-hidden'>
             <div className='flex mb-10 xs:flex-col md:flex-row'>
                 <div className='md:basis-1/2 lg:basis-2/3'>
                     <Link to="/">

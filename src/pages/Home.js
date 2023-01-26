@@ -118,8 +118,8 @@ const Home = () => {
                             <div className='p-1 w-[40px] flex justify-center bg-[#F5F5F5] items-center h-[40px]  rounded-full'>
                                 <experience.icon size={25} />
                             </div>
-                            <p className='xs:text-[16px] xl:text-[20px] mt-4 font-Roboto bg-none text-[#171717] text-left font-medium'>{experience.title}</p>
-                            <p className='text-[16px] text-[#A3A3A3] mt-3 bg-none font-Roboto'>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
+                            <p className='xs:text-[16px] xl:text-[20px] mt-4 font-Roboto text-[#171717] text-left font-medium'>{experience.title}</p>
+                            <p className='text-[16px] text-[#A3A3A3] mt-3 font-Roboto'>Tortor interdum condimentum nunc molestie quam lectus euismod pulvinar risus. Cursus in odio aenean.</p>
                         </m.div>
                     )}
                 </div>
