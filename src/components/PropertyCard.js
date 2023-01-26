@@ -8,7 +8,7 @@ const PropertyCard = ({ property }) => {
         <Link className='list-none' to={`/properties/${property.property_id}`}>
             <div className="max-w-sm overflow-hidden rounded shadow-lg cursor-pointer">
                 <img className="w-full h-[220px] object-cover" src={property.thumbnail} alt="Sunset in the mountains" />
-                <div className='flex items-center justify-between mt-3'>
+                <div className='flex items-center mt-3'>
                     <IoLocationOutline size={40} className='mr-3' />
                     <p className="xs:text-[15px] xl:text-[17px] mt-2 text-[#171717] font-Roboto text-left font-medium">{property.address.line} {property.address.city} {property.address.state}</p>
                 </div>

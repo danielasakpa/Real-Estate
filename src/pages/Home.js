@@ -110,8 +110,8 @@ const Home = () => {
                 <div className='grid gap-4 m-10 mx-auto xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                     {experiences.map((experience, i) =>
                         <m.div
-                            initial={{ y: "100%" }}
-                            whileInView={{ y: "0" }}
+                            initial={{ y: "100%", opacity: 0 }}
+                            whileInView={{ y: "0", opacity: 1 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
                             viewport={{ once: true }}
                             key={i} className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg shadow-md bg-[#FFFFFF]'>
