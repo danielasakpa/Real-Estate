@@ -69,7 +69,7 @@ const Nav = () => {
                             <line x1="6" y1="6" x2="18" y2="18" />
                         </svg>
                     </div>
-                    <ul className="MENU-LINK-MOBILE-OPEN mt-10 flex flex-col items-center justify-between min-h-[250px]">
+                    <ul className="MENU-LINK-MOBILE-OPEN mt-5 flex flex-col items-center justify-between min-h-[250px]">
                         <li className="mb-5 uppercase font-Roboto">
                             <Link to="/properties">Properties</Link>
                         </li>
