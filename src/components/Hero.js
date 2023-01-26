@@ -6,7 +6,6 @@ import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
 
 const Hero = () => {
-
   const ratings = [
     {
       name: '200+',

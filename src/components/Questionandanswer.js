@@ -25,7 +25,6 @@ function Icon({ id, open }) {
 
 
 const Questionandanswer = ({ QandA }) => {
-
     const [open, setOpen] = useState(0);
 
     const handleOpen = (value) => {

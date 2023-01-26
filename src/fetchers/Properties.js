@@ -12,7 +12,7 @@ export const fetchProperties = async () => {
 }
 
 export const fetchProperty = async (property_id) => {
-    console.log("Fetching properties...");
+    console.log("Fetching property...");
 
     const response = await axios.request('https://realty-in-us.p.rapidapi.com/properties/v2/detail', { ...PropertyOptions, params: { property_id: property_id }, })
     const property = response.data;

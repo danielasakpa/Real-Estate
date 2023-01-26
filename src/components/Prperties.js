@@ -6,8 +6,6 @@ import { fetchProperties } from "../fetchers/Properties"
 import { usePaginate } from '../hooks/usePaginate';
 
 const Properties = ({ Pagination }) => {
-
-
     const { status, data, error } = useQuery(
         ["properties"],
         fetchProperties,
@@ -15,13 +13,11 @@ const Properties = ({ Pagination }) => {
         { cacheTime: Infinity }
     );
 
-
     const { handlePageClick, currentItems, pageCount } = usePaginate(data === undefined ? [1, 2, 3, 4, 5, 6, 7, 8] : data, 12);
 
     if (status === "error") {
         console.log("Error: ", error);
     }
-
 
     return (
         <section>

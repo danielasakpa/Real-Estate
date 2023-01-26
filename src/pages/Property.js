@@ -1,6 +1,4 @@
 import React from 'react'
-import Nav from "../components/Nav"
-import Footer from "../components/Footer"
 import { useParams } from 'react-router-dom';
 import { useQuery } from "@tanstack/react-query";
 import { fetchProperty } from "../fetchers/Properties"
@@ -10,7 +8,6 @@ import { TbBath } from "react-icons/tb";
 import Loader from '../components/Loader'
 
 const Property = () => {
-
   let { id } = useParams();
 
   const { data, error, status, isRefetching } = useQuery(
@@ -22,12 +19,8 @@ const Property = () => {
     console.log("Error: ", error);
   }
 
-  console.log(isRefetching);
-
-
   return (
     <>
-      <Nav />
       {status === 'loading' || isRefetching ?
         <Loader />
         : <>
@@ -60,7 +53,7 @@ const Property = () => {
                 </div>
                 <div>
                   <IoHammerOutline size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#171717] mt-1 font-Roboto text-left  font-medium">{data.year_built}</p>
+                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#171717] mt-1 font-Roboto text-left  font-medium">{data.year_built ? data.year_built : "none"}</p>
                 </div>
               </div>
             </div>
@@ -80,7 +73,7 @@ const Property = () => {
             <p className="xs:text-[15px] mt-2 xl:text-[18px] text-[#171717] font-Roboto text-left">{data.description}</p>
             <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Agent:</p>
             <div className="flex items-center mt-2">
-              <img className="rounded-full w-[50px]  h-[50px] mr-6 object-cover" src={data.agents[0].photo ? data.agents[0].photo.href : ""} alt="agent pics" />
+              <img className="rounded-full w-[50px] h-[50px] mr-6 object-cover" src={data.agents[0].photo ? data.agents[0].photo.href : null} alt="agent pics" />
               <div>
                 <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left">{data.agents[0].profile_name}</p>
                 <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left"><span className='xs:text-[15px] xl:text-[18px] text-[#171717] font-medium '>Office:</span> {data.agents[0].office_name}</p>
@@ -99,7 +92,6 @@ const Property = () => {
           </div>
         </>
       }
-      <Footer />
     </>
   )
 }

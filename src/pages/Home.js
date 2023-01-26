@@ -1,11 +1,9 @@
 import React from 'react';
-import Nav from '../components/Nav';
 import Hero from '../components/Hero';
 import Properties from '../components/Prperties';
 import Download from '../components/Download';
 import Testimonial from '../components/Testimonial';
 import Questionandanswer from '../components/Questionandanswer';
-import Footer from '../components/Footer';
 import trustImg from "../assets/trust.webp";
 import rating from '../assets/rating.svg'
 import HorizontalScrollbar from '../components/HorizontalScrollbar';
@@ -20,7 +18,6 @@ import { container, item } from "../animation";
 import { Link } from "react-router-dom"
 
 const Home = () => {
-
     const experiences = [
         {
             icon: TbBath,
@@ -56,7 +53,6 @@ const Home = () => {
             transition={{ duration: 1, ease: "easeOut" }}
             className="overflow-hidden"
         >
-            <Nav />
             <Hero />
             <div className='list-none'>
                 <Properties Pagination={false} />
@@ -70,16 +66,11 @@ const Home = () => {
             <Download />
             <section>
                 <div className='py-14 xs:block mt-[60px] lg:flex'>
-                    <m.div
-                        ariants={container}
-                        initial="hidden"
-                        whileInView="show"
-                        viewport={{ once: true, amount: 0.7 }}
-                        className='mx-auto md:mt-[30px] lg:mt-[90px] xl:mt-[110px] basis-1/2 text-left'>
-                        <m.p variants={item} className='xs:text-[15px] xl:text-[15px] text-[#1e293b] mb-3 font-medium font-Roboto'>YOUR TRUST HELPS</m.p>
-                        <m.h1 variants={item} className='xs:text-[45px] lg:text-[30px] xl:text-[50px] text-[#171717] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>A headline to make an impact on visitors</m.h1>
-                        <m.p variants={item} className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>We work to elevate you experience and help you make <br className='xs:hidden lg:block' /> inhtmlFormed decisions.</m.p>
-                        <m.div variants={item} className='flex mt-[30px] xs:flex-col md:flex-row md:items-center'>
+                    <div className='mx-auto md:mt-[30px] lg:mt-[90px] xl:mt-[110px] basis-1/2 text-left'>
+                        <p className='xs:text-[15px] xl:text-[15px] text-[#1e293b] mb-3 font-medium font-Roboto'>YOUR TRUST HELPS</p>
+                        <h1 className='xs:text-[45px] lg:text-[30px] xl:text-[50px] text-[#171717] font-Roboto text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>A headline to make an impact on visitors</h1>
+                        <p className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>We work to elevate you experience and help you make <br className='xs:hidden lg:block' /> inhtmlFormed decisions.</p>
+                        <div className='flex mt-[30px] xs:flex-col md:flex-row md:items-center'>
                             <button className='mr-3 px-4 py-2  font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                             >
                                 Start now
@@ -88,8 +79,8 @@ const Home = () => {
                                 <img loading="lazy" className='mr-3' src={rating} alt="rating" />
                                 <p className='text-[14px] text-[#A3A3A3] font-Roboto'>from 100+ reviews</p>
                             </div>
-                        </m.div>
-                    </m.div>
+                        </div>
+                    </div>
                     <div className='basis-1/2 overflow-hidden relative mt-[50px] xs:w-[100%] mx-auto'>
                         <m.img
                             initial={{ scale: 1.2 }}
@@ -142,8 +133,7 @@ const Home = () => {
                 <div className='my-[150px]'>
                     <Testimonial />
                 </div>
-                <div
-                    className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
+                <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
                     <m.div
                         ariants={container}
                         initial="hidden"
@@ -162,7 +152,6 @@ const Home = () => {
                     <Questionandanswer QandA={QandA} />
                 </div>
             </section>
-            <Footer />
         </m.div>
     )
 }

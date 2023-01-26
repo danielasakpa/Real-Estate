@@ -4,7 +4,6 @@ import testimonialImg from "../assets/Testimonial.svg"
 import { Carousel } from 'react-responsive-carousel';
 
 const Testimonial = () => {
-
   return (
     <Carousel
       showStatus={false}
@@ -14,12 +13,12 @@ const Testimonial = () => {
       renderIndicator={(onClickHandler, isSelected, index, label) => {
         const defStyle = { marginLeft: 20, color: "white", cursor: "pointer" };
         const style = isSelected
-          ? { ...defStyle, color: "#A3A3A3" }
-          : { ...defStyle, color: "#171717" };
+          ? { ...defStyle, color: "#fff", backgroundColor: "#000000" }
+          : { ...defStyle, color: "#000000" };
         return (
           <span
             style={style}
-            className="h-[10px] w-[10px] border rounded-full border-[#171717] p-1 px-3 mx-2"
+            className="h-[10px] w-[10px] rounded-sm border border-[#171717] p-1 px-2 mx-2"
             onClick={onClickHandler}
             onKeyDown={onClickHandler}
             value={index}

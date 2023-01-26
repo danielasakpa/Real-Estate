@@ -1,6 +1,4 @@
 import React from 'react'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
 import Questionandanswer from '../components/Questionandanswer';
 import about1Img from "../assets/About1.jpg"
 import QandA from "../data/OtherQandA"
@@ -17,7 +15,6 @@ function importAll(r) {
   r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
   return images
 }
-
 const images = importAll(require.context('../assets/Company Logos', false, /\.(png|jpe?g|svg)$/));
 var result = Object.keys(images).map((key) => images[key]);
 
@@ -45,7 +42,6 @@ const ratings = [
 ]
 
 const About = () => {
-
   return (
     <m.div
       initial={{ opacity: 0 }}
@@ -53,7 +49,6 @@ const About = () => {
       exit={{ opacity: 1 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <Nav />
       <m.div
         ariants={container}
         initial="hidden"
@@ -107,7 +102,7 @@ const About = () => {
             whileInView={{ y: "0" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.3 }}
-            key={i} className='h-[100px] xs:w-[100%] xs:mb-4 md:w-[280px] px-3 py-5 flex items-center rounded-lg shadow-md  bg-[#FFFFFF]'>
+            key={i} className='h-[100px] xs:w-[100%] xs:mb-4 md:w-[280px] px-3 py-5 flex items-center rounded-lg shadow-md bg-[#ffffff]'>
             <div className='py-4 px-5 bg-[#F5F5F5] mr-6 flex justify-center items-center rounded-lg'>
               <rating.icon size={25} />
             </div>
@@ -178,7 +173,6 @@ const About = () => {
         </m.div>
         <Questionandanswer QandA={QandA} />
       </div>
-      <Footer />
     </m.div>
   )
 }

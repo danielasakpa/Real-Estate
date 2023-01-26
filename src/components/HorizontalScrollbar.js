@@ -7,7 +7,6 @@ import LeftArrowIcon from '../assets/icons/left-arrow.png';
 
 
 const HorizontalScrollbar = () => {
-
     const LeftArrow = () => {
         const { scrollPrev } = useContext(VisibilityContext);
 
@@ -17,7 +16,6 @@ const HorizontalScrollbar = () => {
             </div>
         );
     };
-
     const RightArrow = () => {
         const { scrollNext } = useContext(VisibilityContext);
 

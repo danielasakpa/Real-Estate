@@ -2,11 +2,17 @@ import React from 'react'
 import { IoLocationOutline, IoBedOutline, IoChevronDownCircleOutline } from "react-icons/io5"
 import { TbBath } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import { motion as m } from "framer-motion"
 
 const PropertyCard = ({ property }) => {
     return (
         <Link className='list-none' to={`/properties/${property.property_id}`}>
-            <div className="max-w-sm overflow-hidden rounded shadow-lg cursor-pointer">
+            <m.div
+                initial={{ x: "100%" }}
+                whileInView={{ x: "0" }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                viewport={{ once: true }}
+                className="max-w-sm overflow-hidden rounded shadow-lg cursor-pointer">
                 <img className="w-full h-[220px] object-cover" src={property.thumbnail} alt="Sunset in the mountains" />
                 <div className='flex items-center justify-between mt-3'>
                     <IoLocationOutline size={40} className='mr-3' />
@@ -30,7 +36,7 @@ const PropertyCard = ({ property }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </m.div>
         </Link>
     )
 }

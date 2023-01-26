@@ -1,6 +1,3 @@
-import React from 'react'
-import Nav from "../components/Nav"
-import Footer from "../components/Footer"
 import QandA from "../data/OtherQandA"
 import Questionandanswer from '../components/Questionandanswer';
 import Prperties from "../components/Prperties";
@@ -11,10 +8,8 @@ import { motion as m } from "framer-motion"
 import { container, item } from "../animation";
 
 const Properties = () => {
-
     return (
         <div>
-            <Nav />
             <div className='flex justify-between xs:flex-col overflow-hidden lg:flex-row xs:mt-[80px] lg:mt-[120px]'>
                 <m.div
                     ariants={container}
@@ -78,7 +73,6 @@ const Properties = () => {
                 </div>
                 <Questionandanswer QandA={QandA} />
             </div>
-            <Footer />
         </div>
     )
 }

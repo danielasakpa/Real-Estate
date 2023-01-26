@@ -36,3 +36,11 @@ export const AgentsOptions = {
     'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com'
   }
 }
+
+export const AgentOptions = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
+    'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com'
+  }
+}

@@ -1,6 +1,4 @@
 import React from 'react'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
 import QandA from "../data/OtherQandA"
 import AgentCard from "../components/AgentCard"
 import Questionandanswer from '../components/Questionandanswer';
@@ -13,7 +11,6 @@ import AgentCardSkeleton from '../components/AgentCardSkeleton';
 import ReactPaginate from 'react-paginate';
 
 const Agents = () => {
-
     const { status, data, error } = useQuery(
         ["agents"],
         fetchAgents,
@@ -26,10 +23,9 @@ const Agents = () => {
     if (status === 'error') {
         console.log(error)
     }
-
+    console.log(data)
     return (
         <div>
-            <Nav />
             <m.div
                 ariants={container}
                 initial="hidden"
@@ -72,7 +68,6 @@ const Agents = () => {
                 </div>
                 <Questionandanswer QandA={QandA} />
             </div>
-            <Footer />
         </div>
     )
 }

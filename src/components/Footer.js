@@ -45,7 +45,7 @@ const Footer = () => {
                 <div className='md:basis-1/2 xs:mt-6 md:mt-0 lg:basis-1/3'>
                     <p className='xs:text-[14px] xl:text-[17px] text-[#171717] font-Roboto'>Get the latest updates about properties and trends in the real estate market.</p>
                     <div className='flex items-center mt-5 xs:flex-col md:flex-row'>
-                        <input type="text" className="form-input  rounded  border border-[#171717] border-opacity-25 focus:border-none focus:outline-none focus:focus:ring  focus:ring-opacity-25 focus:ring-[#1e293b] xs:w-[100%] md:w-[65%] md:px-6  lg:px-10 py-2.5 mr-2"
+                        <input type="text" className="form-input rounded border border-[#171717] border-opacity-25 xs:w-[100%] md:w-[65%] md:px-6  lg:px-10 py-2.5 mr-2"
                         />
                         <button className='xs:ml-[65%] md:ml-0 xs:mt-4 md:mt-0 xs:px-3 md:px-3 lg:px-4 xs:py-4 md:py-3 xs:text-[14px] md:text-[15px] font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                         >

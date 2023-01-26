@@ -69,21 +69,21 @@ const Nav = () => {
                             <line x1="6" y1="6" x2="18" y2="18" />
                         </svg>
                     </div>
-                    <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-                        <li className="mt-10 mb-5 uppercase font-Roboto">
-                            <a href="/properties">Properties</a>
+                    <ul className="MENU-LINK-MOBILE-OPEN mt-10 flex flex-col items-center justify-between min-h-[250px]">
+                        <li className="mb-5 uppercase font-Roboto">
+                            <Link to="/properties">Properties</Link>
                         </li>
                         <li className="my-5 uppercase font-Roboto">
-                            <a href="/agents">Agents</a>
+                            <Link to="/agents">Agents</Link>
                         </li>
                         <li className="my-5 uppercase font-Roboto">
-                            <a href="/about">About</a>
+                            <Link to="/about">About</Link>
                         </li>
                         <li className="my-5 uppercase font-Roboto">
-                            <a href="/contact">Contact</a>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
-                    <button className='w-[80%] py-2  font-Roboto bg-black  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 hover:border-solid  hover:border hover:border-black'
+                    <button className='w-[80%] mt-16 py-2 font-Roboto bg-black rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 hover:border-solid hover:border hover:border-black'
                     >
                         Browse all
                     </button>
@@ -104,7 +104,7 @@ const Nav = () => {
                     z-index: 10;
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-evenly;
+                    justify-content: center;
                     align-items: center;
                 }`
             }</style>
