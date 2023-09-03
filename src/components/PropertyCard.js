@@ -11,7 +11,7 @@ const PropertyCard = ({ property }) => {
                 <img className="w-full h-[220px] object-cover" src={property.thumbnail} alt="Sunset in the mountains" />
                 <div className='flex items-center mt-3'>
                     <IoLocationOutline size={40} className='mr-3' />
-                    <p className="xs:text-[15px] xl:text-[17px] mt-2 text-[#171717] font-Roboto text-left font-medium">{property.address.line === undefined ? null : property.address.line} {property.address.city} {property.address.state}</p>
+                    <p className="xs:text-[15px] xl:text-[17px] mt-2 text-[#171717] font-Roboto text-left font-medium"> {property.address.city} {property.address.state}</p>
                 </div>
                 <div className="px-2 py-4">
                     <p className="xs:text-[20px] xl:text-[25px] text-[#171717] mt-1 font-Roboto text-left leading-[30px] font-medium"> ${property.price}</p>
