@@ -1,12 +1,18 @@
 
 export const PropertiesOptions = {
-  method: 'GET',
-  params: {
-    city: 'New York City',
-    state_code: 'NY',
-    offset: '0',
-    limit: '200',
-    sort: 'relevance'
+  method: 'POST',
+  data: {
+    limit: 200,
+    offset: 0,
+    postal_code: '90004',
+    status: [
+      'for_sale',
+      'ready_to_build'
+    ],
+    sort: {
+      direction: 'desc',
+      field: 'list_date'
+    }
   },
   headers: {
     'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,

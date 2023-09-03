@@ -24,7 +24,7 @@ const Property = () => {
       {status === 'loading' || isRefetching ?
         <Loader />
         : <>
-          <div className='mt-[70px] flex justify-center'>
+          <div className='mt-[40px] md:mt-[70px] flex justify-center'>
             <Carousel className='w-[900px] h-[100%]' showArrows={true} showThumbs={false} showIndicators={false}>
               {
                 data.photos.map((img, i) =>
@@ -34,49 +34,49 @@ const Property = () => {
             </Carousel>
           </div>
           <div className='max-w-[900px] mx-auto '>
-            <p className="xs:text-[15px] xl:text-[25px] mt-4 text-[#171717] font-Roboto text-left">{data.prop_status.replace("_", " ")}</p>
+            <p className="xs:text-[15px] xl:text-[25px] mt-4 text-[#171717] font-Roboto font-medium text-left">{data.status.replace("_", " ").toUpperCase()}</p>
             <div className="mt-2">
-              <p className="xs:text-[20px] xl:text-[25px] text-[#171717] font-Roboto text-left leading-[30px] font-medium"> ${data.price}</p>
+              <p className="xs:text-[20px] xl:text-[25px] text-[#171717] font-Roboto text-left leading-[30px] font-medium"> ${data.mortgage.estimate.total_payment}</p>
               <div className='flex mt-5'>
                 <div>
                   <TbBath size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.baths}</span> baths</p>
+                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.description.baths}</span> baths</p>
                 </div>
                 <div>
                   <IoBedOutline size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.beds}</span> beds</p>
+                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.description.beds}</span> beds</p>
                 </div>
                 <div>
                   {data.building_size || data.lot_size ? <IoChevronDownCircleOutline size={20} /> : null}
-                  {data.building_size !== undefined && !data.lot_size ? <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.building_size.size}</span> sqft</p> : null}
-                  {data.lot_size !== undefined ? <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mr-4 mt-1 font-Roboto text-left font-medium"><span className='text-[#171717]'>{data.lot_size.size}</span> sqft</p> : null}
+                  {data.building_size !== undefined && !data.lot_size ? <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.description.sqft}</span> sqft</p> : null}
+                  {data.lot_size !== undefined ? <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mr-4 mt-1 font-Roboto text-left font-medium"><span className='text-[#171717]'>{data.description.lot_size}</span> sqft</p> : null}
                 </div>
                 <div>
                   <IoHammerOutline size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#171717] mt-1 font-Roboto text-left  font-medium">{data.year_built ? data.year_built : "none"}</p>
+                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#171717] mt-1 font-Roboto text-left  font-medium">{data.description.year_built ? data.description.year_built : "none"}</p>
                 </div>
               </div>
             </div>
-            <div className='flex items-center mt-4'>
+            <div className='flex items-center mt-8 md:mt-6'>
               <IoLocationOutline size={25} className='mr-3' />
-              <p className="xs:text-[15px] xl:text-[25px] text-[#171717] font-Roboto text-left">{data.address.line} {data.address.city} {data.address.state}</p>
+              <p className="xs:text-[15px] xl:text-[25px] text-[#171717] font-Roboto text-left">{data.location.address.line} {data.location.address.city} {data.location.address.state}</p>
             </div>
             <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Features:</p>
-            <ol type="1" className="grid gap-2 px-4 mt-2 list-decimal xs:grid-cols-1 font-Roboto sm:grid-cols-4 md:grid-cols-4">
+            <ol type="1" className="grid gap-2 px-6 md:px-4 mt-2 list-decimal xs:grid-cols-1 font-Roboto sm:grid-cols-4 md:grid-cols-4">
               {
-                data.feature_tags.map((feature, i) =>
-                  <li key={i}>{feature.replaceAll("_", " ")}</li>
+                data.details.map((feature, i) =>
+                  <li key={i}>{feature.text[0].split(" ").slice(0, 3).join(" ")}...</li>
                 )
               }
             </ol>
             <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Description:</p>
-            <p className="xs:text-[15px] mt-2 xl:text-[18px] text-[#171717] font-Roboto text-left">{data.description}</p>
+            <p className="xs:text-[15px] mt-2 xl:text-[18px] text-[#171717] font-Roboto text-left">{data.description.text}</p>
             <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Agent:</p>
             <div className="flex items-center mt-2">
-              <img className="rounded-full w-[50px] h-[50px] mr-6 object-cover" src={data.agents[0].photo ? data.agents[0].photo.href : null} alt="agent pics" />
+              <img className="rounded-full w-[50px] h-[50px] mr-6 object-cover" src={data.advertisers[0].photo !== null ? data.advertisers[0].photo.href : null} alt="agent pics" />
               <div>
-                <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left">{data.agents[0].profile_name}</p>
-                <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left"><span className='xs:text-[15px] xl:text-[18px] text-[#171717] font-medium '>Office:</span> {data.agents[0].office_name}</p>
+                <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left">{data.advertisers[0].name}</p>
+                <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left"><span className='xs:text-[15px] xl:text-[18px] text-[#171717] font-medium '>Office:</span> {data.advertisers[0].office.name}</p>
               </div>
             </div>
             <div className='mt-10'>

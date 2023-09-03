@@ -1,0 +1,1401 @@
+{
+  "__typename": "Home",
+  "property_id": "2316001306",
+  "last_update_date": "2023-08-29T09:04:56Z",
+  "last_price_change_date": null,
+  "last_price_change_amount": null,
+  "listing_id": "2958859372",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/438-N-Norton-Ave_Los-Angeles_CA_90004_M23160-01306",
+  "days_on_market": null,
+  "list_date": "2023-08-18T23:33:37Z",
+  "create_date": "2023-08-18T23:33:37Z",
+  "mortgage": {
+    "__typename": "Mortgage",
+    "property_tax_rate": 0.0125,
+    "rates_url": "https://www.realtor.com/mortgage/rates/?from=mobile#zip=90004&property_price=1995000&mlid=2316001306",
+    "insurance_rate": 0.003,
+    "estimate": {
+      "__typename": "MortgageEstimate",
+      "loan_amount": 1596000,
+      "monthly_payment": 13772,
+      "total_payment": 4030004,
+      "down_payment": 399000,
+      "average_rate": {
+        "__typename": "Rate",
+        "rate": 0.07532,
+        "loan_type": {
+          "__typename": "LoanType",
+          "term": 30
+        }
+      },
+      "monthly_payment_details": [
+        {
+          "__typename": "MonthlyOwnershipExpense",
+          "type": "principal_and_interest",
+          "amount": 11194,
+          "display_name": "Principal & Interest"
+        },
+        {
+          "__typename": "MonthlyOwnershipExpense",
+          "type": "home_insurance",
+          "amount": 499,
+          "display_name": "Home Insurance"
+        },
+        {
+          "__typename": "MonthlyOwnershipExpense",
+          "type": "hoa_fees",
+          "amount": 0,
+          "display_name": "HOA Fees"
+        },
+        {
+          "__typename": "MonthlyOwnershipExpense",
+          "type": "mortgage_insurance",
+          "amount": 0,
+          "display_name": "Mortgage Insurance"
+        },
+        {
+          "__typename": "MonthlyOwnershipExpense",
+          "type": "property_tax",
+          "amount": 2078,
+          "display_name": "Property Tax"
+        }
+      ]
+    },
+    "average_rates": [
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "thirty_year_fix"
+        },
+        "rate": 0.07532
+      },
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "twenty_year_fix"
+        },
+        "rate": 0.07349
+      },
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "fifteen_year_fix"
+        },
+        "rate": 0.06842
+      },
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "ten_year_fix"
+        },
+        "rate": 0.06763
+      },
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "thirty_year_fha"
+        },
+        "rate": 0.0714
+      },
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "thirty_year_va"
+        },
+        "rate": 0.07135
+      },
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "five_one_arm"
+        },
+        "rate": 0.06986
+      },
+      {
+        "__typename": "Rate",
+        "loan_type": {
+          "__typename": "LoanType",
+          "loan_id": "seven_one_arm"
+        },
+        "rate": 0.07184
+      }
+    ]
+  },
+  "hoa": null,
+  "buyers": null,
+  "description": {
+    "__typename": "HomeDescription",
+    "baths_consolidated": "10",
+    "baths": 10,
+    "baths_min": null,
+    "baths_max": null,
+    "heating": null,
+    "cooling": null,
+    "beds": 12,
+    "beds_min": null,
+    "beds_max": null,
+    "garage": null,
+    "garage_min": null,
+    "garage_max": null,
+    "pool": null,
+    "sqft": 5184,
+    "sqft_min": null,
+    "sqft_max": null,
+    "styles": ["spanish_eclectic"],
+    "lot_sqft": 9239,
+    "units": 10,
+    "stories": 1,
+    "type": "multi_family",
+    "sub_type": null,
+    "text": "First time in the market in nearly 40 years. Located on a charming tree lined street adjacent to Larchmont Village and Hancock Park. This beautiful 1920's Spanish 10 unit building offers 3 single-story building making up the 10 unit property . Building is made up of 8 (one bedroom, one baths) and 2 (two bedroom, one bath)",
+    "year_built": 1924,
+    "name": null
+  },
+  "pet_policy": null,
+  "assigned_schools": {
+    "__typename": "SchoolList",
+    "schools": [
+      {
+        "__typename": "School",
+        "district": {
+          "__typename": "SchoolDistrict",
+          "name": "Los Angeles Unified School District",
+          "id": "06151432641",
+          "phone": null,
+          "student_count": null,
+          "grades": null
+        }
+      },
+      {
+        "__typename": "School",
+        "district": {
+          "__typename": "SchoolDistrict",
+          "name": "Los Angeles Unified School District",
+          "id": "06151432641",
+          "phone": null,
+          "student_count": null,
+          "grades": null
+        }
+      },
+      {
+        "__typename": "School",
+        "district": {
+          "__typename": "SchoolDistrict",
+          "name": "Los Angeles Unified School District",
+          "id": "06151432641",
+          "phone": null,
+          "student_count": null,
+          "grades": null
+        }
+      }
+    ]
+  },
+  "nearby_schools": {
+    "__typename": "SchoolList",
+    "schools": [
+      {
+        "__typename": "School",
+        "assigned": true,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.080403,
+          "lon": -118.31604
+        },
+        "distance_in_miles": 0.1,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["elementary"],
+        "funding_type": "public",
+        "grades": ["K", "1", "2", "3", "4", "5"],
+        "id": "078606351",
+        "name": "Van Ness Avenue Elementary School",
+        "parent_rating": 4,
+        "rating": 7,
+        "student_count": 198
+      },
+      {
+        "__typename": "School",
+        "assigned": true,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.094823,
+          "lon": -118.317555
+        },
+        "distance_in_miles": 1,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["middle"],
+        "funding_type": "public",
+        "grades": ["6", "7", "8"],
+        "id": "078602661",
+        "name": "Joseph Le Conte Middle School",
+        "parent_rating": 5,
+        "rating": 4,
+        "student_count": 763
+      },
+      {
+        "__typename": "School",
+        "assigned": true,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.082739,
+          "lon": -118.359937
+        },
+        "distance_in_miles": 2.5,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["high"],
+        "funding_type": "public",
+        "grades": ["9", "10", "11", "12"],
+        "id": "078600951",
+        "name": "Fairfax Senior High School",
+        "parent_rating": 4,
+        "rating": 4,
+        "student_count": 1827
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.080936,
+          "lon": -118.32387
+        },
+        "distance_in_miles": 0.4,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151428551",
+          "name": null
+        },
+        "education_levels": ["elementary"],
+        "funding_type": "private",
+        "grades": ["PK", "K", "1", "2"],
+        "id": "078721551",
+        "name": "Page Private-Hancock Park",
+        "parent_rating": 4,
+        "rating": null,
+        "student_count": 42
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.08223,
+          "lon": -118.326306
+        },
+        "distance_in_miles": 0.6,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151428551",
+          "name": null
+        },
+        "education_levels": ["elementary", "middle"],
+        "funding_type": "private",
+        "grades": ["K", "1", "2", "3", "4", "5", "6", "7", "8"],
+        "id": "078685711",
+        "name": "Christ The King Elementary School",
+        "parent_rating": 4,
+        "rating": null,
+        "student_count": 197
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.076012,
+          "lon": -118.306351
+        },
+        "distance_in_miles": 0.6,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151428551",
+          "name": null
+        },
+        "education_levels": ["elementary"],
+        "funding_type": "private",
+        "grades": ["K"],
+        "id": "078760001",
+        "name": "Beverly Christian Academy, Inc.",
+        "parent_rating": null,
+        "rating": null,
+        "student_count": 32
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.089531,
+          "lon": -118.315138
+        },
+        "distance_in_miles": 0.7,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151466641",
+          "name": "Santa Monica Boulevard Community Charter District"
+        },
+        "education_levels": ["elementary"],
+        "funding_type": "public",
+        "grades": ["K", "1", "2", "3", "4", "5", "6"],
+        "id": "078605331",
+        "name": "Santa Monica Boulevard Community Charter School",
+        "parent_rating": 3,
+        "rating": 5,
+        "student_count": 889
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.077144,
+          "lon": -118.304221
+        },
+        "distance_in_miles": 0.7,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["elementary"],
+        "funding_type": "public",
+        "grades": ["K", "1", "2", "3", "4", "5"],
+        "id": "078777611",
+        "name": "Harvard Elementary School",
+        "parent_rating": 3,
+        "rating": 3,
+        "student_count": 387
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.094949,
+          "lon": -118.315076
+        },
+        "distance_in_miles": 1.1,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["middle", "high"],
+        "funding_type": "public",
+        "grades": ["7", "8", "9", "10", "11", "12"],
+        "id": "078775911",
+        "name": "Richard A. Alonzo Community Day School",
+        "parent_rating": 5,
+        "rating": null,
+        "student_count": 94
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.095494,
+          "lon": -118.313925
+        },
+        "distance_in_miles": 1.1,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151455551",
+          "name": "APEX Academy District"
+        },
+        "education_levels": ["middle", "high"],
+        "funding_type": "public",
+        "grades": ["7", "8", "9", "10", "11", "12"],
+        "id": "078924351",
+        "name": "Apex Academy",
+        "parent_rating": 4,
+        "rating": 2,
+        "student_count": 370
+      }
+    ]
+  },
+  "schools": {
+    "__typename": "SchoolList",
+    "schools": [
+      {
+        "__typename": "School",
+        "assigned": true,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.080403,
+          "lon": -118.31604
+        },
+        "distance_in_miles": 0.1,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["elementary"],
+        "funding_type": "public",
+        "grades": ["K", "1", "2", "3", "4", "5"],
+        "id": "078606351",
+        "name": "Van Ness Avenue Elementary School",
+        "parent_rating": 4,
+        "rating": 7,
+        "student_count": 198
+      },
+      {
+        "__typename": "School",
+        "assigned": true,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.094823,
+          "lon": -118.317555
+        },
+        "distance_in_miles": 1,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["middle"],
+        "funding_type": "public",
+        "grades": ["6", "7", "8"],
+        "id": "078602661",
+        "name": "Joseph Le Conte Middle School",
+        "parent_rating": 5,
+        "rating": 4,
+        "student_count": 763
+      },
+      {
+        "__typename": "School",
+        "assigned": true,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.082739,
+          "lon": -118.359937
+        },
+        "distance_in_miles": 2.5,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151432641",
+          "name": "Los Angeles Unified School District"
+        },
+        "education_levels": ["high"],
+        "funding_type": "public",
+        "grades": ["9", "10", "11", "12"],
+        "id": "078600951",
+        "name": "Fairfax Senior High School",
+        "parent_rating": 4,
+        "rating": 4,
+        "student_count": 1827
+      },
+      {
+        "__typename": "School",
+        "assigned": null,
+        "coordinate": {
+          "__typename": "Coordinate",
+          "lat": 34.080936,
+          "lon": -118.32387
+        },
+        "distance_in_miles": 0.4,
+        "district": {
+          "__typename": "SchoolDistrict",
+          "id": "06151428551",
+          "name": null
+        },
+        "education_levels": ["elementary"],
+        "funding_type": "private",
+        "grades": ["PK", "K", "1", "2"],
+        "id": "078721551",
+        "name": "Page Private-Hancock Park",
+        "parent_rating": 4,
+        "rating": null,
+        "student_count": 42
+      }
+    ]
+  },
+  "products": {
+    "__typename": "ProductSummary",
+    "products": ["core.agent", "co_broke"]
+  },
+  "list_price": 1995000,
+  "list_price_min": null,
+  "list_price_max": null,
+  "price_per_sqft": 385,
+  "community": null,
+  "lead_attributes": {
+    "__typename": "LeadAttributes",
+    "opcity_lead_attributes": {
+      "__typename": "OpCityLeadAttributes",
+      "flip_the_market_enabled": true,
+      "cashback_enabled": false,
+      "phones": [
+        {
+          "__typename": "OpCityLocalPhone",
+          "number": "(323)366-4648",
+          "category": "comm_console"
+        },
+        {
+          "__typename": "OpCityLocalPhone",
+          "number": "(323)366-4648",
+          "category": "schedule_tour"
+        }
+      ],
+      "local_phone": "(323)366-4648"
+    },
+    "ready_connect_mortgage": {
+      "__typename": "ReadyConnectMortgage",
+      "show_contact_a_lender": false,
+      "show_veterans_united": false
+    },
+    "show_contact_an_agent": true,
+    "lead_type": "co_broke",
+    "show_lead_form": true,
+    "disclaimer_text": null,
+    "is_tcpa_message_enabled": null,
+    "show_text_leads": true
+  },
+  "flags": {
+    "__typename": "HomeFlags",
+    "is_contingent": true,
+    "is_garage_present": null,
+    "is_new_construction": null,
+    "is_pending": null,
+    "is_short_sale": null,
+    "is_foreclosure": null,
+    "is_senior_community": null,
+    "is_for_rent": null,
+    "is_deal_available": null,
+    "is_price_excludes_land": null,
+    "is_promotion_present": null,
+    "is_subdivision": null,
+    "is_plan": null,
+    "is_price_reduced": null,
+    "is_new_listing": false,
+    "is_coming_soon": null
+  },
+  "provider_url": null,
+  "source": {
+    "__typename": "MlsSource",
+    "id": "WECA",
+    "disclaimer": {
+      "__typename": "MlsDisclaimer",
+      "text": "©1995-2023 The MLS™ All rights reserved.",
+      "href": null
+    },
+    "listing_id": "23-302551",
+    "plan_id": null,
+    "spec_id": null,
+    "community_id": null,
+    "name": "TheMLSCLAW",
+    "type": "mls",
+    "raw": {
+      "__typename": "MlsRawData",
+      "style": "Spanish",
+      "tax_amount": null
+    }
+  },
+  "details": [
+    {
+      "__typename": "HomeDetails",
+      "category": "Bedrooms",
+      "text": ["Bedrooms: 12"]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Bathrooms",
+      "text": ["Total Bathrooms: 10.00", "Full Bathrooms: 10"]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Heating and Cooling",
+      "text": ["Heating Features: Wall"]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Interior Features",
+      "text": ["Flooring: Carpet, Ceramic Tile, Laminate"]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Land Info",
+      "text": [
+        "Lot Size Acres: 0.2121",
+        "Lot Size Source: Vendor Enhanced",
+        "Lot Size Square Feet: 9239"
+      ]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Multi-Unit Info",
+      "text": [
+        "Number of Buildings: 3",
+        "Number of Units: 10",
+        "Bedrooms in Unit-1: 1",
+        "Bedrooms in Unit-2: 1",
+        "Bedrooms in Unit-3: 1",
+        "Bedrooms in Unit-4: 1",
+        "Bedrooms in Unit-5: 1",
+        "Bedrooms in Unit-6: 1",
+        "Bedrooms in Unit-7: 1",
+        "Bedrooms in Unit-8: 2",
+        "Bedrooms in Unit-9: 1",
+        "Bedrooms in Unit-10: 2",
+        "Total Bathrooms in Unit-1: 1.00",
+        "Total Bathrooms in Unit-2: 1.00",
+        "Total Bathrooms in Unit-3: 1.00",
+        "Total Bathrooms in Unit-4: 1.00",
+        "Total Bathrooms in Unit-5: 1.00",
+        "Total Bathrooms in Unit-6: 1.00",
+        "Total Bathrooms in Unit-7: 1.00",
+        "Total Bathrooms in Unit-8: 1.00",
+        "Total Bathrooms in Unit-9: 1.00",
+        "Total Bathrooms in Unit-10: 1.00",
+        "Unit-1 Furnished Description: No",
+        "Unit-2 Furnished Description: No",
+        "Unit-3 Furnished Description: No",
+        "Unit-4 Furnished Description: No",
+        "Unit-5 Furnished Description: No",
+        "Unit-6 Furnished Description: No",
+        "Unit-7 Furnished Description: No",
+        "Unit-8 Furnished Description: No",
+        "Unit-9 Furnished Description: No",
+        "Unit-10 Furnished Description: No",
+        "Unit 1 Total Actual Rent: 1500.00",
+        "Unit 2 Total Actual Rent: 1500.00",
+        "Unit 3 Total Actual Rent: 1500.00",
+        "Unit 4 Total Actual Rent: 1200.00",
+        "Unit 5 Total Actual Rent: 1050.00",
+        "Unit 6 Total Actual Rent: 1500.00",
+        "Unit 7 Total Actual Rent: 1030.00",
+        "Unit 8 Total Actual Rent: 1350.00",
+        "Unit 9 Total Actual Rent: 825.51"
+      ]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Rental Info",
+      "text": ["Gross Income: 120712"]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Other Property Info",
+      "text": [
+        "Source Listing Status: Active Under Contract",
+        "County: Los Angeles",
+        "Directions: Beverly and Melrose",
+        "Source Property Type: Residential Income",
+        "Area: Hancock Park-Wilshire",
+        "Source Neighborhood: Hancock Park-Wilshire",
+        "Postal Code Plus 4: 1563",
+        "Zoning: LAR3",
+        "Management Company: Owner managed",
+        "Source System Name: C2C"
+      ]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Commercial Info",
+      "text": ["Net Operating Income: 111112.00"]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Building and Construction",
+      "text": [
+        "Total Square Feet Living: 5184",
+        "Year Built: 1924",
+        "Common Walls: Attached",
+        "Levels: One",
+        "Living Area Source: Vendor Enhanced",
+        "Property Age: 99",
+        "Roof: Clay, Flat",
+        "Levels or Stories: 1",
+        "Structure Type: Single level",
+        "House Style: Spanish"
+      ]
+    },
+    {
+      "__typename": "HomeDetails",
+      "category": "Home Features",
+      "text": ["Other Equipment: Range/Oven"]
+    }
+  ],
+  "open_houses": null,
+  "tax_history": [
+    {
+      "__typename": "TaxHistory",
+      "tax": 14945,
+      "year": 2021,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 304310,
+        "land": 873726,
+        "total": 1178036
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 15087,
+      "year": 2020,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 301190,
+        "land": 864768,
+        "total": 1165958
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2755,
+      "year": 2019,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 62608,
+        "land": 78659,
+        "total": 141267
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2590,
+      "year": 2018,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 61381,
+        "land": 77117,
+        "total": 138498
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2509,
+      "year": 2017,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 60178,
+        "land": 75605,
+        "total": 135783
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2398,
+      "year": 2016,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 58999,
+        "land": 74123,
+        "total": 133122
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2375,
+      "year": 2015,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 58113,
+        "land": 73010,
+        "total": 131123
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2453,
+      "year": 2014,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 56975,
+        "land": 71580,
+        "total": 128555
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2447,
+      "year": 2013,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 56718,
+        "land": 71257,
+        "total": 127975
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2472,
+      "year": 2012,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 55606,
+        "land": 69860,
+        "total": 125466
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2372,
+      "year": 2010,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 54516,
+        "land": 68491,
+        "total": 123007
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2298,
+      "year": 2009,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 54238,
+        "land": 68142,
+        "total": 122380
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2298,
+      "year": 2009,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 54109,
+        "land": 67980,
+        "total": 122089
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2235,
+      "year": 2008,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 53175,
+        "land": 66806,
+        "total": 119981
+      }
+    },
+    {
+      "__typename": "TaxHistory",
+      "tax": 2155,
+      "year": 2007,
+      "assessment": {
+        "__typename": "Assessment",
+        "building": 52133,
+        "land": 65497,
+        "total": 117630
+      }
+    }
+  ],
+  "location": {
+    "__typename": "HomeLocation",
+    "address": {
+      "__typename": "HomeAddress",
+      "line": "438 N Norton Ave",
+      "street_number": "438",
+      "street_name": "Norton",
+      "street_suffix": "Ave",
+      "unit": null,
+      "city": "Los Angeles",
+      "state_code": "CA",
+      "postal_code": "90004",
+      "state": "California",
+      "coordinate": {
+        "__typename": "HomeCoordinate",
+        "lat": 34.079619,
+        "lon": -118.316656
+      }
+    },
+    "county": {
+      "__typename": "HomeCounty",
+      "fips_code": "06037"
+    },
+    "street_view_url": "",
+    "neighborhoods": [
+      {
+        "__typename": "Neighborhood",
+        "name": "Larchmont",
+        "city": "Los Angeles",
+        "level": "sub_neighborhood",
+        "geo_statistics": {
+          "__typename": "GeoStatistics",
+          "housing_market": {
+            "__typename": "HousingMarket",
+            "median_price_per_sqft": 854,
+            "median_sold_price": 1848500,
+            "median_listing_price": 1950000,
+            "median_days_on_market": 53
+          }
+        }
+      },
+      {
+        "__typename": "Neighborhood",
+        "name": "Greater Wilshire",
+        "city": "Los Angeles",
+        "level": "neighborhood",
+        "geo_statistics": {
+          "__typename": "GeoStatistics",
+          "housing_market": {
+            "__typename": "HousingMarket",
+            "median_price_per_sqft": 851,
+            "median_sold_price": 1635000,
+            "median_listing_price": 2199900,
+            "median_days_on_market": 53
+          }
+        }
+      },
+      {
+        "__typename": "Neighborhood",
+        "name": "Central LA",
+        "city": "Los Angeles",
+        "level": "macro_neighborhood",
+        "geo_statistics": {
+          "__typename": "GeoStatistics",
+          "housing_market": {
+            "__typename": "HousingMarket",
+            "median_price_per_sqft": 750,
+            "median_sold_price": 1250000,
+            "median_listing_price": 1598500,
+            "median_days_on_market": 66
+          }
+        }
+      }
+    ]
+  },
+  "branding": [
+    {
+      "__typename": "Branding",
+      "type": "Agent",
+      "photo": null,
+      "name": "Andrew Moore",
+      "phone": null,
+      "slogan": null,
+      "accent_color": null,
+      "link": null
+    },
+    {
+      "__typename": "Branding",
+      "type": "Office",
+      "photo": null,
+      "name": "Beverly and Company, Inc.",
+      "phone": null,
+      "slogan": null,
+      "accent_color": null,
+      "link": null
+    }
+  ],
+  "consumer_advertisers": [
+    {
+      "__typename": "ConsumerAdvertiser",
+      "advertiser_id": "2882427",
+      "office_id": null,
+      "agent_id": "2882427",
+      "name": "Andrew Moore",
+      "phone": null,
+      "type": "Agent",
+      "href": "/realestateagents/Andrew-Moore_Los-Angeles_CA_2882427",
+      "slogan": null,
+      "photo": {
+        "__typename": "Photo",
+        "href": null
+      },
+      "show_realtor_logo": false,
+      "hours": null
+    },
+    {
+      "__typename": "ConsumerAdvertiser",
+      "advertiser_id": "2882427",
+      "office_id": null,
+      "agent_id": "2882427",
+      "name": "Beverly and Company, Inc.",
+      "phone": "(714) 368-1300",
+      "type": "Office",
+      "href": null,
+      "slogan": null,
+      "photo": {
+        "__typename": "Photo",
+        "href": null
+      },
+      "show_realtor_logo": false,
+      "hours": null
+    }
+  ],
+  "advertisers": [
+    {
+      "__typename": "HomeAdvertiser",
+      "fulfillment_id": "2882427",
+      "name": "Andrew Moore",
+      "type": "seller",
+      "team_name": null,
+      "email": "andrewmoorela@gmail.com",
+      "href": "",
+      "state_license": "01723650",
+      "phones": [
+        {
+          "__typename": "AdvertiserPhone",
+          "number": "3234223253",
+          "type": "Home",
+          "ext": ""
+        },
+        {
+          "__typename": "AdvertiserPhone",
+          "number": "7146190873",
+          "type": "Mobile",
+          "ext": ""
+        }
+      ],
+      "office": {
+        "__typename": "HomeAdvertiserOffice",
+        "fulfillment_id": "0",
+        "name": "Beverly and Company, Inc.",
+        "href": null,
+        "photo": null,
+        "email": "chelle@realtymasters.biz",
+        "phones": [
+          {
+            "__typename": "AdvertiserPhone",
+            "number": "(714) 368-1300",
+            "type": "Office",
+            "ext": null
+          }
+        ]
+      },
+      "broker": {
+        "__typename": "HomeAdvertiserBroker",
+        "fulfillment_id": "0",
+        "name": ""
+      },
+      "photo": {
+        "__typename": "Href",
+        "href": ""
+      }
+    }
+  ],
+  "photo_count": 14,
+  "photos": [
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m3514442809s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0.9964346885681152
+        },
+        {
+          "__typename": "Tag",
+          "label": "road_view",
+          "probability": 0.9720874428749084
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m4039475620s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0.9988784193992615
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m2797132473s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0.9999141693115234
+        },
+        {
+          "__typename": "Tag",
+          "label": "road_view",
+          "probability": 0.92873215675354
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m1258889729s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "road_view",
+          "probability": 0.9981871247291565
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m258811830s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m2122119003s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.9943466782569885
+        },
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.9734855890274048
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m3347829049s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.9886500835418701
+        },
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.7380388379096985
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m1101956969s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m90960181s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0.4631333351135254
+        },
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.859839141368866
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m1481067976s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.9907377362251282
+        },
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.9967119693756104
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m258219313s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0.6436381340026855
+        },
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.8763354420661926
+        },
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.8993193507194519
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m3372632883s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "porch",
+          "probability": 0.9573937058448792
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m1827456703s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0.9976493716239929
+        },
+        {
+          "__typename": "Tag",
+          "label": "house_view",
+          "probability": 0.8051499724388123
+        },
+        {
+          "__typename": "Tag",
+          "label": "road_view",
+          "probability": 0.9887529611587524
+        }
+      ]
+    },
+    {
+      "__typename": "HomePhoto",
+      "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m3427390486s.jpg",
+      "type": "realtordotcom_mls_listing_image",
+      "tags": [
+        {
+          "__typename": "Tag",
+          "label": "unknown",
+          "probability": 0.997250497341156
+        },
+        {
+          "__typename": "Tag",
+          "label": "road_view",
+          "probability": 0.8433700203895569
+        }
+      ]
+    }
+  ],
+  "property_history": [
+    {
+      "__typename": "HomePropertyHistory",
+      "date": "2023-08-18",
+      "event_name": "Listed",
+      "price": 1995000,
+      "source_name": "TheMLSCLAW",
+      "listing": {
+        "__typename": "HomeListing",
+        "photos": [
+          {
+            "__typename": "HomePhoto",
+            "href": "https://ap.rdcpix.com/748d08e6eeae59f892b6cedc66991c15l-m3514442809s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+              {
+                "__typename": "Tag",
+                "label": "unknown",
+                "probability": 0.9964346885681152
+              },
+              {
+                "__typename": "Tag",
+                "label": "road_view",
+                "probability": 0.9720874428749084
+              }
+            ]
+          }
+        ],
+        "description": {
+          "__typename": "HomeDescription",
+          "sqft": 5184
+        }
+      }
+    }
+  ],
+  "local": {
+    "__typename": "Local",
+    "noise": {
+      "__typename": "Noise",
+      "score": 73,
+      "noise_categories": [
+        {
+          "__typename": "NoiseCategory",
+          "type": "airport",
+          "text": "Low"
+        },
+        {
+          "__typename": "NoiseCategory",
+          "type": "traffic",
+          "text": "Medium"
+        },
+        {
+          "__typename": "NoiseCategory",
+          "type": "local",
+          "text": "Medium"
+        },
+        {
+          "__typename": "NoiseCategory",
+          "type": "score",
+          "text": "Medium"
+        }
+      ]
+    },
+    "flood": {
+      "__typename": "Flood",
+      "flood_factor_score": 1,
+      "fema_zone": ["X (unshaded)"]
+    }
+  },
+  "last_sold_price": null,
+  "last_sold_date": null,
+  "estimates": {
+    "__typename": "HomeEstimates",
+    "current_values": null,
+    "historical_values": null,
+    "forecast_values": null
+  },
+  "virtual_tours": null,
+  "videos": null,
+  "matterport": null,
+  "terms": null,
+  "monthly_fees": null,
+  "one_time_fees": null,
+  "units": null
+}
