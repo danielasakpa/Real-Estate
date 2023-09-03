@@ -35,7 +35,7 @@ const HorizontalScrollbar = () => {
                     key={agent.name}
                     className='h-[350px] m-auto mx-4 w-[270px] cursor-pointer bg-[#f8fafc]'
                 >
-                    <div className="max-w-sm rounded overflow-hidden">
+                    <div className="max-w-sm overflow-hidden rounded">
                         <img loading="lazy" className="w-full h-[250px] object-cover transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 cursor-pointer duration-300" src={agent.img} alt="Sunset in the mountains" />
                         <p className='text-[20px] text-[#171717] mt-3 font-Roboto'>{agent.name}</p>
                         <p className='text-[15px] text-[#A3A3A3] mt-2 font-Roboto'>{agent.position}</p>

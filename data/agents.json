@@ -1,0 +1,6004 @@
+[
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 3291147,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/1010259657/b79a70427fe43732c27a4d26a2920ec7g-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Faig Mikayilov is a NYS Licensed Real Estate Associate Broker servicing the Greater NY Metropolitan area. As a esteemed graduate of The New York City College of Technology with degrees in Computer Science and Hospitality Management, Faig’s business perspective is governed by best practices and optimal utilization of information. Before entering into the real estate arena, he thrived as a restaurant entrepreneur relishing in the fast pace environment that allowed him to sharpen his communication, listening and people skills. Faig’s years in the client relations industry has allowed him to develop an extraordinary ability to see his clients’ needs and bring about the appropriate service or resolution that leads to wins and smiles.\n\n \n\nAs a founding member of The Advantage Team at Remax, Faig offers each and every one of his clients a true advisory relationship where they come away making their best decisions. His years in the real estate industry thus far have been nothing short of a blueprint for client success where wins and life-long relationships are forged. Faig’s business methodology is simply driven by an unyielding pursuit of client service excellence and delivering on promises. \n\n \n\nFaig’s business perspective along with his educational background requires him to seek the winning path for his clients each and every time. His perfectionist approach to real estate service ensures that each transaction is managed seamlessly and his clients remain stress-free. Faig cherishes the opportunity to provide his professional real estate service.",
+    "designations": [],
+    "first_month": 0,
+    "first_year": 2011,
+    "has_photo": true,
+    "href": "https://Faig.RemaxEdgeNY.com",
+    "id": "5a4fb3cc46abb50011573a48",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Thu, 17 Nov 2022 19:12:26 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "REMAXEDGE6"
+        },
+        "abbreviation": "BDNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "FM7619"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "202175"
+        },
+        "abbreviation": "LINY",
+        "type": "A",
+        "primary": false,
+        "license_number": "10301220271"
+      },
+      {
+        "member": {
+          "id": "114831"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [
+      {
+        "member": {
+          "id": "RLMX-012646"
+        },
+        "inactivation_date": "2021-11-03T07:37:22.000Z",
+        "abbreviation": "RBNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "RBNY-79117"
+        },
+        "inactivation_date": "2022-08-03T10:03:56.000Z",
+        "abbreviation": "RBNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631008239",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610"
+    },
+    "party_id": 423922995,
+    "person_name": "Faig Mikayilov",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(646) 643-8397",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/1669507267/7853aadd7c5ed8edba72c69d7a713d19a-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Manhattan",
+        "state_code": "NA"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NA"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      },
+      "use_dot_realtor_for_search_engines": true
+    },
+    "slogan": "",
+    "specializations": [
+      {
+        "name": "Buyer Agent"
+      },
+      {
+        "name": "Seller Agent"
+      },
+      {
+        "name": "Consulting"
+      },
+      {
+        "name": "Negotiations"
+      }
+    ],
+    "title": "Broker Associate",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Faig-Mikayilov_BROOKLYN_NY_3291147_067199863",
+    "zips": [
+      "11201",
+      "11205",
+      "11215",
+      "11217",
+      "11231",
+      "11209",
+      "11228",
+      "11220",
+      "11229",
+      "11219",
+      "11232",
+      "11225",
+      "11226",
+      "11203",
+      "11204",
+      "11230",
+      "11235",
+      "11234",
+      "11210",
+      "11236",
+      "11224",
+      "11216"
+    ],
+    "email": "faig@remaxedgeny.com",
+    "name": "Faig Mikayilov, Broker Associate",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "Faig Mikayilov",
+    "for_sale_price": {
+      "count": 16,
+      "min": 189000,
+      "max": 1150000,
+      "last_listing_date": "2023-01-11T20:54:36Z"
+    },
+    "recently_sold": {
+      "count": 38,
+      "min": 125000,
+      "max": 1752000,
+      "last_sold_date": "2022-12-13"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "3255 Francis Lewis Blvd",
+      "line2": "",
+      "city": "Flushing",
+      "postal_code": "11358",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 4642383,
+    "agent_rating": 5,
+    "broker": {
+      "fulfillment_id": 3131580,
+      "designations": [],
+      "name": "Keller Williams Rlty Landmark -  Broker",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "I was raised to believe that if you make your business about helping others, there will always be work to be done.  My entire professional life has been in service to those in my community.  I once heard a quote by Jay Danzie that said “your smile is your logo, your personality is your business card, and how you leave others feeling after having an experience with you becomes your trademark”.   In essence, that is the way I always want my clients to remember me.\n\nWorking in the retail industry for ten years afforded me the knowledge and skills I needed to be successful in real estate: maintaining client relations, openly and honestly communicating, problem-solving, negotiations, and digital marketing skills.\n\n As a licensed real estate salesperson, I have the pleasure of working with sellers and buyers to ensure their real estate needs are exceeded.  My value proposition is quite simple:  Represent my clients with honesty, integrity, and professionalism and deliver on providing the ultimate customer experience. \n\nI am passionate about building lifelong relationships so when you hire me, you not only get a professional who will support your goals and dreams throughout the transaction but will gain a friend you can count on whenever you need guidance.\n\n",
+    "designations": [],
+    "first_month": 11,
+    "first_year": 2021,
+    "has_photo": true,
+    "id": "61850ae1b0fb384775317b02",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Fri, 06 Jan 2023 20:45:48 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Flushing_NY",
+        "name": "Flushing",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "216825"
+        },
+        "abbreviation": "LINY",
+        "type": "A",
+        "primary": true
+      }
+    ],
+    "nar_only": 1,
+    "nrds_id": "641664349",
+    "office": {
+      "name": "Keller Williams Rlty Landmark",
+      "mls": [
+        {
+          "member": {
+            "id": "117660"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "KEWL01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "1873"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 475-2700",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7184752700",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "website": "",
+      "video": null,
+      "fulfillment_id": 749213,
+      "address": {
+        "line": "3255 Francis Lewis Blvd",
+        "line2": "",
+        "city": "Flushing",
+        "postal_code": "11358",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "louiskwny@gmail.com",
+      "nrds_id": null
+    },
+    "party_id": 524892394,
+    "person_name": "Carl Franklyn Jr",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(929) 479-4791",
+        "type": "Mobile"
+      },
+      {
+        "ext": "",
+        "number": "(718) 475-2700",
+        "type": "Office"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/a65e01aa55ca9fd3f5b7f2b3e0caba61a-e1269793248s.jpg",
+      "is_zoomed": true
+    },
+    "recommendations_count": 0,
+    "review_count": 1,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Flushing",
+        "state_code": "NY"
+      },
+      {
+        "name": "New York",
+        "state_code": "NA"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "specializations": [],
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Carl-Franklyn-Jr_Flushing_NY_4642383_056533853",
+    "zips": ["11210", "11238", "11226", "11234", "11229", "11358"],
+    "email": "cfranklynhomes@kw.com",
+    "name": "Carl Franklyn Jr, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "Carl Franklyn Jr",
+    "title": "Agent",
+    "href": "http://cfranklynhomes.kw.com",
+    "for_sale_price": {
+      "count": 2,
+      "last_listing_date": "2023-01-11T05:22:27Z",
+      "max": 550000,
+      "min": 550000
+    },
+    "recently_sold": {
+      "count": 1,
+      "last_sold_date": "2023-01-05",
+      "max": 804000,
+      "min": 804000
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "8416 3 Rd Ave",
+      "line2": "",
+      "city": "Brooklyn",
+      "postal_code": "11209",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "US"
+    },
+    "advertiser_id": 1355755,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/1606446507/1edff85f4164207efe97af49474f92beg-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3185019,
+      "designations": [],
+      "name": "BEN BAY REALTY,CO. - Broker",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "As the Broker/Partner of Ben Bay Realty Co. of Bay Ridge, LLC & Ben Bay Realty Co. of Marine Park and now Ben Bay Realty Co. of Staten Island, I helped hundreds of clients either sell or buy their first or 20th Real Estate property.  I Love what I do for a living and want to share my passion for my business with you when you are searching or selling your property.  Let my vast experience benefit you on your Real Estate needs. \n\n\"Specializing in all your Real Estate needs®\"",
+    "designations": [],
+    "first_month": 0,
+    "first_name": "Charles",
+    "first_year": 2003,
+    "has_photo": true,
+    "href": "www.RealtorofNewYork.com",
+    "id": "56d06ee4e19d800100702b98",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Fabbella",
+    "last_updated": "Wed, 23 Nov 2022 04:50:17 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Jersey City_NJ",
+        "name": "Jersey City",
+        "state_code": "NJ"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "CF3684"
+        },
+        "id": 1212,
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631003405",
+    "office": {
+      "name": "BEN BAY REALTY CO OF BAY RIDGE, LLC",
+      "mls": [
+        {
+          "member": {
+            "id": "116071"
+          },
+          "id": 1212,
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "1201"
+          },
+          "id": 6072,
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 238-6080",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7182386080",
+          "ext": ""
+        }
+      },
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "website": "",
+      "video": null,
+      "fulfillment_id": 1358974,
+      "address": {
+        "line": "8416 3 Rd Ave",
+        "line2": "",
+        "city": "Brooklyn",
+        "postal_code": "11209",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "US"
+      },
+      "email": "sgirgenti@benbayre.com",
+      "nrds_id": null,
+      "feed_licenses": null,
+      "licenses": null
+    },
+    "party_id": 9088880,
+    "person_name": "Charles Fabbella",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(917) 453-0053",
+        "type": "Mobile"
+      },
+      {
+        "ext": "",
+        "number": "(718) 238-6080",
+        "type": "Office"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/1454317647/f42b32cfff7459cb7daf09556014827da-c0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "name": "New York",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "Specializing in all your Real Estate Needs®",
+    "specializations": [
+      {
+        "name": "Listings"
+      },
+      {
+        "name": "Buyers"
+      },
+      {
+        "name": "shortsales"
+      },
+      {
+        "name": "foreclosures"
+      },
+      {
+        "name": "sellers"
+      },
+      {
+        "name": "buyers agents"
+      },
+      {
+        "name": "consultation"
+      },
+      {
+        "name": "marketing"
+      },
+      {
+        "name": "advertising"
+      }
+    ],
+    "title": "Broker Associate",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Charles-Fabbella_Brooklyn_NY_1355755_495699863",
+    "zips": [
+      "11209",
+      "11228",
+      "11214",
+      "11220",
+      "11229",
+      "11232",
+      "11215",
+      "11218",
+      "11219",
+      "11204",
+      "11223",
+      "11224",
+      "11235",
+      "11234",
+      "11231",
+      "10301",
+      "10304",
+      "10312",
+      "10316",
+      "10314",
+      "10318",
+      "10309",
+      "10317",
+      "10307",
+      "10311",
+      "10313",
+      "10002",
+      "10004",
+      "10006",
+      "10005",
+      "10038",
+      "10280"
+    ],
+    "email": "caf256@aol.com",
+    "full_name": "Charles Fabbella",
+    "name": "Charles Fabbella, Broker Associate",
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 12,
+      "min": 317000,
+      "max": 1788000,
+      "last_listing_date": "2023-01-11T01:34:19Z"
+    },
+    "recently_sold": {
+      "count": 46,
+      "min": 222000,
+      "max": 10400000,
+      "last_sold_date": "2022-12-19"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "2568 East 17th Street",
+      "line2": "",
+      "city": "Brooklyn",
+      "postal_code": "11235",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 4735477,
+    "agent_rating": 5,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/747562f6bfc2dd207ed1b644e5827f8bg-c1292893017s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 2064303,
+      "designations": [],
+      "name": "Amerihomes Realty Of Ny, Inc. -  Broker",
+      "accent_color": "#fa5050",
+      "photo": {
+        "href": "https://ap.rdcpix.com/560098131/8eb60dd6e059bc1bf1f260251f1d7f01k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Alex Verdov is committed to listening to his client’s needs and utilizing his exceptional negotiating skills to ensure a successful transaction. Alex Verdov is a bilingual English and Russian speaking agent. He is committed to being a reliable, efficient, trustworthy, and hardworking agent for his clients.   \n\nRaised in Brooklyn NY, Alex is a local expert on the different communities and various entertainment this city has to offer. Alex Verdov graduated from John Jay College of Criminal Justice with a Bachelor of Science degree in Criminal Justice. Alex joined the field of Real Estate when discovering his passion for the market, real estate law, property investment, and helping others find their dream homes. He is always ahead of the competition, well-informed, current, and equipped for any transaction in the Real Estate industry. He will work hard to meet your needs and ensure that you are getting the best possible deal while providing excellent customer service.  \n\nAlex Verdov is ready to exceed your expectations. Please call him directly at\n(917) 615-9775 for inquires, questions, or any guidance you may need.",
+    "designations": [],
+    "first_month": 1,
+    "first_year": 2020,
+    "has_photo": true,
+    "href": "http://www.amerihomesrealty.com/",
+    "id": "61fa99e71812061730b5c6ca",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Tue, 29 Nov 2022 20:22:38 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "ASV3181"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      }
+    ],
+    "nar_only": 1,
+    "nrds_id": "631010998",
+    "office": {
+      "name": "AMERIHOMES REALTY OF NY, INC.",
+      "mls": [
+        {
+          "member": {
+            "id": "117091"
+          },
+          "id": 1212,
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 891-2626",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "(718) 891-2626",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "http://ap.rdcpix.com/349433222/65c780c88892946a89a4b015176452a6o-c0o.jpg"
+      },
+      "slogan": "Fluent in Real Estate Sales",
+      "website": "AmeriHomesReaty.com",
+      "video": null,
+      "fulfillment_id": 1556615,
+      "address": {
+        "line": "2568 East 17th Street",
+        "line2": "",
+        "city": "Brooklyn",
+        "postal_code": "11235",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "4472626@gmail.com",
+      "nrds_id": null
+    },
+    "party_id": 526864198,
+    "person_name": "Alex S. Verdov",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(917) 615-9775",
+        "type": "Mobile",
+        "key": "phone_1"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/1ae5c73896101810f2d2ee57ee4bbc66a-c1799443055s.jpg",
+      "is_zoomed": true
+    },
+    "recommendations_count": 15,
+    "review_count": 13,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NA"
+      },
+      {
+        "name": "Manhattan",
+        "state_code": "NA"
+      },
+      {
+        "name": "Queens",
+        "state_code": "NA"
+      },
+      {
+        "name": "Long Island.",
+        "state_code": "NA"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "specializations": [
+      {
+        "name": "short sale"
+      },
+      {
+        "name": "foreclosure"
+      },
+      {
+        "name": "buyer's agent"
+      },
+      {
+        "name": "seller's agent"
+      },
+      {
+        "name": "marketing"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": ["Russian", "English"],
+    "web_url": "https://www.realtor.com/realestateagents/Alex-S.-Verdov_Brooklyn_NY_4735477_100989863",
+    "zips": ["11235", "11229", "11224", "11223", "11234", "11214"],
+    "email": "verdovalex@gmail.com",
+    "name": "Alex S. Verdov, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "Alex S. Verdov",
+    "for_sale_price": {
+      "count": 2,
+      "min": 219000,
+      "max": 449000,
+      "last_listing_date": "2023-01-10T21:01:25Z"
+    },
+    "recently_sold": {
+      "count": 1,
+      "last_sold_date": "2022-11-16",
+      "max": 542500,
+      "min": 542500
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 1466100,
+    "agent_rating": 5,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/129758423/dd6785d31433d74cf3df0570877d2741g-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Marilee and Bill Pettet have worked to provide the best customer service to their clients for over thirty three years. Marilee and Bill are exceptionally well known and respected in the Brooklyn community. Thanks to their exceptionally loyal clientele, personal referrals and repeat business form the foundation of their business model. Marilee and Bill developed a full service, customer service oriented team of real estate professionals to ensure efficient, complete service for their clients. The Pettet Team leverages exceptional customer service, knowledgeable analysis of property values and market trends, ethics, and education to provide the highest levels of client satisfaction.",
+    "designations": [],
+    "first_month": 7,
+    "first_name": "Top",
+    "first_year": 1985,
+    "has_photo": true,
+    "href": "www.thepettetteam.com",
+    "id": "5673d4e30fa417010071cf51",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Top",
+    "last_updated": "Thu, 17 Nov 2022 16:01:18 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "REMAXEDGE29"
+        },
+        "abbreviation": "BDNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "PETEE5748"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "202327"
+        },
+        "abbreviation": "LINY",
+        "type": "A",
+        "primary": true,
+        "license_number": "30PE0563860"
+      },
+      {
+        "member": {
+          "id": "30292"
+        },
+        "abbreviation": "RPNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "115398"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [
+      {
+        "member": {
+          "id": "OLRS-87543"
+        },
+        "inactivation_date": "2021-11-03T14:58:27.000Z",
+        "abbreviation": "RBNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "RLMX-0126429"
+        },
+        "inactivation_date": "2021-11-02T23:05:04.000Z",
+        "abbreviation": "RBNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "RPLU-7527"
+        },
+        "inactivation_date": "2021-11-02T23:39:15.000Z",
+        "abbreviation": "RBNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "RBNY-65923"
+        },
+        "inactivation_date": "2022-08-03T01:57:40.000Z",
+        "abbreviation": "RBNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631090052",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610",
+      "party_id": "418540303",
+      "feed_licenses": null,
+      "licenses": null
+    },
+    "party_id": 31263417,
+    "person_name": "Marilee Pettet",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 415-4858",
+        "type": "Mobile"
+      },
+      {
+        "ext": "",
+        "number": "(718) 288-3835",
+        "type": "Office"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/1662374885/0d8d01c3bdcb755799a2e8a3562f55fea-e0s.jpg"
+    },
+    "recommendations_count": 26,
+    "review_count": 1,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": true,
+      "terms_of_use": true,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": true,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false,
+        "listingmanager-movephoto": false,
+        "listingmanager-shared-dismissed": true
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "Better done than Better said/",
+    "specializations": [
+      {
+        "name": "Residential"
+      },
+      {
+        "name": "Co-op"
+      },
+      {
+        "name": "Condos"
+      },
+      {
+        "name": "Investors"
+      },
+      {
+        "name": "First time home buyers"
+      },
+      {
+        "name": "First Time home buyers"
+      },
+      {
+        "name": "co-op sales"
+      },
+      {
+        "name": "condos"
+      },
+      {
+        "name": "investors"
+      }
+    ],
+    "title": "Broker Associate",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Marilee-Pettet_BROOKLYN_NY_1466100_749909863",
+    "zips": [
+      "11209",
+      "11205",
+      "11206",
+      "11216",
+      "11221",
+      "11233",
+      "11204",
+      "11214",
+      "11201",
+      "11217",
+      "11219",
+      "11235",
+      "11210",
+      "11213",
+      "11212",
+      "11237",
+      "11236",
+      "11231",
+      "11224",
+      "11225",
+      "11208",
+      "11218",
+      "11228",
+      "11203",
+      "11207",
+      "11226",
+      "11234",
+      "11223",
+      "11222",
+      "11232",
+      "11229",
+      "11230",
+      "11215",
+      "11238",
+      "11239",
+      "11220",
+      "11211"
+    ],
+    "email": "thepettetteam@gmail.com",
+    "full_name": "Marilee Pettet",
+    "name": "Marilee Pettet, Broker Associate",
+    "agent_type": ["seller", "buyer"],
+    "social_media": {},
+    "areas_of_business": [],
+    "video": null,
+    "product_code": null,
+    "products": null,
+    "raw_products": null,
+    "data_flags": null,
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 22,
+      "min": 279000,
+      "max": 1725000,
+      "last_listing_date": "2023-01-10T20:42:25Z"
+    },
+    "recently_sold": {
+      "count": 52,
+      "min": 225000,
+      "max": 1499000,
+      "last_sold_date": "2022-12-14"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 3293368,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/1540270403/25fad7cc551bf0574fb92d5f30ab9624g-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "May began her career as a successful business women at a young age, starting a beauty salon in China in 2003. Over the next seven years May learned the art of selling products and how to manage a prosperous business. She moved to New York City in 2010 to advance her opportunities, and decided to pursue real estate after being inspired by the success and passion of Michael Napolitano.\n\nMay specializes as a buyer's agent and listing agent and enjoys connecting the two. She is also fluent in English, Cantonese and Mandarin",
+    "designations": [],
+    "first_month": 0,
+    "first_year": 2017,
+    "has_photo": true,
+    "href": "https://May.RemaxEdgeNY.com",
+    "id": "5a538ac680a184001353c0fc",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Thu, 17 Nov 2022 02:29:47 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "SL4755"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "114822"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [
+      {
+        "member": {
+          "id": "202167"
+        },
+        "inactivation_date": "2021-02-11T14:07:45.000Z",
+        "abbreviation": "LINY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "17501"
+        },
+        "inactivation_date": "2022-04-02T17:46:41.000Z",
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": false,
+        "license_number": "10401333420"
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631007913",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610"
+    },
+    "party_id": 395115839,
+    "person_name": "May(Sumei) Lan",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 450-4415",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/626708506/c508bb149abd44352dec0ebc19c5c8c6a-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "",
+    "specializations": [
+      {
+        "name": "BUYER'S AGENT"
+      },
+      {
+        "name": "LISTING AGENT"
+      },
+      {
+        "name": "RELOCATION"
+      },
+      {
+        "name": "Luxury homes"
+      },
+      {
+        "name": "Multi-family"
+      },
+      {
+        "name": "Coop"
+      },
+      {
+        "name": "Condo"
+      },
+      {
+        "name": "Residential"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/May(Sumei)-Lan_BROOKLYN_NY_3293368_680299863",
+    "zips": [
+      "11212",
+      "11213",
+      "11216",
+      "11233",
+      "11238",
+      "11209",
+      "11214",
+      "11228",
+      "11204",
+      "11218",
+      "11219",
+      "11230",
+      "11234",
+      "11236",
+      "11239",
+      "11223",
+      "11224",
+      "11229",
+      "11235",
+      "11201",
+      "11205",
+      "11215",
+      "11217",
+      "11231",
+      "11203",
+      "11210",
+      "11225",
+      "11226",
+      "11207",
+      "11208",
+      "11211",
+      "11222",
+      "11220",
+      "11232",
+      "11206",
+      "11221",
+      "10302",
+      "10306",
+      "10304",
+      "10308"
+    ],
+    "email": "may@remaxedgeny.com",
+    "name": "May(Sumei) Lan, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "May(Sumei) Lan",
+    "for_sale_price": {
+      "count": 8,
+      "min": 589000,
+      "max": 2999000,
+      "last_listing_date": "2023-01-10T19:42:26Z"
+    },
+    "recently_sold": {
+      "count": 60,
+      "min": 299000,
+      "max": 1950000,
+      "last_sold_date": "2023-01-09"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "261 4TH AVENUE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11215-1817",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 1245403,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/18bf2a3d0c8f10e93c7ce05568408028g-c972475634s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 0,
+      "designations": [],
+      "name": null,
+      "accent_color": null,
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "Top Producing Real Estate Broker with over 20 years experience in the real estate industry. Honest and hardworking realtor who's goal is to meet and exceed her clients expectations. Professional realtor who will negotiate the best deals for her clients without compromising her integrity. Experience in  Residential & Commercial Sales, Mixed Use Building Sales, Coops & Condo Sales, Property Management.  Born and raised in Brooklyn, studied finance in college. If your thinking of selling, buying or leasing, call me today! \nFree Market Appraisals using the latest tools in the industry giving clients accurate information. \nReferrals by request from past clients.\nProud Member of  Brooklyn MLS, RE/MAX,\nTop Producing Real Estate Broker \nRE/MAX Sales Award Winner 2014, 2015,2016,2018,2019,2020,2021\n \nAthanasia (Sia) DiMaggio \nLicensed Real Estate Broker \nRE/MAX Real Estate Professionals\n261 4th Avenue Brooklyn, NY 11215 \n8402 20th Avenue, Brooklyn, NY 11214\n\nCall me today for all your real estate needs!",
+    "designations": [],
+    "first_month": 1,
+    "first_name": "Athanasia",
+    "first_year": 1996,
+    "has_photo": true,
+    "href": "www.siadimaggio.com",
+    "id": "569d7c560fa417010073e4d1",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "DiMaggio",
+    "last_updated": "Thu, 17 Nov 2022 16:15:20 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "AD8608"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [
+      {
+        "member": {
+          "id": "153152"
+        },
+        "inactivation_date": "2022-11-01T09:32:16.000Z",
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "Sia",
+    "nrds_id": "631003109",
+    "office": {
+      "name": "Re/Max Real Estate Professiona",
+      "mls": [
+        {
+          "member": {
+            "id": "114610"
+          },
+          "id": 1212,
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "5468"
+          },
+          "id": 6072,
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 532-2000",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7185322000",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/3b2137f823809242c69e20b3160c5401o-c3665447206o.jpg",
+        "is_zoomed": null
+      },
+      "slogan": "",
+      "website": null,
+      "video": null,
+      "fulfillment_id": 1513599,
+      "address": {
+        "line": "261 4TH AVENUE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11215-1817",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "hugosalazar@msn.com",
+      "nrds_id": null
+    },
+    "party_id": 1446797,
+    "person_name": "Athanasia (Sia) DiMaggio",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(646) 463-0896",
+        "type": "Mobile",
+        "key": "phone_1"
+      },
+      {
+        "ext": "",
+        "number": "(718) 768-0111",
+        "type": "Office",
+        "key": "phone_2"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/363678166/61426c0d01771b6b282007edcd833caea-c0o.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "name": "NYC",
+        "state_code": "NA"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "Buy with confidence, Sell with Success",
+    "specializations": [
+      {
+        "name": "Residential & Commercial Sales"
+      }
+    ],
+    "title": "Broker",
+    "types": "agent",
+    "user_languages": ["Greek"],
+    "web_url": "https://www.realtor.com/realestateagents/Athanasia-(Sia)-DiMaggio_BROOKLYN_NY_1245403_098699863",
+    "zips": [
+      "11223",
+      "11215",
+      "11209",
+      "11224",
+      "11204",
+      "11228",
+      "11201",
+      "11220",
+      "11232",
+      "11235",
+      "11236",
+      "11234",
+      "11229",
+      "10309",
+      "11214",
+      "11225",
+      "11230"
+    ],
+    "email": "siadimaggio@yahoo.com",
+    "full_name": "Athanasia (Sia) DiMaggio",
+    "name": "Athanasia (Sia) DiMaggio, Broker",
+    "agent_type": ["seller"],
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 3,
+      "min": 659000,
+      "max": 1399000,
+      "last_listing_date": "2023-01-10T19:40:10Z"
+    },
+    "recently_sold": {
+      "count": 17,
+      "min": 185000,
+      "max": 2020000,
+      "last_sold_date": "2023-01-09"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "2632 East 21 St, Suite 3 ",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11235",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 1446301,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/247504774/336a4d43ead16b2be9806a79c26632edg-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3732311,
+      "designations": [],
+      "name": "KORR REALTY - Broker",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "From your first home to your dream home, We are here to help. Come in to our office and talk to a friendly agent, or give us a call and end your search for a place you can truly call your own.\n\nAt KORR Realty, we excel in giving our clients the attention and care they deserve. Selling or buying a house is a big deal, and we take the responsibility of selling or buying your house very seriously. Our agents have an unmatched local knowledge of the real estate market in Brooklyn, including Brighton Beach, Sheepshead Bay, Bensonhurst, Midwood, and Bergen Beach areas and can help you to get the best price for your home. Give us a call today!",
+    "designations": [],
+    "first_month": 1,
+    "first_name": "Inna",
+    "first_year": 1987,
+    "has_photo": true,
+    "href": "https://matrix.bnymls.com/Matrix/Public/AWP/innarosentsveyg?fbclid=IwAR1raPgHJgfrQBfzQXir5jYsq0hWIodKQ6yKghwxkDtwfwVad32jcA7Fm9o",
+    "id": "5673a24b0fa417010071afb5",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Rosentsveyg",
+    "last_updated": "Thu, 17 Nov 2022 02:29:45 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "ROSNE5882"
+        },
+        "id": 1212,
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "INNA",
+    "nrds_id": "631101381",
+    "office": {
+      "name": "KORR REALTY",
+      "mls": [
+        {
+          "member": {
+            "id": "111890"
+          },
+          "id": 1212,
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 891-8600",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "(718) 891-8600",
+          "ext": ""
+        }
+      },
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "website": null,
+      "video": null,
+      "fulfillment_id": 1513522,
+      "address": {
+        "line": "2632 East 21 St, Suite 3 ",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11235",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "innakorr@hotmail.com",
+      "nrds_id": "631100901",
+      "feed_licenses": null,
+      "licenses": null
+    },
+    "party_id": 3347479,
+    "person_name": "Inna Rosentsveyg",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 891-8600",
+        "type": "Office"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/357035702/0f56f93eb225c736f5f6a5ac790d3620a-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": true,
+      "show_stream": true,
+      "terms_of_use": true,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": true,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false,
+        "listingmanager-movephoto": false,
+        "listingmanager-shared-dismissed": true
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "Our Business is People, Our Product is Real Estate, Our Values Are Honesty",
+    "specializations": [
+      {
+        "name": "Listings"
+      },
+      {
+        "name": "Sales"
+      },
+      {
+        "name": "New Constructions"
+      },
+      {
+        "name": "Market Analysis"
+      },
+      {
+        "name": "Existing Homes"
+      },
+      {
+        "name": "Condominiums"
+      },
+      {
+        "name": "Coops"
+      },
+      {
+        "name": "Multifamily"
+      },
+      {
+        "name": "Multi-Family"
+      }
+    ],
+    "title": "Broker/Owner",
+    "types": "agent",
+    "user_languages": ["Russian"],
+    "web_url": "https://www.realtor.com/realestateagents/Inna-Rosentsveyg_BROOKLYN_NY_1446301_816898863",
+    "zips": [
+      "11209",
+      "11214",
+      "11224",
+      "11223",
+      "11229",
+      "11235",
+      "11234",
+      "11230"
+    ],
+    "email": "innakorr@hotmail.com",
+    "full_name": "Inna Rosentsveyg",
+    "name": "Inna Rosentsveyg, Broker/Owner",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 16,
+      "min": 169900,
+      "max": 999000,
+      "last_listing_date": "2023-01-10T00:36:22Z"
+    },
+    "recently_sold": {
+      "count": 49,
+      "min": 132500,
+      "max": 900000,
+      "last_sold_date": "2022-12-12"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "8508 3rd Avenue",
+      "line2": "",
+      "city": "Brooklyn",
+      "postal_code": "11209",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "US"
+    },
+    "advertiser_id": 1859437,
+    "agent_rating": 5,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/8060e0ad84b759bb608dd9608524fb11g-c3187788134s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3132351,
+      "designations": [],
+      "name": "KELLER WILLIAMS REALTY EMPIRE -  Broker",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "Charles Olson is a Brooklyn native who still calls the borough home. He never felt the need to leave since Brooklyn’s amenities, the beaches, the parks, and Manhattan itself, have given him a reason to stay.\n\nWhen it comes to helping Brooklyn residents sell their property, Olson is the go-to person. As a Real Estate ELP, he is RamseyTrusted with Brooklyn real estate, which means he is recommended as a real estate professional by noted businessman and personal finance consultant, Dave Ramsey. By being RamseyTrusted, Olson focuses on serving rather than selling and goes alongside his clients on their journey from start to finish. He uses the word “proactive” to describe how he helps and takes all things into consideration to help property owners sell. He also is proactive in helping buyers make the right decision when it comes to buying their new home. Olson even helps people invest in property and helps them to protect their assets with real estate. \n\nHe does all this by focusing on the needs of his clients, and doing whatever it takes to help them. At the same time, he seeks to help his clients see “the big picture” when it comes to moving by helping them take all things into consideration when it comes to selling their property, from pricing the place to weighing-in offers to getting over any obstacles standing in a seller’s way.",
+    "designations": [],
+    "first_month": 1,
+    "first_name": "Charles",
+    "first_year": 2007,
+    "has_photo": true,
+    "href": "https://runnyc.kw.com/",
+    "id": "56b34ba40fa417010074d2fb",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Olson",
+    "last_updated": "Sat, 19 Nov 2022 19:42:31 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Long Island City_NY",
+        "name": "Long Island City",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Astoria_NY",
+        "name": "Astoria",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Sunnyside_NY",
+        "name": "Sunnyside",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Flushing_NY",
+        "name": "Flushing",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "College Point_NY",
+        "name": "College Point",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Bronx_NY",
+        "name": "Bronx",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Whitestone_NY",
+        "name": "Whitestone",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Bayside_NY",
+        "name": "Bayside",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Little Neck_NY",
+        "name": "Little Neck",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Great Neck Estates_NY",
+        "name": "Great Neck Estates",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Oakland Gardens_NY",
+        "name": "Oakland Gardens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Bayside Hills_NY",
+        "name": "Bayside Hills",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Hollis Hills_NY",
+        "name": "Hollis Hills",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Fresh Meadows_NY",
+        "name": "Fresh Meadows",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Corona_NY",
+        "name": "Corona",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "East Elmhurst_NY",
+        "name": "East Elmhurst",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "La Guardia Airport_NY",
+        "name": "La Guardia Airport",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Jackson Heights_NY",
+        "name": "Jackson Heights",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Elmhurst_NY",
+        "name": "Elmhurst",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Rego Park_NY",
+        "name": "Rego Park",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Forest Hills_NY",
+        "name": "Forest Hills",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Woodside_NY",
+        "name": "Woodside",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Maspeth_NY",
+        "name": "Maspeth",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Middle Village_NY",
+        "name": "Middle Village",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Ridgewood_NY",
+        "name": "Ridgewood",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Jamaica_NY",
+        "name": "Jamaica",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Cambria Heights_NY",
+        "name": "Cambria Heights",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Springfield Gardens_NY",
+        "name": "Springfield Gardens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Howard Beach_NY",
+        "name": "Howard Beach",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Kew Gardens_NY",
+        "name": "Kew Gardens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Ozone Park_NY",
+        "name": "Ozone Park",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Richmond Hill_NY",
+        "name": "Richmond Hill",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "South Richmond Hill_NY",
+        "name": "South Richmond Hill",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "South Ozone Park_NY",
+        "name": "South Ozone Park",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Woodhaven_NY",
+        "name": "Woodhaven",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Rosedale_NY",
+        "name": "Rosedale",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Woodmere_NY",
+        "name": "Woodmere",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Hollis_NY",
+        "name": "Hollis",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Rochdale Village_NY",
+        "name": "Rochdale Village",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Addisleigh Park_NY",
+        "name": "Addisleigh Park",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Bellerose Terrace_NY",
+        "name": "Bellerose Terrace",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Bellerose Manor_NY",
+        "name": "Bellerose Manor",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens Village_NY",
+        "name": "Queens Village",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Jfk Airport_NY",
+        "name": "Jfk Airport",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "John F Kennedy Airport_NY",
+        "name": "John F Kennedy Airport",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Far Rockaway_NY",
+        "name": "Far Rockaway",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Wave Crest_NY",
+        "name": "Wave Crest",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Edgemere_NY",
+        "name": "Edgemere",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Arverne_NY",
+        "name": "Arverne",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Broad Channel_NY",
+        "name": "Broad Channel",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Rockaway Park_NY",
+        "name": "Rockaway Park",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Breezy Point_NY",
+        "name": "Breezy Point",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Rockaway Point_NY",
+        "name": "Rockaway Point",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Bellerose_NY",
+        "name": "Bellerose",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "CO3684"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "130055"
+        },
+        "abbreviation": "LINY",
+        "type": "A",
+        "primary": false,
+        "license_number": "10491204283"
+      },
+      {
+        "member": {
+          "id": "30285"
+        },
+        "abbreviation": "RPNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "14457"
+        },
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": false,
+        "license_number": "10491204283"
+      },
+      {
+        "member": {
+          "id": "87238"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [
+      {
+        "member": {
+          "id": "OLRS-72773"
+        },
+        "inactivation_date": "2021-11-03T17:32:08.000Z",
+        "abbreviation": "RBNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "24457"
+        },
+        "inactivation_date": "2021-04-03T19:29:07.000Z",
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "641629235",
+    "office": {
+      "name": "KELLER WILLIAMS REALTY EMPIRE",
+      "mls": [
+        {
+          "member": {
+            "id": "117340"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true,
+          "license_number": ""
+        },
+        {
+          "member": {
+            "id": "KLLR01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false,
+          "license_number": ""
+        },
+        {
+          "member": {
+            "id": "10910"
+          },
+          "abbreviation": "SINY",
+          "type": "O",
+          "primary": false,
+          "license_number": ""
+        },
+        {
+          "member": {
+            "id": "17292"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false,
+          "license_number": ""
+        },
+        {
+          "member": {
+            "id": "6349"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false,
+          "license_number": ""
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 954-8400",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7189548400",
+          "ext": ""
+        }
+      },
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "website": "",
+      "video": null,
+      "fulfillment_id": 3208915,
+      "address": {
+        "line": "8508 3rd Avenue",
+        "line2": "",
+        "city": "Brooklyn",
+        "postal_code": "11209",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "US"
+      },
+      "email": "cardenas@kw.com",
+      "nrds_id": null,
+      "feed_licenses": [],
+      "licenses": []
+    },
+    "party_id": 48069100,
+    "person_name": "Charles Olson",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(917) 836-1050",
+        "type": "Mobile",
+        "key": "phone_1"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/a897b4bb6fe64c9823591cd596c46dd7a-e276120582s.jpg",
+      "is_zoomed": false
+    },
+    "recommendations_count": 26,
+    "review_count": 3,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "name": "Long Island City",
+        "state_code": "NY"
+      },
+      {
+        "name": "Astoria",
+        "state_code": "NY"
+      },
+      {
+        "name": "Sunnyside",
+        "state_code": "NY"
+      },
+      {
+        "name": "Flushing",
+        "state_code": "NY"
+      },
+      {
+        "name": "College Point",
+        "state_code": "NY"
+      },
+      {
+        "name": "Whitestone",
+        "state_code": "NY"
+      },
+      {
+        "name": "Bayside",
+        "state_code": "NY"
+      },
+      {
+        "name": "Little Neck",
+        "state_code": "NY"
+      },
+      {
+        "name": "Oakland Gardens",
+        "state_code": "NY"
+      },
+      {
+        "name": "Fresh Meadows",
+        "state_code": "NY"
+      },
+      {
+        "name": "Corona",
+        "state_code": "NY"
+      },
+      {
+        "name": "East Elmhurst",
+        "state_code": "NY"
+      },
+      {
+        "name": "Jackson Heights",
+        "state_code": "NY"
+      },
+      {
+        "name": "Elmhurst",
+        "state_code": "NY"
+      },
+      {
+        "name": "Rego Park",
+        "state_code": "NY"
+      },
+      {
+        "name": "Forest Hills",
+        "state_code": "NY"
+      },
+      {
+        "name": "Woodside",
+        "state_code": "NY"
+      },
+      {
+        "name": "Maspeth",
+        "state_code": "NY"
+      },
+      {
+        "name": "Middle Village",
+        "state_code": "NY"
+      },
+      {
+        "name": "Ridgewood",
+        "state_code": "NY"
+      },
+      {
+        "name": "Jamaica",
+        "state_code": "NY"
+      },
+      {
+        "name": "Cambria Heights",
+        "state_code": "NY"
+      },
+      {
+        "name": "Springfield Gardens",
+        "state_code": "NY"
+      },
+      {
+        "name": "Howard Beach",
+        "state_code": "NY"
+      },
+      {
+        "name": "Kew Gardens",
+        "state_code": "NY"
+      },
+      {
+        "name": "Ozone Park",
+        "state_code": "NY"
+      },
+      {
+        "name": "Richmond Hill",
+        "state_code": "NY"
+      },
+      {
+        "name": "South Richmond Hill",
+        "state_code": "NY"
+      },
+      {
+        "name": "South Ozone Park",
+        "state_code": "NY"
+      },
+      {
+        "name": "Woodhaven",
+        "state_code": "NY"
+      },
+      {
+        "name": "Rosedale",
+        "state_code": "NY"
+      },
+      {
+        "name": "Hollis",
+        "state_code": "NY"
+      },
+      {
+        "name": "Bellerose",
+        "state_code": "NY"
+      },
+      {
+        "name": "Queens Village",
+        "state_code": "NY"
+      },
+      {
+        "name": "Far Rockaway",
+        "state_code": "NY"
+      },
+      {
+        "name": "Arverne",
+        "state_code": "NY"
+      },
+      {
+        "name": "Rockaway Park",
+        "state_code": "NY"
+      },
+      {
+        "name": "Breezy Point",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": true,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "Going The Distance To Serve You Better",
+    "specializations": [
+      {
+        "name": "Residential Sales"
+      },
+      {
+        "name": "First-Time Home Buyers"
+      },
+      {
+        "name": "Listing Agent"
+      },
+      {
+        "name": "Investment Property"
+      },
+      {
+        "name": "Buyers Agent"
+      },
+      {
+        "name": "Upsizing"
+      },
+      {
+        "name": "Downsizing"
+      },
+      {
+        "name": "Relocation"
+      },
+      {
+        "name": "Second Home"
+      },
+      {
+        "name": "Vacation Home"
+      },
+      {
+        "name": "Waterfront"
+      },
+      {
+        "name": "Pre-Construction"
+      },
+      {
+        "name": "Condo"
+      },
+      {
+        "name": "Multi-Family"
+      },
+      {
+        "name": "Rentals"
+      },
+      {
+        "name": "Estate"
+      },
+      {
+        "name": "Luxury Property"
+      },
+      {
+        "name": "Pied-a-terre"
+      }
+    ],
+    "title": "Broker/Owner",
+    "types": "agent",
+    "user_languages": ["Spanish"],
+    "web_url": "https://www.realtor.com/realestateagents/Charles-Olson_Brooklyn_NY_1859437_467073853",
+    "zips": [
+      "11209",
+      "11210",
+      "11215",
+      "11218",
+      "11217",
+      "11234",
+      "11201",
+      "11203",
+      "11204",
+      "11205",
+      "11206",
+      "11207",
+      "11208",
+      "11211",
+      "11212",
+      "11213",
+      "11214",
+      "11216",
+      "11219",
+      "11220",
+      "11221",
+      "11222",
+      "11223",
+      "11224",
+      "11225",
+      "11226",
+      "11228",
+      "11229",
+      "11230",
+      "11231",
+      "11232",
+      "11233",
+      "11235",
+      "11236",
+      "11237",
+      "11238",
+      "11239",
+      "10301",
+      "10302",
+      "10303",
+      "10304",
+      "10305",
+      "10306",
+      "10307",
+      "10308",
+      "10309",
+      "10310",
+      "10311",
+      "10312",
+      "10313",
+      "10314",
+      "11101",
+      "11102",
+      "11103",
+      "11104",
+      "11106",
+      "11109",
+      "11120",
+      "11351",
+      "11352",
+      "11354",
+      "11355",
+      "11356",
+      "11357",
+      "11358",
+      "11359",
+      "11360",
+      "11361",
+      "11362",
+      "11363",
+      "11364",
+      "11365",
+      "11366",
+      "11367",
+      "11368",
+      "11369",
+      "11370",
+      "11371",
+      "11372",
+      "11373",
+      "11374",
+      "11375",
+      "11377",
+      "11378",
+      "11379",
+      "11380",
+      "11381",
+      "11385",
+      "11386",
+      "11405",
+      "11411",
+      "11413",
+      "11414",
+      "11415",
+      "11416",
+      "11417",
+      "11418",
+      "11419",
+      "11420",
+      "11421",
+      "11422",
+      "11423",
+      "11424",
+      "11425",
+      "11426",
+      "11427",
+      "11428",
+      "11429",
+      "11430",
+      "11431",
+      "11432",
+      "11433",
+      "11434",
+      "11435",
+      "11436",
+      "11439",
+      "11451",
+      "11690",
+      "11691",
+      "11692",
+      "11693",
+      "11694",
+      "11695",
+      "11697"
+    ],
+    "email": "charles@runnyc.com",
+    "full_name": "Charles Olson",
+    "name": "Charles Olson, Broker/Owner",
+    "social_media": {
+      "facebook": {
+        "href": "http://www.facebook.com/1060671459",
+        "type": "facebook"
+      }
+    },
+    "agent_type": ["buyer", "seller"],
+    "areas_of_business": [],
+    "video": null,
+    "product_code": null,
+    "products": null,
+    "raw_products": null,
+    "data_flags": null,
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 17,
+      "min": 140000,
+      "max": 1615000,
+      "last_listing_date": "2022-12-02T18:01:42Z"
+    },
+    "recently_sold": {
+      "count": 108,
+      "min": 45000,
+      "max": 2400000,
+      "last_sold_date": "2023-01-09"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "2219 VOORHIES AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11235-2819",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 291003,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": ""
+    },
+    "broker": {
+      "fulfillment_id": 0,
+      "designations": [],
+      "name": "",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "",
+    "designations": [
+      {
+        "name": "GRI"
+      },
+      {
+        "name": "EPRO"
+      }
+    ],
+    "first_month": 0,
+    "first_name": "Katherine",
+    "first_year": 0,
+    "has_photo": true,
+    "href": "http://www.BrightHorizonsRealty.com",
+    "id": "56b366e489a68901006cd14d",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Pontone",
+    "last_updated": "Thu, 17 Nov 2022 02:40:16 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "PONNE1149"
+        },
+        "id": 1212,
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": false
+      },
+      {
+        "member": {
+          "id": "9182"
+        },
+        "id": 604,
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": false
+      },
+      {
+        "member": {
+          "id": "59308"
+        },
+        "id": 6072,
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": true
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631017056",
+    "office": {
+      "name": "Bright Horizons Realty Inc",
+      "mls": [
+        {
+          "member": {
+            "id": "3340"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": "true"
+        },
+        {
+          "member": {
+            "id": "110340"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": "false"
+        },
+        {
+          "member": {
+            "id": "03701"
+          },
+          "abbreviation": "SINY",
+          "type": "O",
+          "primary": "false"
+        }
+      ],
+      "phones": [
+        {
+          "ext": null,
+          "number": "(718) 615-1441",
+          "type": null
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "number": "(718) 615-1441"
+        }
+      },
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "website": "WWW.BRIGHTHORIZONSREALTY.COM",
+      "video": "",
+      "fulfillment_id": 0,
+      "address": {
+        "line": "2219 VOORHIES AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11235-2819",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "kpontone@brighthorizonsrealty.com",
+      "feed_licenses": [],
+      "licenses": []
+    },
+    "party_id": 4651811,
+    "person_name": "Katherine A. Pontone, e-PRO",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 615-1441",
+        "type": "Office",
+        "key": "phone_1"
+      }
+    ],
+    "photo": {
+      "href": "https://d260ckbc6brolt.cloudfront.net/prosoft-ui/releases/v1.0.2/img/avatar.svg",
+      "is_zoomed": true
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": true,
+      "terms_of_use": true,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": true,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false,
+        "listingmanager-movephoto": false,
+        "listingmanager-shared-dismissed": true
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "",
+    "specializations": [
+      {
+        "name": "Residental Sales & Rentals"
+      }
+    ],
+    "title": "",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Katherine-A.-Pontone,-e-PRO_BROOKLYN_NY_291003_349289863",
+    "zips": [
+      "10305",
+      "10306",
+      "10307",
+      "10308",
+      "10309",
+      "10310",
+      "10312",
+      "11210",
+      "11229",
+      "11234",
+      "11235",
+      "11236"
+    ],
+    "email": "Kpontone@BrightHorizonsRealty.com",
+    "full_name": "Katherine A. Pontone, e-PRO",
+    "name": "Katherine A. Pontone, e-PRO, ",
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 28,
+      "min": 179000,
+      "max": 1499000,
+      "last_listing_date": "2022-12-04T18:23:37Z"
+    },
+    "recently_sold": {
+      "count": 49,
+      "min": 145000,
+      "max": 1350000,
+      "last_sold_date": "2023-01-09"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "261 4TH AVENUE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11215-1817",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 1390313,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/904d3d1daabed9c60f27d4a1a2fe0497g-c1786141717s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 0,
+      "designations": [],
+      "name": null,
+      "accent_color": null,
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "I am Vito Angelo, a Licensed Real Estate Broker with over 21 years of experience within the New York real estate market. It has been a pleasure for me to help Sellers with a smooth transition and help buyers achieve the American Dream of home ownership.\nWith the unique tools of the trade that are accessible to me, I am able to market your property and sell it for top dollar. My Office is already working with buyers in your area. Each listing is marketed using Brooklyn’s multiple listing services (MLS), REBNY/OLR, NYS MLS, all local newspapers, many websites, and social media platforms. Every inquiry made on a property is handled quickly and efficiently.\nYour property will receive maximum exposure to buyers, guaranteed.",
+    "designations": [],
+    "first_month": 0,
+    "first_name": "Vito",
+    "first_year": 2000,
+    "has_photo": true,
+    "href": "http://www.vitoangelo.com",
+    "id": "56d0e89ae19d80010070567c",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Angelo",
+    "last_updated": "Thu, 17 Nov 2022 02:27:16 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "VITLO524"
+        },
+        "id": 1212,
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "office": {
+      "name": "Re/Max Real Estate Professiona",
+      "mls": [
+        {
+          "member": {
+            "id": "114610"
+          },
+          "id": 1212,
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "5468"
+          },
+          "id": 6072,
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 532-2000",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7185322000",
+          "ext": ""
+        }
+      },
+      "photo": {
+        "href": "https://ap.rdcpix.com/3b2137f823809242c69e20b3160c5401o-c3665447206o.jpg",
+        "is_zoomed": null
+      },
+      "slogan": "",
+      "website": null,
+      "video": null,
+      "fulfillment_id": 1513599,
+      "address": {
+        "line": "261 4TH AVENUE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11215-1817",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "hugosalazar@msn.com",
+      "feed_licenses": null,
+      "nrds_id": null,
+      "licenses": null
+    },
+    "party_id": 3731274,
+    "person_name": "Vito Angelo",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 887-5708",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/76fa840b22faff5af698f6e402c8c299a-e2473581569s.jpg",
+      "is_zoomed": false
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "All Metropolitan Area",
+        "state_code": "NA"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "\"No one sells more Real Estate in Brooklyn than Vito Angelo\"",
+    "specializations": [
+      {
+        "name": "Specializing in Brooklyn Commercial and Residentia"
+      },
+      {
+        "name": "PARLO ITALIANO"
+      }
+    ],
+    "title": "Broker Associate",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Vito-Angelo_BROOKLYN_NY_1390313_926798863",
+    "zips": [
+      "11201",
+      "11204",
+      "11209",
+      "11214",
+      "11215",
+      "11217",
+      "11219",
+      "11220",
+      "11228",
+      "11229",
+      "11230",
+      "11231",
+      "11234",
+      "11235"
+    ],
+    "email": "vangelo24@aol.com",
+    "full_name": "Vito Angelo",
+    "name": "Vito Angelo, Broker Associate",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "nrds_id": "631102370",
+    "for_sale_price": {
+      "count": 37,
+      "min": 299000,
+      "max": 5999000,
+      "last_listing_date": "2023-01-04T15:01:04Z"
+    },
+    "recently_sold": {
+      "count": 105,
+      "min": 195000,
+      "max": 1975000,
+      "last_sold_date": "2023-01-09"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 3293378,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/1540270403/694e42105ea983e4fa514879b5deb0cfg-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Ithamar Benshabat is a native Brooklynite with the passion for real estate in his blood. For over 20 years, his family has owned a residential real estate appraisal company and Ithamar grew up watching and learning the ins and outs of this industry. While he was earning his bachelor’s degree in Business and Finance in Brooklyn College, he obtained his appraisal license and began following in his family’s footsteps. Not too long after, however, Ithamar’s competitive nature drove him towards the sales aspect of Real Estate and he fit in to the role with a natural ease. When he’s not using his driven and competitive nature towards finding his clients the perfect property, he can be found using it on the court playing basketball or traveling to new places and meeting new people. Regardless of what Ithamar is a part of, he is consistently putting in one hundred percent effort towards it.",
+    "designations": [],
+    "first_month": 0,
+    "first_year": 2017,
+    "has_photo": true,
+    "href": "https://Ithamar.RemaxEdgeNY.com",
+    "id": "5a538b97f61dff0016014af8",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Thu, 17 Nov 2022 02:28:19 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "IB0746"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true
+      },
+      {
+        "member": {
+          "id": "114797"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false
+      }
+    ],
+    "mls_history": [],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631007311",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610"
+    },
+    "party_id": 346301442,
+    "person_name": "Ithamar Benshabat",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(646) 775-0900",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/e85e70c673d2c660c142e7f6ad1505dfa-e2861901079s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "",
+    "specializations": [
+      {
+        "name": "BUYER'S AGENT"
+      },
+      {
+        "name": "LISTING AGENT"
+      },
+      {
+        "name": "SHORT SALE"
+      },
+      {
+        "name": "APPRAISAL"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Ithamar-Benshabat_BROOKLYN_NY_3293378_886299863",
+    "zips": [
+      "11212",
+      "11213",
+      "11216",
+      "11233",
+      "11238",
+      "11209",
+      "11214",
+      "11228",
+      "11204",
+      "11218",
+      "11219",
+      "11230",
+      "11234",
+      "11236",
+      "11239",
+      "11223",
+      "11224",
+      "11229",
+      "11235",
+      "11201",
+      "11205",
+      "11215",
+      "11217",
+      "11231",
+      "11203",
+      "11210",
+      "11225",
+      "11226",
+      "11207",
+      "11208",
+      "11211",
+      "11222",
+      "11220",
+      "11232",
+      "11206",
+      "11221"
+    ],
+    "email": "ithamar@remaxedgeny.com",
+    "name": "Ithamar Benshabat, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "Ithamar Benshabat",
+    "for_sale_price": {
+      "count": 3,
+      "min": 899000,
+      "max": 2500000,
+      "last_listing_date": "2023-01-08T19:26:43Z"
+    },
+    "recently_sold": {
+      "count": 6,
+      "min": 303000,
+      "max": 1675000,
+      "last_sold_date": "2021-12-15"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 3690709,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/2096119973/e735d0b8e17f2fb8f15efd4bd25ed96cg-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Before setting foot in the world of Real Estate, Vadim had been working with people through sales in his clothing company for most of his life. The skill set that he's developed from his background has been a great advantage for Vadim and his clients. Honesty and fairness are two things that he focuses on in any communication he has with others. He listens to his clients' concerns and walks them through every step of the deal all while approaching everything with empathy and a light-heartedness because he understands Real Estate is about people’s homes and lives.\n\nVadim knows that in what is fast becoming a technology-driven business, nothing can replace or compare to a handshake and a warm smile. He is extremely dedicated, attentive and creative in finding solutions that make his deals succeed. Originally from Uzbekistan, Vadim is fluent in Russian, Uzbek and English. When he isn't working with his clients on helping them find the perfect home for them, he is working out at the gym, playing tennis or swimming so that he can be at the top of his physical and mental health in order to assist them at his fullest potential.",
+    "designations": [],
+    "first_month": 0,
+    "first_year": 2018,
+    "has_photo": true,
+    "href": "https://vadim.remaxedgeny.com/",
+    "id": "5c5dd08da3b40f0013ae58d1",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Thu, 17 Nov 2022 18:31:34 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "VB6019"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "202156"
+        },
+        "abbreviation": "LINY",
+        "type": "A",
+        "primary": false,
+        "license_number": "10401325302"
+      },
+      {
+        "member": {
+          "id": "114799"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [],
+    "nar_only": 1,
+    "nrds_id": "631009306",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610"
+    },
+    "party_id": 485174338,
+    "person_name": "Vadim Blinov",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(631) 771-7777",
+        "type": "Office"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/213146332/9ad7fb33a9cc5fba56fcdea69e52c831a-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "specializations": [
+      {
+        "name": "Buyers agent"
+      },
+      {
+        "name": "Listing agent"
+      },
+      {
+        "name": "Foreclosure"
+      },
+      {
+        "name": "Consulting"
+      },
+      {
+        "name": "Relocation"
+      },
+      {
+        "name": "Multi-family"
+      },
+      {
+        "name": "Luxury homes"
+      },
+      {
+        "name": "Commercial real estate"
+      },
+      {
+        "name": "Condo"
+      },
+      {
+        "name": "Coop"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Vadim-Blinov_BROOKLYN_NY_3690709_396099863",
+    "zips": [
+      "11212",
+      "11213",
+      "11216",
+      "11233",
+      "11238",
+      "11209",
+      "11214",
+      "11228",
+      "11204",
+      "11218",
+      "11219",
+      "11230",
+      "11234",
+      "11236",
+      "11239",
+      "11223",
+      "11224",
+      "11229",
+      "11235",
+      "11201",
+      "11205",
+      "11215",
+      "11217",
+      "11231",
+      "11203",
+      "11210",
+      "11225",
+      "11226",
+      "11207",
+      "11208",
+      "11211",
+      "11222",
+      "11220",
+      "11232",
+      "11206",
+      "11221"
+    ],
+    "email": "vadim@remaxedgeny.com",
+    "name": "Vadim Blinov, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "Vadim Blinov",
+    "for_sale_price": {
+      "count": 3,
+      "min": 730000,
+      "max": 4400000,
+      "last_listing_date": "2023-01-08T15:26:30Z"
+    },
+    "recently_sold": {
+      "count": 6,
+      "min": 225000,
+      "max": 995000,
+      "last_sold_date": "2022-11-10"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "90 KENILWORTH AVE",
+      "line2": "",
+      "city": "STATEN ISLAND",
+      "postal_code": "10312-6803",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 484625,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": ""
+    },
+    "broker": {
+      "fulfillment_id": 4461573,
+      "designations": [],
+      "name": "A FAMILY AFFAIR REALTY - Broker",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "We are all in control of our Own Destiny and that's why buying Real Estate is one of the most important investments you will ever make. The Selling & Buying Process is a decision you and your Family agree or disagree on. That is why we say Real Estate is A FAMILY AFFAIR.\nThe company is open 7 days a week and operates as a Full Service Buying and Selling Brokerage. A Family Affair Realty is a proud member of the Staten Island Board of Realtors (SIBOR), the Staten Island Multiple Listing Service (MLS) & the National Association of Realtors (NAR).\n\nAll Real Estate Listings immediately become available to thousands of prospective buyers and their corresponding Real Estate Agents through our vast marketing campaigns. Listing will appear on all major Real Estate web pages including Realtor.com,  Trulia.com & Zillow.com.\n\nAll Listings are showcased with  Professional Photo's that make you feel as if you are in the Home and detailed description such as price, sq. footage, location, extra's, amenities etc. There is also a map of your area as well as information on local & express Buses, eateries, & Shopping.\n\n A home truly is A Family Affair.",
+    "designations": [
+      {
+        "name": "EPRO"
+      }
+    ],
+    "first_month": 9,
+    "first_name": "Ann Marie",
+    "first_year": 2004,
+    "has_photo": true,
+    "href": "http://www.afarealtor.com",
+    "id": "56bb988089a68901006d558d",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Focca",
+    "last_updated": "Thu, 17 Nov 2022 02:33:16 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "7713"
+        },
+        "id": 604,
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": true
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631100663",
+    "office": {
+      "name": "A FAMILY AFFAIR REALTY",
+      "mls": [
+        {
+          "member": {
+            "id": "13303"
+          },
+          "id": 604,
+          "abbreviation": "SINY",
+          "type": "O",
+          "primary": true
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 351-3300",
+          "type": "Office"
+        }
+      ],
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "website": "WWW.AFAREALTOR.COM",
+      "video": null,
+      "fulfillment_id": 484626,
+      "address": {
+        "line": "90 KENILWORTH AVE",
+        "line2": "",
+        "city": "STATEN ISLAND",
+        "postal_code": "10312-6803",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "afocca@afarealtor.com",
+      "feed_licenses": [],
+      "phone_list": {
+        "phone_1": {
+          "ext": "",
+          "number": "(718) 351-3300",
+          "type": "Office"
+        }
+      },
+      "nrds_id": null,
+      "licenses": []
+    },
+    "party_id": 4622720,
+    "person_name": "Ann Marie Focca",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 351-3300",
+        "type": "Office"
+      },
+      {
+        "ext": "",
+        "number": "(347) 451-8906",
+        "type": "Mobile"
+      },
+      {
+        "ext": "",
+        "number": "(718) 967-7910",
+        "type": "Home Office"
+      }
+    ],
+    "photo": {
+      "href": "http://p.rdcpix.com/v01/a11650700-c0l.jpg"
+    },
+    "recommendations_count": 1,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "Real Estate is \"A FAMILY AFFAIR\"",
+    "specializations": [
+      {
+        "name": "Residential"
+      },
+      {
+        "name": "Foreclosure"
+      },
+      {
+        "name": "Relocating"
+      },
+      {
+        "name": "Downsizing"
+      },
+      {
+        "name": "Short Sales"
+      }
+    ],
+    "title": "Broker/Owner",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Ann-Marie-Focca_STATEN-ISLAND_NY_484625_633998863",
+    "zips": [
+      "10023",
+      "10301",
+      "10302",
+      "10303",
+      "10304",
+      "10305",
+      "10306",
+      "10307",
+      "10308",
+      "10309",
+      "10312",
+      "11203",
+      "11231",
+      "11234"
+    ],
+    "email": "afocca@afarealtor.com",
+    "full_name": "Ann Marie Focca",
+    "name": "Ann Marie Focca, Broker/Owner",
+    "agent_type": ["buyer", "seller"],
+    "social_media": {
+      "facebook": {
+        "type": "facebook",
+        "href": "http://www.facebook.com/afamily%20affair%20realty"
+      }
+    },
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 4,
+      "min": 490000,
+      "max": 958000,
+      "last_listing_date": "2023-01-07T12:04:57Z"
+    },
+    "recently_sold": {
+      "count": 16,
+      "min": 235000,
+      "max": 1228000,
+      "last_sold_date": "2022-10-25"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 3690777,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/1540270403/44b7caf624d50331656ae1e2472195a8g-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Yong Lin, born in Fuzhou, China has lived in Brooklyn for more than 15 years. Before going into real estate, he worked at his father’s restaurant where he learned that in order to have a successful business, quality & service are key. Quality lets the customer know you care about your product and great service keeps the customer coming back. This relates to what Yong feels about his real estate business. He knows that when he provides his customers & clients with exceptional service, and value through knowledge, communication, and negotiation, they will share the good work he does and refer him to others looking to buy and sell.\n\nWhen he read the book “Poor Dad and Rich Dad” by Robert Kiyosaki, he knew real estate was for him. According to book, a house is one of the biggest investments people will make in their lives, and it brings the sweetest memories for them and their family. This is a substantial achievement financially, and Yong wants to be the agent that guides you in the course of this big step in your life.\n\nDuring his free time, Yong likes to read; autobiographies and detective books are his favorite. He also is a big believer in healthy living and works out a few times a week and eats plenty of green and healthy foods.",
+    "designations": [],
+    "first_month": 0,
+    "first_year": 2018,
+    "has_photo": true,
+    "href": "https://yong.RemaxEdgeNY.com",
+    "id": "5c5dd14cc9e38300129380e8",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Thu, 17 Nov 2022 02:32:20 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "YL1473"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      },
+      {
+        "member": {
+          "id": "202169"
+        },
+        "abbreviation": "LINY",
+        "type": "A",
+        "primary": false,
+        "license_number": "10401316245"
+      },
+      {
+        "member": {
+          "id": "17231"
+        },
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": false,
+        "license_number": "10401326189"
+      },
+      {
+        "member": {
+          "id": "114825"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [],
+    "nar_only": 1,
+    "nrds_id": "631008773",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610"
+    },
+    "party_id": 485174369,
+    "person_name": "Yong Lin",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(646) 505-7967",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/2128579485/e53a1ce299e7978ce3e291943458e896a-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "specializations": [
+      {
+        "name": "Buyers agent"
+      },
+      {
+        "name": "Listing agent"
+      },
+      {
+        "name": "Property management"
+      },
+      {
+        "name": "Relocation"
+      },
+      {
+        "name": "Multi-family"
+      },
+      {
+        "name": "Luxury homes"
+      },
+      {
+        "name": "Condo"
+      },
+      {
+        "name": "Coop"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Yong-Lin_BROOKLYN_NY_3690777_622199863",
+    "zips": [
+      "11212",
+      "11213",
+      "11216",
+      "11233",
+      "11238",
+      "11209",
+      "11214",
+      "11228",
+      "11204",
+      "11218",
+      "11219",
+      "11230",
+      "11234",
+      "11236",
+      "11239",
+      "11223",
+      "11224",
+      "11229",
+      "11235",
+      "11201",
+      "11205",
+      "11215",
+      "11217",
+      "11231",
+      "11203",
+      "11210",
+      "11225",
+      "11226",
+      "11207",
+      "11208",
+      "11211",
+      "11222",
+      "11220",
+      "11232",
+      "11206",
+      "11221"
+    ],
+    "email": "yong@remaxedgeny.com",
+    "name": "Yong Lin, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "Yong Lin",
+    "for_sale_price": {
+      "count": 0,
+      "min": 0,
+      "max": 0,
+      "last_listing_date": null
+    },
+    "recently_sold": {
+      "count": 32,
+      "min": 260000,
+      "max": 990000,
+      "last_sold_date": "2023-01-06"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "8402 20TH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 4919130,
+    "agent_rating": 5,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/2f23645108326251269a4dab7e644625g-c2120198429s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 4913285,
+      "designations": [],
+      "name": "Re/Max Real Estate Professionals - Broker",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "As a NYC RE/MAX® agent, I’m dedicated to helping my clients find the home of their dreams. Whether you are buying or selling a home or just curious about the local market, I would love to offer my support and services. I know the local community — both as an agent and a neighbor — and can help guide you through the nuances of our local market. I also add value to my clients, with my ability to communicate in multiple major language in English, Spanish, Cantonese, Mandarin and Hakkien. With access to top listings, a worldwide network, exceptional marketing strategies and cutting-edge technology, I work hard to make your real estate experience memorable and enjoyable.\n\nI look forward to the opportunity to work with you. Please don’t hesitate to contact me today!",
+    "designations": [],
+    "first_month": 11,
+    "first_year": 2020,
+    "has_photo": true,
+    "id": "62ce11d10b292b955b0cd469",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Thu, 03 Nov 2022 18:48:45 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Rego Park_NY",
+        "name": "Rego Park",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "SCC5858"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "Susan",
+    "nrds_id": "631010891",
+    "office": {
+      "name": "Re/Max Real Estate Professiona",
+      "mls": [
+        {
+          "member": {
+            "id": "117860"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 872-5522",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7188725522",
+          "ext": ""
+        }
+      },
+      "licenses": [],
+      "feed_licenses": [],
+      "photo": {
+        "href": "https://ap.rdcpix.com/b98892a4628ed654a8fa7e0eb8a4baedo-c1371529030o.jpg",
+        "is_zoomed": null
+      },
+      "slogan": null,
+      "website": null,
+      "video": null,
+      "fulfillment_id": 4004443,
+      "address": {
+        "line": "8402 20TH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "remax8402@gmail.com",
+      "nrds_id": "631000534"
+    },
+    "party_id": 524979245,
+    "person_name": "Susana Chen",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(347) 825-1830",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/962b50a58f5fee6e61f6aa5379832fe9a-e1538254625s.jpg",
+      "is_zoomed": false
+    },
+    "recommendations_count": 0,
+    "review_count": 1,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Rego Park",
+        "state_code": "NY"
+      },
+      {
+        "name": "Queens",
+        "state_code": "NA"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NA"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "use_dot_realtor_for_search_engines": true,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": true,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "specializations": [
+      {
+        "name": "First Time Home Buyer"
+      },
+      {
+        "name": "Selling Home"
+      },
+      {
+        "name": "Homeowners"
+      },
+      {
+        "name": "Investment Property"
+      },
+      {
+        "name": "1031 Exchange"
+      },
+      {
+        "name": "Residential Homes"
+      },
+      {
+        "name": "Commercials"
+      },
+      {
+        "name": "Condo"
+      },
+      {
+        "name": "CO-OP"
+      },
+      {
+        "name": "Single Family"
+      },
+      {
+        "name": "Multi-Family"
+      },
+      {
+        "name": "Sellers"
+      },
+      {
+        "name": "Buyers"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": ["English", "Spanish", "Chinese"],
+    "web_url": "https://www.realtor.com/realestateagents/Susana-Chen_BROOKLYN_NY_4919130_801989863",
+    "zips": [
+      "11214",
+      "11220",
+      "11204",
+      "11233",
+      "11203",
+      "11224",
+      "11232",
+      "11234",
+      "11252",
+      "11213",
+      "11215",
+      "11208",
+      "11374"
+    ],
+    "email": "susanachenrealestate@gmail.com",
+    "name": "Susana Chen, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "full_name": "Susana Chen",
+    "for_sale_price": {
+      "count": 4,
+      "min": 399000,
+      "max": 1088000,
+      "last_listing_date": "2023-01-05T20:54:30Z"
+    },
+    "recently_sold": {
+      "count": 4,
+      "min": 785000,
+      "max": 1860000,
+      "last_sold_date": "2022-10-26"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 2937194,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/2096119973/27d015bd594b50eaadedae25467f289dg-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Leo Mei was born in Gongdong, China but has lived in the United States for 23 years.  He is multilingual, and can speak Mandarin, Cantonese and English. He has been in the real estate brokerage industry for over 10 years, but was a financial advisor prior to his career change. He decided to make the shift to real estate for the flexible hours and unlimited income.  Every single case, all the way from the beginning to the successful transfer, has the potential of facing a variety of problems. However, Leo believes in his ability to become more professional and more powerful in the process of solving these problems every day.",
+    "designations": [],
+    "first_month": 0,
+    "first_name": "Qikang",
+    "first_year": 0,
+    "has_photo": true,
+    "href": "https://leo.remaxedgeny.com/",
+    "id": "585554e4ed32bd00019dae9a",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "Mei",
+    "last_updated": "Sat, 19 Nov 2022 14:52:12 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "QM5933"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true
+      },
+      {
+        "member": {
+          "id": "120437"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false
+      }
+    ],
+    "mls_history": [],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "631002748",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610"
+    },
+    "party_id": 2581049,
+    "person_name": "Leo(Qikang) Mei",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 666-9599",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/235348240/73d1cc1cd9a6075d395a0d0917a1cdcba-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": true,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "",
+    "specializations": [
+      {
+        "name": "Buyers agent"
+      },
+      {
+        "name": "Listing agent"
+      },
+      {
+        "name": "Relocation"
+      },
+      {
+        "name": "Consulting"
+      },
+      {
+        "name": "Luxury homes"
+      },
+      {
+        "name": "Condo"
+      },
+      {
+        "name": "Coop"
+      },
+      {
+        "name": "Residential"
+      }
+    ],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Leo(Qikang)-Mei_BROOKLYN_NY_2937194_152799863",
+    "zips": [
+      "11212",
+      "11213",
+      "11216",
+      "11233",
+      "11238",
+      "11209",
+      "11214",
+      "11228",
+      "11204",
+      "11218",
+      "11219",
+      "11230",
+      "11234",
+      "11236",
+      "11239",
+      "11223",
+      "11224",
+      "11229",
+      "11235",
+      "11201",
+      "11205",
+      "11215",
+      "11217",
+      "11231",
+      "11203",
+      "11210",
+      "11225",
+      "11226",
+      "11207",
+      "11208",
+      "11211",
+      "11222",
+      "11220",
+      "11232",
+      "11206",
+      "11221",
+      "10302"
+    ],
+    "email": "leomei2222@hotmail.com",
+    "full_name": "Leo(Qikang) Mei",
+    "name": "Leo(Qikang) Mei, Agent",
+    "agent_type": ["buyer", "seller"],
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 4,
+      "min": 649990,
+      "max": 1090000,
+      "last_listing_date": "2023-01-05T20:09:24Z"
+    },
+    "recently_sold": {
+      "count": 17,
+      "min": 599900,
+      "max": 2550000,
+      "last_sold_date": "2022-12-29"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "25 Samantha Lane",
+      "line2": "",
+      "city": "Staten Island",
+      "postal_code": "10309",
+      "state_code": "NY",
+      "state": "",
+      "country": "US"
+    },
+    "advertiser_id": 766622,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": ""
+    },
+    "broker": {
+      "fulfillment_id": 3446652,
+      "designations": [],
+      "name": "Collazo Realty - Broker",
+      "accent_color": "",
+      "photo": {
+        "href": ""
+      },
+      "video": ""
+    },
+    "description": "Realtor since 1991, Associate Broker 2003 opened Collazo Realty in 2005 selling real estate with love and passion for residential homes my specialty, I have build my business on referrals for the past 29 years fluent in spanish with agents who speak Arabic, and Russian.",
+    "designations": [
+      {
+        "name": "AHWD"
+      }
+    ],
+    "first_month": 3,
+    "first_name": "dilia",
+    "first_year": 1991,
+    "has_photo": true,
+    "href": "http://collazorealtyny.com",
+    "id": "56c65b500fa41701007639fb",
+    "is_realtor": true,
+    "languages": [],
+    "last_name": "collazo",
+    "last_updated": "Thu, 10 Nov 2022 08:33:34 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Staten Island_NY",
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "1533"
+        },
+        "id": 604,
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": true
+      }
+    ],
+    "nar_only": 1,
+    "nick_name": "",
+    "nrds_id": "647585857",
+    "office": {
+      "name": "Collazo Realty",
+      "mls": [
+        {
+          "member": {
+            "id": "10394"
+          },
+          "id": 604,
+          "abbreviation": "SINY",
+          "type": "O",
+          "primary": true
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 605-0746",
+          "type": "Home Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Home Office",
+          "number": "7186050746",
+          "ext": ""
+        }
+      },
+      "photo": {
+        "href": ""
+      },
+      "slogan": "",
+      "website": "",
+      "video": null,
+      "fulfillment_id": 766616,
+      "address": {
+        "line": "25 Samantha Lane",
+        "line2": "",
+        "city": "Staten Island",
+        "postal_code": "10309",
+        "state_code": "NY",
+        "state": "",
+        "country": "US"
+      },
+      "email": "onlydilia@aol.com",
+      "nrds_id": null,
+      "feed_licenses": null,
+      "licenses": null
+    },
+    "party_id": 4627658,
+    "person_name": "Dilia Collazo",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(718) 207-2552",
+        "type": "Mobile"
+      },
+      {
+        "ext": "",
+        "number": "(718) 605-0746",
+        "type": "Office"
+      },
+      {
+        "ext": "",
+        "number": "(718) 407-0425",
+        "type": "Other"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/967469461/6e51fc92008438649cbe58261c0e96fca-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Staten Island",
+        "state_code": "NY"
+      },
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": true,
+      "terms_of_use": true,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": true,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "I sell love! if you're not loving it Im not selling it!",
+    "specializations": [
+      {
+        "name": "residential"
+      },
+      {
+        "name": "Residential"
+      }
+    ],
+    "title": "Broker",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Dilia-Collazo_Staten-Island_NY_766622_241414253",
+    "zips": [
+      "10301",
+      "10302",
+      "10303",
+      "10304",
+      "10305",
+      "10306",
+      "10307",
+      "10308",
+      "10309",
+      "10310",
+      "10312",
+      "10314",
+      "11209",
+      "11218",
+      "11230",
+      "11234",
+      "11219"
+    ],
+    "email": "onlydilia@aol.com",
+    "full_name": "Dilia Collazo",
+    "name": "Dilia Collazo, Broker",
+    "agent_type": ["seller", "buyer"],
+    "social_media": {
+      "facebook": {
+        "type": "facebook",
+        "href": "http://www.facebook.com/onlydilia"
+      }
+    },
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 2,
+      "min": 629000,
+      "max": 988000,
+      "last_listing_date": "2023-01-05T19:03:06Z"
+    },
+    "recently_sold": {
+      "count": 6,
+      "min": 385000,
+      "max": 850000,
+      "last_sold_date": "2022-12-22"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 3630030,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/56d70f6f40bfde6e0b480e7095d7a3a6g-c1525919061s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "I've always strived to work and live the best way possible with the tools and talent I've been given, and it was no different when shifting my sales career into real estate years ago. I've lead a nationally recognized and award winning sales team in South Brooklyn as their sales and marketing manager and had my hands busy in over 400 million in sales over 2017, 2018, 2019 & 2020. I was then recruited to the number one Manhattan brokerage by a Top 10 Team in NYC ranked by the real deal for 2021. And now for 2022 as a top 4 percent agent, I found that the best way to serve my South Brooklyn community was with my own team in partnership with the number one brokerage in the borough by sales volume as ranked by the Brooklyn MLS.\n\nAs a Brooklyn native, my 45 years give me a natural advantage in the borough, but it’s my work ethic, technical skills, national marketing experience, and years of negotiations honed in my previous sales career that allow me to excel in this market. Professional communication, mastery of emotional intelligence, and relentless pursuit of creating value are my core values and building strong and successful relationships based on reaching your goals are my measure of success.\n\nMany of my clients say I'm analytical, knowing every sale and data point possible to help negotiate your sale but what they don't know if they don't read my bio is that my advanced analytical skills were developed during my 18 year career in the national retail industry. As a Senior Buyer for a fortune 500 company, I oversaw purchasing, marketing and sales for a division within a multi-billion-dollar business in online, print, and brick and mortar sales across the country. Prior to sales and marketing, I gained technological and project management skills early in my career as an Information Systems Specialist and Computer Programmer for several regional retail chains.\n\nWith my combined years of sales, negotiations and relationship building, me and my team will exceed your expectations while minimizing the risks associated with conducting one of the largest transitions in your life. I do this only with the highest standards of integrity, expertise and execution.\n\nRecently married and eager to be the best dad possible to my son, when I have free time I love to learn and play sports. Podcasts, books, investing, running, snowboarding and the History Channel are some of the things that fuel me when I'm not working at my best for my clients. Call me today to discuss your goals!",
+    "designations": [],
+    "first_month": 7,
+    "first_year": 2017,
+    "has_photo": true,
+    "href": "http://TheStellarAgent.com",
+    "id": "5bbf9674aa5abd0011fe539e",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Tue, 15 Nov 2022 20:28:53 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "DS2830"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true,
+        "license_number": ""
+      }
+    ],
+    "mls_history": [
+      {
+        "member": {
+          "id": "C85A5BEB-2661-4CD4-9993-3BD51395F286"
+        },
+        "inactivation_date": "2021-11-12T10:08:34.000Z",
+        "abbreviation": "CENT",
+        "type": "A",
+        "primary": false,
+        "license_number": ""
+      }
+    ],
+    "nar_only": 1,
+    "nrds_id": "641646868",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "licenses": null,
+      "feed_licenses": null,
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610"
+    },
+    "party_id": 470673687,
+    "person_name": "Daniel Benzaken",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(347) 539-6680",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/936cb2fa44aeeb0d619ccc0473c91919a-e2570012696s.jpg",
+      "is_zoomed": false
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false,
+        "listingmanager-movephoto": false,
+        "listingmanager-shared-dismissed": true
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "slogan": "Professionalism. Intregrity. Results.",
+    "specializations": [],
+    "title": "Agent",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Daniel-Benzaken_BROOKLYN_NY_3630030_131353853",
+    "zips": ["11223", "11229", "11230", "11234", "11235", "11204"],
+    "email": "daniel@thestellaragent.com",
+    "name": "Daniel Benzaken, Agent",
+    "agent_type": ["seller"],
+    "feed_licenses": [],
+    "full_name": "Daniel Benzaken",
+    "for_sale_price": {
+      "count": 3,
+      "min": 500000,
+      "max": 1850000,
+      "last_listing_date": "2023-01-05T06:21:25Z"
+    },
+    "recently_sold": {
+      "count": 6,
+      "min": 240000,
+      "max": 950000,
+      "last_sold_date": "2022-11-18"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  },
+  {
+    "address": {
+      "line": "1812 BATH AVE",
+      "line2": "",
+      "city": "BROOKLYN",
+      "postal_code": "11214",
+      "state_code": "NY",
+      "state": "NY",
+      "country": "USA"
+    },
+    "advertiser_id": 3141130,
+    "agent_rating": 0,
+    "background_photo": {
+      "href": "https://ap.rdcpix.com/2096119973/4d24d23c8fbc1480619d3d7573b7a29fg-c0s.jpg"
+    },
+    "broker": {
+      "fulfillment_id": 3213196,
+      "designations": [],
+      "name": "ReMax Edge ",
+      "accent_color": "#ce0000",
+      "photo": {
+        "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
+      },
+      "video": ""
+    },
+    "description": "Jason is a top-producing real estate agent that has built his reputation on providing exceptional and positive experiences for his clients. Jason believes that buying or selling real estate is a major decision that should always be an educated one and that is why he makes sure to walk his clients through every step of the process, providing honest guidance, innovative solutions, and effective negotiating that always get incomparable results. His background in business and digital marketing sets the stage for his successful career in real estate. Jason sets his goals to exceed his clients’ expectations and prides himself on his communication skills, responsive nature, and market awareness. When he isn’t providing unparalleled service to his clients, Jason enjoys spending time with his family and friends, travelling, watching movies, listening to music and reading books on being successful to learn how to keep progressing and evolving into the best version of himself. Jason is fluent in English, Cantonese and Mandarin.",
+    "designations": [],
+    "first_month": 0,
+    "first_year": 2015,
+    "has_photo": true,
+    "href": "https://jason.remaxedgeny.com/",
+    "id": "594d8fceabb6bf0012c084d4",
+    "is_realtor": true,
+    "languages": [],
+    "last_updated": "Sat, 19 Nov 2022 14:19:02 GMT",
+    "marketing_area_cities": [
+      {
+        "city_state": "New York_NY",
+        "name": "New York",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Brooklyn_NY",
+        "name": "Brooklyn",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Manhattan_NY",
+        "name": "Manhattan",
+        "state_code": "NY"
+      },
+      {
+        "city_state": "Queens_NY",
+        "name": "Queens",
+        "state_code": "NY"
+      }
+    ],
+    "mls": [
+      {
+        "member": {
+          "id": "JZ1320"
+        },
+        "abbreviation": "BONY",
+        "type": "A",
+        "primary": true
+      },
+      {
+        "member": {
+          "id": "110136"
+        },
+        "abbreviation": "STNY",
+        "type": "A",
+        "primary": false
+      }
+    ],
+    "mls_history": [
+      {
+        "member": {
+          "id": "17380"
+        },
+        "inactivation_date": "2021-04-23T05:12:09.000Z",
+        "abbreviation": "SINY",
+        "type": "A",
+        "primary": false
+      }
+    ],
+    "nar_only": 1,
+    "nrds_id": "631006873",
+    "office": {
+      "name": "ReMax Edge",
+      "mls": [
+        {
+          "member": {
+            "id": "118210"
+          },
+          "abbreviation": "BONY",
+          "type": "O",
+          "primary": true
+        },
+        {
+          "member": {
+            "id": "RMXE01"
+          },
+          "abbreviation": "LINY",
+          "type": "O",
+          "primary": false
+        },
+        {
+          "member": {
+            "id": "7506"
+          },
+          "abbreviation": "STNY",
+          "type": "O",
+          "primary": false
+        }
+      ],
+      "phones": [
+        {
+          "ext": "",
+          "number": "(718) 612-3088",
+          "type": "Office"
+        }
+      ],
+      "phone_list": {
+        "phone_1": {
+          "type": "Office",
+          "number": "7186123088",
+          "ext": ""
+        }
+      },
+      "photo": {
+        "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
+      },
+      "slogan": "",
+      "website": "http://www.RemaxEdgeNY.com",
+      "video": null,
+      "fulfillment_id": 3213197,
+      "address": {
+        "line": "1812 BATH AVE",
+        "line2": "",
+        "city": "BROOKLYN",
+        "postal_code": "11214",
+        "state_code": "NY",
+        "state": "NY",
+        "country": "USA"
+      },
+      "email": "Contact@RemaxEdgeNY.com",
+      "nrds_id": "631000610",
+      "feed_licenses": null,
+      "licenses": null
+    },
+    "party_id": 297223356,
+    "person_name": "Jason Zhou",
+    "phones": [
+      {
+        "ext": "",
+        "number": "(347) 988-5318",
+        "type": "Mobile"
+      }
+    ],
+    "photo": {
+      "href": "https://ap.rdcpix.com/567958601/e9424ad8e859789dbc20cde760115f7ba-e0s.jpg"
+    },
+    "recommendations_count": 0,
+    "review_count": 0,
+    "role": "agent",
+    "served_areas": [
+      {
+        "name": "Brooklyn",
+        "state_code": "NY"
+      }
+    ],
+    "settings": {
+      "share_contacts": false,
+      "full_access": false,
+      "display_listings": true,
+      "far_override": false,
+      "show_stream": false,
+      "terms_of_use": false,
+      "has_dotrealtor": false,
+      "display_sold_listings": true,
+      "display_price_range": true,
+      "display_ratings": false,
+      "loaded_from_sb": false,
+      "broker_data_feed_opt_out": false,
+      "unsubscribe": {
+        "autorecs": false,
+        "recapprove": false,
+        "account_notify": false
+      },
+      "new_feature_popup_closed": {
+        "agent_left_nav_avatar_to_profile": false,
+        "listingmanager-movephoto": false,
+        "listingmanager-shared-dismissed": true
+      },
+      "profile_wizard": {
+        "realsatisfied_opt_out": false,
+        "tt_opt_out": false
+      }
+    },
+    "specializations": [
+      {
+        "name": "Buyers agent"
+      },
+      {
+        "name": "Listing agent"
+      },
+      {
+        "name": "Relocation"
+      },
+      {
+        "name": "Luxury homes"
+      },
+      {
+        "name": "Coop"
+      },
+      {
+        "name": "Condo"
+      },
+      {
+        "name": "Residential"
+      },
+      {
+        "name": "Short-sale"
+      },
+      {
+        "name": "Multi-family"
+      },
+      {
+        "name": "Property Management"
+      }
+    ],
+    "title": "Broker Associate",
+    "types": "agent",
+    "user_languages": [],
+    "web_url": "https://www.realtor.com/realestateagents/Jason-Zhou_BROOKLYN_NY_3141130_621399863",
+    "zips": [
+      "11212",
+      "11213",
+      "11216",
+      "11233",
+      "11238",
+      "11209",
+      "11214",
+      "11228",
+      "11204",
+      "11218",
+      "11219",
+      "11230",
+      "11234",
+      "11236",
+      "11239",
+      "11223",
+      "11224",
+      "11229",
+      "11235",
+      "11201",
+      "11205",
+      "11215",
+      "11217",
+      "11231",
+      "11203",
+      "11210",
+      "11225",
+      "11226",
+      "11207",
+      "11208",
+      "11211",
+      "11222",
+      "11220",
+      "11232",
+      "11206",
+      "11221"
+    ],
+    "email": "jasonzhourealty@gmail.com",
+    "name": "Jason Zhou, Broker Associate",
+    "agent_type": ["buyer", "seller"],
+    "full_name": "Jason Zhou",
+    "nick_name": "",
+    "slogan": "",
+    "social_media": {},
+    "areas_of_business": [],
+    "video": null,
+    "product_code": null,
+    "products": null,
+    "first_name": "",
+    "last_name": "",
+    "raw_products": null,
+    "data_flags": null,
+    "feed_licenses": [],
+    "for_sale_price": {
+      "count": 27,
+      "last_listing_date": "2022-12-14T16:42:25Z",
+      "max": 8999000,
+      "min": 399000
+    },
+    "recently_sold": {
+      "count": 52,
+      "min": 240000,
+      "max": 2200000,
+      "last_sold_date": "2023-01-05"
+    },
+    "agent_team_details": {
+      "is_team_member": false
+    }
+  }
+]

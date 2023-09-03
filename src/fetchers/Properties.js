@@ -7,7 +7,7 @@ export const fetchProperties = async () => {
     const response = await axios.request('https://realty-in-us.p.rapidapi.com/properties/v2/list-for-sale', PropertiesOptions)
     const properties = response;
 
-    console.log("properties", properties.data.properties);
+    console.log("properties", properties);
     if (properties) return properties.data.properties;
 }
 

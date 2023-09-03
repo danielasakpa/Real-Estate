@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Roboto': ["Roboto"],
+        'Lato': ["Lato"],
       },
       maxWidth: {
         '2/3': '90%',
