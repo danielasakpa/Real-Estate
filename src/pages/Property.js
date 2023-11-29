@@ -7,6 +7,11 @@ import { IoLocationOutline, IoBedOutline, IoChevronDownCircleOutline, IoHammerOu
 import { TbBath } from "react-icons/tb";
 import Loader from '../components/Loader'
 
+
+// ... (import statements remain unchanged)
+
+// ... (import statements remain unchanged)
+
 const Property = () => {
   let { id } = useParams();
 
@@ -27,73 +32,158 @@ const Property = () => {
           <div className='mt-[40px] md:mt-[70px] flex justify-center'>
             <Carousel className='w-[900px] h-[100%]' showArrows={true} showThumbs={false} showIndicators={false}>
               {
-                data.photos.map((img, i) =>
-                  <img key={i} className='w-[900px] xs:h-[300px] md:h-[450px] object-cover rounded-md' src={img.href} alt="homeImg" />
+                data.Property.Photo.map((img, i) =>
+                  <img key={i} className='w-[900px] xs:h-[300px] md:h-[450px] rounded-md' src={img.HighResPath} alt="homeImg" />
                 )
               }
             </Carousel>
           </div>
           <div className='max-w-[900px] mx-auto '>
-            <p className="xs:text-[15px] xl:text-[25px] mt-4 text-[#171717] font-Roboto font-medium text-left">{data.status.replace("_", " ").toUpperCase()}</p>
+            {/* Transaction Type */}
+            <p className="xs:text-[15px] xl:text-[25px] mt-4 text-[#171717] font-Bebas font-medium text-left">{data.Property.TransactionType.toUpperCase()}</p>
+
+            {/* Property Price */}
             <div className="mt-2">
-              <p className="xs:text-[20px] xl:text-[25px] text-[#171717] font-Roboto text-left leading-[30px] font-medium"> ${data.mortgage.estimate.total_payment}</p>
-              <div className='flex mt-5'>
-                <div>
-                  <TbBath size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.description.baths}</span> baths</p>
-                </div>
-                <div>
+              <p className="xs:text-[20px] xl:text-[25px] text-[red] font-Arimo text-left leading-[30px] font-medium">
+                {`$${data.Property.PriceUnformattedValue} per square foot`}
+              </p>
+
+              {/* Property Details */}
+              <div className='flex flex-wrap mt-5'>
+                {/* Land Size */}
+                {data.Land.SizeTotal &&
+                  <div className="flex items-center mr-4">
+                    <IoChevronDownCircleOutline size={20} />
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Land Size: </span>{data.Land.SizeTotal}
+                    </p>
+                  </div>
+                }
+
+                {/* Building Year */}
+                {data.Building.DisplayAsYears &&
+                  <div className="flex items-center">
+                    <IoHammerOutline size={20} />
+                    <p className="xs:text-[15px] xl:text-[16px] ml-1 text-[#171717] font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Building Year: </span>{data.Building.DisplayAsYears ? data.Building.DisplayAsYears : "none"}
+                    </p>
+                  </div>
+                }
+
+                {/* Type of Property */}
+                <div className="flex items-center ml-4">
                   <IoBedOutline size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.description.beds}</span> beds</p>
-                </div>
-                <div>
-                  {data.building_size || data.lot_size ? <IoChevronDownCircleOutline size={20} /> : null}
-                  {data.building_size !== undefined && !data.lot_size ? <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{data.description.sqft}</span> sqft</p> : null}
-                  {data.lot_size !== undefined ? <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mr-4 mt-1 font-Roboto text-left font-medium"><span className='text-[#171717]'>{data.description.lot_size}</span> sqft</p> : null}
-                </div>
-                <div>
-                  <IoHammerOutline size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#171717] mt-1 font-Roboto text-left  font-medium">{data.description.year_built ? data.description.year_built : "none"}</p>
+                  <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                    <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'> Type of Property: </span> {data.Property.Type}
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className='flex items-center mt-8 md:mt-6'>
-              <IoLocationOutline size={25} className='mr-3' />
-              <p className="xs:text-[15px] xl:text-[25px] text-[#171717] font-Roboto text-left">{data.location.address.line} {data.location.address.city} {data.location.address.state}</p>
-            </div>
-            <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Features:</p>
-            <ol type="1" className="grid gap-2 px-6 md:px-4 mt-2 list-decimal xs:grid-cols-1 font-Roboto sm:grid-cols-4 md:grid-cols-4">
-              {
-                data.details.map((feature, i) =>
-                  <li key={i}>{feature.text[0].split(" ").slice(0, 3).join(" ")}...</li>
-                )
+
+              {/* Address */}
+              {data.Property.Address &&
+                <div className="flex items-center mt-4">
+                  <p className="xs:text-[15px] xl:text-[26px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                    {`Residential for sale - ${data.Property.Address.AddressText}`}
+                  </p>
+                </div>
               }
-            </ol>
-            <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Description:</p>
-            <p className="xs:text-[15px] mt-2 xl:text-[18px] text-[#171717] font-Roboto text-left">{data.description.text}</p>
-            <p className="xs:text-[15px] mt-10 xl:text-[18px] text-[#171717] font-Roboto font-medium text-left">Agent:</p>
-            <div className="flex items-center mt-2">
-              <img className="rounded-full w-[50px] h-[50px] mr-6 object-cover" src={data.advertisers[0].photo !== null ? data.advertisers[0].photo.href : null} alt="agent pics" />
-              <div>
-                <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left">{data.advertisers[0].name}</p>
-                <p className="xs:text-[15px] xl:text-[18px] text-[#171717] font-Roboto text-left"><span className='xs:text-[15px] xl:text-[18px] text-[#171717] font-medium '>Office:</span> {data.advertisers[0].office.name}</p>
+
+              {/* Other Property Details */}
+              <div className="flex flex-wrap mt-4">
+                {/* Size of Property */}
+                {data.Property.SizeTotal &&
+                  <div className="flex items-center mr-4">
+                    <IoChevronDownCircleOutline size={20} />
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Size of Property: </span> {data.Property.SizeTotal}
+                    </p>
+                  </div>
+                }
+
+                {/* Waterfront Type */}
+                {data.Property.WaterFrontType &&
+                  <div className="flex items-center mr-4">
+                    <IoLocationOutline size={20} />
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Waterfront Type: </span>{data.Property.WaterFrontType}
+                    </p>
+                  </div>
+                }
+
+                {/* Zoning Type */}
+                {data.Property.ZoningType &&
+                  <div className="flex items-center">
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Zoning Category:</span> {data.Property.ZoningType}
+                    </p>
+                  </div>
+                }
+
+                {/* Sewer */}
+                {data.Land.Sewer &&
+                  <div className="flex items-center ml-4">
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Sewer: </span> {data.Land.Sewer}
+                    </p>
+                  </div>
+                }
+
+                {/* Time On Realtor */}
+                {data.TimeOnRealtor &&
+                  <div className="flex items-center ml-4">
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Time On Realtor: </span> {data.TimeOnRealtor}
+                    </p>
+                  </div>
+                }
               </div>
             </div>
-            <div className='mt-10'>
-              <button className='xs:px-3 md:px-4 xs:py-4 md:py-3 mr-5 xs:text-[14px] md:text-[15px] font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
-              >
-                Contact agent
-              </button>
-              <button className=' xs:mt-3 md:mt-0 px-6 py-3 font-Roboto bg-[#FFFFFF] border-solid border border-[#171717] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
-              >
-                All agent properties
-              </button>
+
+            {/* Public Remarks */}
+            <div className="mt-6">
+              <p className="xs:text-[15px] xl:text-[20px] text-[#171717] text-400 font-Bebas text-left font-medium">Public Remarks:</p>
+              <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mt-1 font-Arimo text-left">
+                {data.PublicRemarks}
+              </p>
             </div>
+
+            {/* Agent Section */}
+            {data.Individual && data.Individual.length > 0 && (
+              <div className="mt-8">
+                <p className="xs:text-[15px] xl:text-[20px] text-[#171717] text-400 font-Bebas text-left font-medium">Agent:</p>
+                <div className='flex flex-wrap  gap-y-7'>
+                  {data.Individual.map((agent, index) => (
+                    <div className='basis-1/2'>
+                      <div key={index} className="flex items-start mt-2">
+                        <img
+                          src={agent.Photo}
+                          alt="Agent"
+                          className="w-10 h-10 rounded-full mr-4"
+                        />
+                        <div>
+                          <p className="xs:text-[15px] xl:text-[16px] text-[#171717] font-Arimo text-left font-medium">
+                            {agent.Name}
+                          </p>
+                          <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mt-1 font-Arimo text-left">
+                            {agent.Position} at {agent.CorporationName}
+                          </p>
+                        </div>
+                      </div>
+                      <button
+                        className="mt-3 cursor-pointer focus:outline-none px-2 py-2 font-Roboto bg-[#171717] rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]"
+                      >
+                        View Agent
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </>
       }
     </>
-  )
+  );
 }
 
-export default Property
+export default Property;

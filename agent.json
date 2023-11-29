@@ -1,302 +1,357 @@
 {
-    "_id": "56806ac689a68901006ab9a8",
-    "profile_name": "Gregory Donato-agent",
-    "profile_description": "default agent role for Gregory Donato",
-    "role": "agent",
-    "default": true,
-    "fulfillment_id": 1600511,
-    "fullname": "Gregory Donato",
-    "firstname": "Gregory",
-    "middlename": "",
-    "lastname": "Donato",
-    "nickname": "",
-    "suffixname": "",
-    "title": "Broker Associate",
-    "slogan": "",
-    "far_override": "true",
-    "phones": [
+    "Id": "26028939",
+    "MlsNumber": "23740244",
+    "PublicRemarks": "See listing broker(s) GST/QST must be added to the asking price (49769183)",
+    "Building": {
+        "StoriesTotal": ""
+    },
+    "Individual": [
         {
-            "type": "Mobile",
-            "number": "3478605819",
-            "ext": ""
-        }
-    ],
-    "emails": [
-        {
-            "type": "My/Your Contact",
-            "value": "facilitate@remaxedgeny.com"
-        }
-    ],
-    "address": {},
-    "social_media": [],
-    "website": "https://Greg.RemaxEdgeNY.com",
-    "first_year": 1995,
-    "bio": "Known as “The Facilitator” Greg brings his experience to advance your requirements, keeping your bottom line in the forefront. He knows the market and can get you through the myriad of paperwork, decisions, and questions you need answered. His interpersonal skills, will put you at ease and guide you through those life choices.\n\nGreg takes personal pride and enjoyment from finding the right buyers for his listings – and for getting it done quickly. He takes the time to become acquainted with his clients and cares deeply about helping them make their real estate dreams come true. Greg promises that creativity and energy will continue through the entire process, from first introduction, to closing on a sale and handing you the keys to your new place.  He is with you all the way.     \n\nGreg recognizes the extraordinary impact that Technology and Social Media has made on the Real Estate Profession and particularly its’ processes.  Public Real Estate Websites and online access to Public Records have drastically changed how Real Estate Agents conduct business transactions. It has most significantly altered how consumers can sell or buy property and easily obtain market data. \n\nLegally titled a Real Estate Broker, today Greg prefers to be known as a Facilitator, and be a catalyst for the benefit of his customers in reaching their real estate goals. Past clients describe Greg as professional, knowledgeable, caring, trustworthy, and fun to be around. If that’s the kind of REALTOR you want, look no further. Call Greg Donato.",
-    "ratings": {
-        "overall_rating": 0,
-        "average_rating": 0,
-        "reviews_count": 0,
-        "overall_satisfaction": 0,
-        "recommendation_rating": 0,
-        "performance_rating": 0,
-        "testimonial_return_rate": 0,
-        "responseCount": 0,
-        "show_scores": 0
-    },
-    "recommendations": {
-        "count": 4
-    },
-    "mls": [
-        {
-            "abbreviation": "BONY",
-            "primary": true,
-            "license_number": "",
-            "type": "A",
-            "member": {
-                "id": "GD4837"
-            }
-        },
-        {
-            "abbreviation": "STNY",
-            "primary": false,
-            "license_number": "",
-            "type": "A",
-            "member": {
-                "id": "114809"
-            }
-        }
-    ],
-    "zips": [
-        "11212",
-        "11213",
-        "11216",
-        "11233",
-        "11238",
-        "11209",
-        "11214",
-        "11228",
-        "11204",
-        "11218",
-        "11219",
-        "11230",
-        "11234",
-        "11236",
-        "11239",
-        "11223",
-        "11224",
-        "11229",
-        "11235",
-        "11201",
-        "11205",
-        "11215",
-        "11217",
-        "11231",
-        "11203",
-        "11210",
-        "11225",
-        "11226",
-        "11207",
-        "11208",
-        "11211",
-        "11222",
-        "11220",
-        "11232",
-        "11206",
-        "11221"
-    ],
-    "specialties": [
-        "BUYER'S AGENT",
-        "LISTING AGENT",
-        "COMMERCIAL R.E.",
-        "PROPERTY MANAGEMENT"
-    ],
-    "office": {
-        "name": "ReMax Edge",
-        "mls": [
-            {
-                "abbreviation": "BONY",
-                "primary": true,
-                "type": "O",
-                "member": {
-                    "id": "118210"
-                }
-            },
-            {
-                "abbreviation": "LINY",
-                "primary": false,
-                "type": "O",
-                "member": {
-                    "id": "RMXE01"
-                }
-            },
-            {
-                "abbreviation": "STNY",
-                "primary": false,
-                "type": "O",
-                "member": {
-                    "id": "7506"
-                }
-            }
-        ],
-        "phones": [
-            {
-                "type": "Office",
-                "number": "7186123088",
-                "ext": ""
-            }
-        ],
-        "phone_list": {
-            "phone_1": {
-                "type": "Office",
-                "number": "7186123088",
-                "ext": ""
-            }
-        },
-        "licenses": null,
-        "feed_licenses": null,
-        "photo": {
-            "href": "https://ap.rdcpix.com/1111013323/939782dee6b480eac5dfb4ec06ecf7edo-c0o.jpg"
-        },
-        "slogan": "",
-        "website": "http://www.RemaxEdgeNY.com",
-        "video": null,
-        "fulfillment_id": 3213197,
-        "address": {
-            "line": "1812 BATH AVE",
-            "line2": "",
-            "city": "BROOKLYN",
-            "postal_code": "11214",
-            "state_code": "NY",
-            "state": "NY",
-            "country": "USA"
-        },
-        "email": "Contact@RemaxEdgeNY.com",
-        "nrds_id": "631000610"
-    },
-    "broker": {
-        "fulfillment_id": 3213196,
-        "designations": [],
-        "name": "ReMax Edge ",
-        "accent_color": "#ce0000",
-        "photo": {
-            "href": "https://ap.rdcpix.com/951128259/b4286f59f42a3db9c9b14e662561e804k-c0s.jpg"
-        },
-        "video": ""
-    },
-    "record_status": "active",
-    "debug": false,
-    "id": "56806ac689a68901006ab9a7",
-    "photo": {
-        "href": "https://ap.rdcpix.com/920546910/8a336081a5332dd90756c4965a2f8c57a-e0s.jpg"
-    },
-    "settings": {
-        "share_contacts": false,
-        "full_access": false,
-        "display_listings": true,
-        "far_override": false,
-        "show_stream": false,
-        "terms_of_use": false,
-        "has_dotrealtor": false,
-        "display_sold_listings": true,
-        "display_price_range": true,
-        "display_ratings": true,
-        "loaded_from_sb": false,
-        "broker_data_feed_opt_out": false,
-        "unsubscribe": {
-            "autorecs": false,
-            "recapprove": false,
-            "account_notify": false
-        },
-        "new_feature_popup_closed": {
-            "agent_left_nav_avatar_to_profile": false
-        },
-        "profile_wizard": {
-            "realsatisfied_opt_out": false,
-            "tt_opt_out": false
-        }
-    },
-    "meta": {
-        "last_update_date": "2023-01-19T12:02:39.703Z"
-    },
-    "background_photo": {
-        "href": "https://ap.rdcpix.com/1664325678/1a4357dd90efc34abb7bfcaa19b51cc3g-c0s.jpg"
-    },
-    "designations": [],
-    "languages": [],
-    "licenses": [
-        {
-            "state_code": "NY",
-            "license_number": "30DO1148147",
-            "country": "US"
-        }
-    ],
-    "party_id": 142501762,
-    "email": "facilitate@remaxedgeny.com",
-    "dotrealtor": {
-        "firstname": "",
-        "lastname": "",
-        "email": ""
-    },
-    "phone_list": {
-        "phone_1": {
-            "type": "Mobile",
-            "number": "3478605819",
-            "ext": ""
-        }
-    },
-    "nrds_id": "631003354",
-    "social_connections": {
-        "facebook": {
-            "settings": {
-                "show_checkins": true
-            },
-            "pages": [
-                {
-                    "personal_page": true,
-                    "access_token": "EAABwtOoea9kBAAG8LUxPnLIXe8mVJJY1OSEz1LAPdx8IcevoqGkitkyZB4XL7jZC339myq6z5MX0G4NUScYcZCAe4zdSy5WdaQgX6iYoclPF5Jc5MyyZASdKDjZC0miYBbYEtDhlzQOz5sLLWXZAs9ZCVQFxagCVZBxaSeUNeZAe8owZDZD",
-                    "picture": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=333198360205148&height=50&width=50&ext=1632517660&hash=AeRTE_3s9KjIVn_y0ko",
-                    "name": "Greg Donato",
-                    "id": "333198360205148",
-                    "settings": {
-                        "show_stream": false,
-                        "show_link": false
+            "IndividualID": 2180168,
+            "Name": "Gabrielle Saine",
+            "Organization": {
+                "OrganizationID": 293679,
+                "Name": "NAI TERRAMONT COMMERCIAL",
+                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
+                "Address": {
+                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
+                    "PermitShowAddress": true,
+                    "DisseminationArea": null
+                },
+                "Phones": [
+                    {
+                        "PhoneType": "Telephone",
+                        "PhoneNumber": "866-3333",
+                        "AreaCode": "514",
+                        "PhoneTypeId": "1"
                     }
-                }
-            ]
-        },
-        "connected_to_sb": true
-    },
-    "eligible_for_courtesy_leads": true,
-    "brokerage_fulfillment_id": 3213196,
-    "viewerRole": "agent",
-    "not_updatable_by": [],
-    "autoFixed": true,
-    "photoEntityKey": "1600511_1543333523029",
-    "coverPhotoEntityKey": "1600511_1514992418541",
-    "first_month": 0,
-    "user_languages": [],
-    "nmls_id": 0,
-    "isOfficeProfile": true,
-    "mls_history": [
-        {
-            "abbreviation": "LINY",
-            "primary": false,
-            "license_number": "",
-            "type": "A",
-            "member": {
-                "id": "213549"
+                ],
+                "Emails": [
+                    {
+                        "ContactId": "532157071"
+                    }
+                ],
+                "Websites": [
+                    {
+                        "Website": "https://www.naiterramont.ca/",
+                        "WebsiteTypeId": "1"
+                    }
+                ],
+                "OrganizationType": "Firm",
+                "Designation": "Real Estate Agency",
+                "HasEmail": true,
+                "PermitFreetextEmail": true,
+                "PermitShowListingLink": true,
+                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
             },
-            "inactivation_date": "2023-01-19T06:56:58.000Z"
+            "Phones": [
+                {
+                    "PhoneType": "Telephone",
+                    "PhoneNumber": "603-0062",
+                    "AreaCode": "514",
+                    "PhoneTypeId": "1"
+                }
+            ],
+            "Websites": [
+                {
+                    "Website": "https://www.naiterramont.ca/",
+                    "WebsiteTypeId": "1"
+                }
+            ],
+            "Emails": [
+                {
+                    "ContactId": "507915678"
+                }
+            ],
+            "Photo": "https://cdn.realtor.ca/individual/TS638276367600000000/lowres/1430199.jpg",
+            "Position": "Residential and Commercial Real Estate Broker",
+            "PermitFreetextEmail": true,
+            "FirstName": "Gabrielle",
+            "LastName": "Saine",
+            "CorporationName": "Immobilier Gabrielle Saine inc.",
+            "CorporationDisplayTypeId": "1",
+            "PermitShowListingLink": true,
+            "RelativeDetailsURL": "/agent/2180168/gabrielle-saine-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+            "AgentPhotoLastUpdated": "2023-08-14 19:06:00",
+            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638276367600000000/highres/1430199.jpg",
+            "RankMyAgentKey": "",
+            "RealSatisfiedKey": "",
+            "TestimonialTreeKey": ""
+        },
+        {
+            "IndividualID": 2180151,
+            "Name": "Paul-Éric Poitras",
+            "Organization": {
+                "OrganizationID": 293679,
+                "Name": "NAI TERRAMONT COMMERCIAL",
+                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
+                "Address": {
+                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
+                    "PermitShowAddress": true,
+                    "DisseminationArea": null
+                },
+                "Phones": [
+                    {
+                        "PhoneType": "Telephone",
+                        "PhoneNumber": "866-3333",
+                        "AreaCode": "514",
+                        "PhoneTypeId": "1"
+                    }
+                ],
+                "Emails": [
+                    {
+                        "ContactId": "532157071"
+                    }
+                ],
+                "Websites": [
+                    {
+                        "Website": "https://www.naiterramont.ca/",
+                        "WebsiteTypeId": "1"
+                    }
+                ],
+                "OrganizationType": "Firm",
+                "Designation": "Real Estate Agency",
+                "HasEmail": true,
+                "PermitFreetextEmail": true,
+                "PermitShowListingLink": true,
+                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
+            },
+            "Phones": [
+                {
+                    "PhoneType": "Telephone",
+                    "PhoneNumber": "866-3333",
+                    "AreaCode": "514",
+                    "PhoneTypeId": "1"
+                }
+            ],
+            "Websites": [
+                {
+                    "Website": "https://www.naiterramont.ca/",
+                    "WebsiteTypeId": "1"
+                }
+            ],
+            "Emails": [
+                {
+                    "ContactId": "507915589"
+                }
+            ],
+            "Photo": "https://cdn.realtor.ca/individual/TS638312626800000000/lowres/1430181.jpg",
+            "Position": "Certified Residential and Commercial Real Estate Broker AEO",
+            "PermitFreetextEmail": true,
+            "FirstName": "Paul-Éric",
+            "LastName": "Poitras",
+            "CorporationName": "Immobilier Paul-Éric Poitras Inc.",
+            "CorporationDisplayTypeId": "1",
+            "PermitShowListingLink": true,
+            "RelativeDetailsURL": "/agent/2180151/paul-éric-poitras-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+            "AgentPhotoLastUpdated": "2023-09-25 18:18:00",
+            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638312626800000000/highres/1430181.jpg",
+            "RankMyAgentKey": "",
+            "RealSatisfiedKey": "",
+            "TestimonialTreeKey": ""
+        },
+        {
+            "IndividualID": 2180172,
+            "Name": "Shlomo Benarroch",
+            "Organization": {
+                "OrganizationID": 293679,
+                "Name": "NAI TERRAMONT COMMERCIAL",
+                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
+                "Address": {
+                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
+                    "PermitShowAddress": true,
+                    "DisseminationArea": null
+                },
+                "Phones": [
+                    {
+                        "PhoneType": "Telephone",
+                        "PhoneNumber": "866-3333",
+                        "AreaCode": "514",
+                        "PhoneTypeId": "1"
+                    }
+                ],
+                "Emails": [
+                    {
+                        "ContactId": "532157071"
+                    }
+                ],
+                "Websites": [
+                    {
+                        "Website": "https://www.naiterramont.ca/",
+                        "WebsiteTypeId": "1"
+                    }
+                ],
+                "OrganizationType": "Firm",
+                "Designation": "Real Estate Agency",
+                "HasEmail": true,
+                "PermitFreetextEmail": true,
+                "PermitShowListingLink": true,
+                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
+            },
+            "Phones": [
+                {
+                    "PhoneType": "Telephone",
+                    "PhoneNumber": "866-3333",
+                    "AreaCode": "514",
+                    "Extension": "247",
+                    "PhoneTypeId": "1"
+                }
+            ],
+            "Websites": [
+                {
+                    "Website": "https://www.naiterramont.ca/",
+                    "WebsiteTypeId": "1"
+                }
+            ],
+            "Emails": [
+                {
+                    "ContactId": "508091052"
+                }
+            ],
+            "Photo": "https://cdn.realtor.ca/individual/TS638163904800000000/lowres/1430154.jpg",
+            "Position": "Residential and Commercial Real Estate Broker",
+            "PermitFreetextEmail": true,
+            "FirstName": "Shlomo",
+            "LastName": "Benarroch",
+            "CorporationName": "Immobilier Shlomo Benarroch inc.",
+            "CorporationDisplayTypeId": "1",
+            "PermitShowListingLink": true,
+            "RelativeDetailsURL": "/agent/2180172/shlomo-benarroch-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+            "AgentPhotoLastUpdated": "2023-04-06 15:08:00",
+            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638163904800000000/highres/1430154.jpg",
+            "RankMyAgentKey": "",
+            "RealSatisfiedKey": "",
+            "TestimonialTreeKey": ""
+        },
+        {
+            "IndividualID": 2180161,
+            "Name": "Shawn Machado",
+            "Organization": {
+                "OrganizationID": 293679,
+                "Name": "NAI TERRAMONT COMMERCIAL",
+                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
+                "Address": {
+                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
+                    "PermitShowAddress": true,
+                    "DisseminationArea": null
+                },
+                "Phones": [
+                    {
+                        "PhoneType": "Telephone",
+                        "PhoneNumber": "866-3333",
+                        "AreaCode": "514",
+                        "PhoneTypeId": "1"
+                    }
+                ],
+                "Emails": [
+                    {
+                        "ContactId": "532157071"
+                    }
+                ],
+                "Websites": [
+                    {
+                        "Website": "https://www.naiterramont.ca/",
+                        "WebsiteTypeId": "1"
+                    }
+                ],
+                "OrganizationType": "Firm",
+                "Designation": "Real Estate Agency",
+                "HasEmail": true,
+                "PermitFreetextEmail": true,
+                "PermitShowListingLink": true,
+                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
+            },
+            "Phones": [
+                {
+                    "PhoneType": "Telephone",
+                    "PhoneNumber": "294-8494",
+                    "AreaCode": "514",
+                    "PhoneTypeId": "1"
+                }
+            ],
+            "Websites": [
+                {
+                    "Website": "https://www.naiterramont.ca/",
+                    "WebsiteTypeId": "1"
+                }
+            ],
+            "Emails": [
+                {
+                    "ContactId": "515964277"
+                }
+            ],
+            "Photo": "https://cdn.realtor.ca/individual/TS638333401200000000/lowres/1430192.jpg",
+            "Position": "Residential and Commercial Real Estate Broker",
+            "PermitFreetextEmail": true,
+            "FirstName": "Shawn",
+            "LastName": "Machado",
+            "CorporationDisplayTypeId": "0",
+            "PermitShowListingLink": true,
+            "RelativeDetailsURL": "/agent/2180161/shawn-machado-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
+            "AgentPhotoLastUpdated": "2023-10-19 19:22:00",
+            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638333401200000000/highres/1430192.jpg",
+            "RankMyAgentKey": "",
+            "RealSatisfiedKey": "",
+            "TestimonialTreeKey": ""
         }
     ],
-    "agent_represents": {
-        "buyer": true,
-        "seller": true
+    "Property": {
+        "Price": "$0.20/sqft +  GST +  QST",
+        "Type": "Vacant Land",
+        "Address": {
+            "AddressText": "600 Mtée de Montcalm|Montcalm, Quebec J0T2V0",
+            "Longitude": "-74.52364648",
+            "Latitude": "45.9208929",
+            "PermitShowAddress": true,
+            "DisseminationArea": null
+        },
+        "Photo": [
+            {
+                "SequenceId": "1",
+                "HighResPath": "https://cdn.realtor.ca/listings/TS638297064741170000/reb5/highres/4/23740244_1.jpg",
+                "MedResPath": "https://cdn.realtor.ca/listings/TS638297064741170000/reb5/medres/4/23740244_1.jpg",
+                "LowResPath": "https://cdn.realtor.ca/listings/TS638297064741170000/reb5/lowres/4/23740244_1.jpg",
+                "Description": "Exterior",
+                "LastUpdated": "2023-09-07 6:01:14 PM",
+                "TypeId": "0"
+            }
+        ],
+        "TypeId": "303",
+        "FarmType": "Other",
+        "ZoningType": "Residential/Commercial",
+        "PriceUnformattedValue": "0.2"
     },
-    "areas_served": "Brooklyn",
-    "team": {
-        "fulfillment_id": 0,
-        "name": ""
+    "Business": {},
+    "Land": {
+        "SizeTotal": "13884930 sqft"
     },
-    "feed_licenses": []
+    "AlternateURL": {
+        "VideoLink": "https://www.youtube.com/watch?v=pLRgtP0fuII"
+    },
+    "PostalCode": "J0T2V0",
+    "HistoricalDataIsCleared": false,
+    "ProvinceName": "Quebec",
+    "RelativeDetailsURL": "/real-estate/26028939/600-mtée-de-montcalm-montcalm",
+    "StatusId": "1",
+    "PhotoChangeDateUTC": "2023-09-07 10:01:14 PM",
+    "Distance": "",
+    "RelativeURLEn": "/real-estate/26028939/600-mtée-de-montcalm-montcalm",
+    "RelativeURLFr": "/immobilier/26028939/600-mtée-de-montcalm-montcalm",
+    "Media": [
+        {
+            "MediaCategoryId": "2",
+            "MediaCategoryURL": "https://www.youtube.com/watch?v=pLRgtP0fuII",
+            "Description": "VideoTourWebsite",
+            "Order": 5,
+            "VideoType": "Youtube"
+        }
+    ],
+    "InsertedDateUTC": "638297206892200000",
+    "TimeOnRealtor": "",
+    "Tags": [],
+    "UploadedBy": 5
 }

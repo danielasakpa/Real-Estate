@@ -4,19 +4,26 @@ import { PropertiesOptions, PropertyOptions } from '../utils/realEstateOptions';
 export const fetchProperties = async () => {
     console.log("Fetching properties...");
 
-    const response = await axios.request('https://realty-in-us.p.rapidapi.com/properties/v3/list', PropertiesOptions)
+    const response = await axios.request('https://realtor-canadian-real-estate.p.rapidapi.com/properties/list-residential', PropertiesOptions)
     const properties = response;
 
-    console.log("properties", properties.data.data.home_search.results);
-    if (properties) return properties.data.data.home_search.results;
+    console.log("properties", properties.data);
+    if (properties) return properties.data.Results;
 }
 
 export const fetchProperty = async (property_id) => {
     console.log("Fetching property...");
 
-    const response = await axios.request('https://realty-in-us.p.rapidapi.com/properties/v3/detail', { ...PropertyOptions, params: { property_id: property_id }, })
-    const property = response.data;
+    const response = await axios.request('https://realty-in-ca1.p.rapidapi.com/properties/detail', {
+        ...PropertyOptions, params: {
+            ReferenceNumber: '30794904',
+            PropertyID: property_id,
+            PreferedMeasurementUnit: '1',
+            CultureId: '1'
+        },
+    })
+    const property = response;
 
-    console.log("property", property.data.home);
-    if (property) return property.data.home;
+    console.log("property", property.data);
+    if (property) return property.data;
 }

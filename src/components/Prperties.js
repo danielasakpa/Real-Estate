@@ -19,9 +19,13 @@ const Properties = ({ Pagination }) => {
         console.log("Error: ", error);
     }
 
+
+    console.log("data", currentItems)
+
+
     return (
         <section>
-            <div className='grid xs:grid-cols-1 mt-[50px] overflow-hidden mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+            <div className='grid xs:grid-cols-1 mt-[50px] pb-10 overflow-hidden mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
                 {status === "loading" ?
                     currentItems.map(num => <PropertyCardSkeleton key={num} />) :
                     currentItems.map(property =>

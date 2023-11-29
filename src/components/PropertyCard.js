@@ -1,35 +1,25 @@
 import React from 'react'
-import { IoLocationOutline, IoBedOutline, IoChevronDownCircleOutline } from "react-icons/io5"
-import { TbBath } from "react-icons/tb";
+import { IoLocationOutline } from "react-icons/io5";
+// import { FaLandmark } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const PropertyCard = ({ property }) => {
+    console.log(property)
     return (
-        <Link className='list-none' to={`/properties/${property.property_id}`}>
-            <div className="max-w-sm h-full overflow-hidden rounded shadow-lg cursor-pointer">
-                <div className='h-[220px]'>
-                    <img className="w-full h-[220px] object-cover" src={property.primary_photo.href} alt="Sunset in the mountains" />
+        <Link className='list-none' to={`/properties/${property.Id}`}>
+            <div className="h-full max-w-sm overflow-hidden rounded cursor-pointer shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+                <div className='h-[150px'>
+                    <img className="w-full h-[150px] object-cover" src={property.Property?.Photo[0].HighResPath} alt="Sunset in the mountains" />
                 </div>
-                <div className='flex items-center mt-3 justify-start'>
-                    <IoLocationOutline size={25} className='mr-1' />
-                    <p className="text-[15px] text-[#171717] font-Roboto text-left font-medium">{property.location.address.line} {property.location.address.city} {property.location.address.state}</p>
-                </div>
-                <div className="px-2 py-4">
-                    <p className="xs:text-[20px] xl:text-[25px] text-[#171717] mt-1 font-Roboto text-left leading-[30px] font-medium"> ${property.list_price}</p>
-                    <div className='flex mt-5'>
-                        <div>
-                            <TbBath size={20} />
-                            <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{property.description.baths}</span> baths</p>
-                        </div>
-                        <div>
-                            <IoBedOutline size={20} />
-                            <p className="xs:text-[15px] xl:text-[16px] mr-4 text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{property.description.beds}</span> beds</p>
-                        </div>
-                        <div>
-                            {property.building_size || property.lot_size ? <IoChevronDownCircleOutline size={20} /> : null}
-                            {property.building_size !== undefined && !property.lot_size ? <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mt-1 font-Roboto text-left  font-medium"><span className='text-[#171717]'>{property.building_size.size}</span> sqft</p> : null}
-                            {property.lot_size !== undefined ? <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mt-1 font-Roboto text-left font-medium"><span className='text-[#171717]'>{property.lot_size.size}</span> sqft</p> : null}
-                        </div>
+                <div className='px-3 py-2'>
+
+                    <div className="px-2 py-4">
+                        <p className="text-[17px] text-[#171717] font-Bebas text-left font-medium">{property.Property.Type}</p>
+                        <p className="xs:text-[20px] xl:text-[24px] text-[#171717] font-medium mt-1 font-Arimo text-left leading-[30px] font-medium"> {`$${property.Property.PriceUnformattedValue} per square foot`}</p>
+                        <p className="text-[16px] text-[#171717] font-Arimo mt-2 text-left font-medium">{property.Property.Address.AddressText}</p>
+                        <p className="xs:text-[15px] xl:text-[16px] text-[#171717] mt-2 font-Arimo text-left font-medium">
+                            <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Land Size: </span>{property.Land.SizeTotal}
+                        </p>
                     </div>
                 </div>
             </div>

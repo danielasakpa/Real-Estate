@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'Lato': ["Lato"],
+        'Bebas': ["Bebas Neue"],
+        'Barlow': ["Barlow Condensed"],
+        'Arimo': ["Arimo"],
       },
       maxWidth: {
         '2/3': '90%',
