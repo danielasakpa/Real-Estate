@@ -1,357 +1,74 @@
 {
-    "Id": "26028939",
-    "MlsNumber": "23740244",
-    "PublicRemarks": "See listing broker(s) GST/QST must be added to the asking price (49769183)",
-    "Building": {
-        "StoriesTotal": ""
-    },
-    "Individual": [
-        {
-            "IndividualID": 2180168,
-            "Name": "Gabrielle Saine",
-            "Organization": {
-                "OrganizationID": 293679,
-                "Name": "NAI TERRAMONT COMMERCIAL",
-                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
-                "Address": {
-                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
-                    "PermitShowAddress": true,
-                    "DisseminationArea": null
-                },
-                "Phones": [
-                    {
-                        "PhoneType": "Telephone",
-                        "PhoneNumber": "866-3333",
-                        "AreaCode": "514",
-                        "PhoneTypeId": "1"
-                    }
-                ],
-                "Emails": [
-                    {
-                        "ContactId": "532157071"
-                    }
-                ],
-                "Websites": [
-                    {
-                        "Website": "https://www.naiterramont.ca/",
-                        "WebsiteTypeId": "1"
-                    }
-                ],
-                "OrganizationType": "Firm",
-                "Designation": "Real Estate Agency",
-                "HasEmail": true,
-                "PermitFreetextEmail": true,
-                "PermitShowListingLink": true,
-                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
-            },
-            "Phones": [
-                {
-                    "PhoneType": "Telephone",
-                    "PhoneNumber": "603-0062",
-                    "AreaCode": "514",
-                    "PhoneTypeId": "1"
-                }
-            ],
-            "Websites": [
-                {
-                    "Website": "https://www.naiterramont.ca/",
-                    "WebsiteTypeId": "1"
-                }
-            ],
-            "Emails": [
-                {
-                    "ContactId": "507915678"
-                }
-            ],
-            "Photo": "https://cdn.realtor.ca/individual/TS638276367600000000/lowres/1430199.jpg",
-            "Position": "Residential and Commercial Real Estate Broker",
-            "PermitFreetextEmail": true,
-            "FirstName": "Gabrielle",
-            "LastName": "Saine",
-            "CorporationName": "Immobilier Gabrielle Saine inc.",
-            "CorporationDisplayTypeId": "1",
-            "PermitShowListingLink": true,
-            "RelativeDetailsURL": "/agent/2180168/gabrielle-saine-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-            "AgentPhotoLastUpdated": "2023-08-14 19:06:00",
-            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638276367600000000/highres/1430199.jpg",
-            "RankMyAgentKey": "",
-            "RealSatisfiedKey": "",
-            "TestimonialTreeKey": ""
-        },
-        {
-            "IndividualID": 2180151,
-            "Name": "Paul-Éric Poitras",
-            "Organization": {
-                "OrganizationID": 293679,
-                "Name": "NAI TERRAMONT COMMERCIAL",
-                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
-                "Address": {
-                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
-                    "PermitShowAddress": true,
-                    "DisseminationArea": null
-                },
-                "Phones": [
-                    {
-                        "PhoneType": "Telephone",
-                        "PhoneNumber": "866-3333",
-                        "AreaCode": "514",
-                        "PhoneTypeId": "1"
-                    }
-                ],
-                "Emails": [
-                    {
-                        "ContactId": "532157071"
-                    }
-                ],
-                "Websites": [
-                    {
-                        "Website": "https://www.naiterramont.ca/",
-                        "WebsiteTypeId": "1"
-                    }
-                ],
-                "OrganizationType": "Firm",
-                "Designation": "Real Estate Agency",
-                "HasEmail": true,
-                "PermitFreetextEmail": true,
-                "PermitShowListingLink": true,
-                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
-            },
-            "Phones": [
-                {
-                    "PhoneType": "Telephone",
-                    "PhoneNumber": "866-3333",
-                    "AreaCode": "514",
-                    "PhoneTypeId": "1"
-                }
-            ],
-            "Websites": [
-                {
-                    "Website": "https://www.naiterramont.ca/",
-                    "WebsiteTypeId": "1"
-                }
-            ],
-            "Emails": [
-                {
-                    "ContactId": "507915589"
-                }
-            ],
-            "Photo": "https://cdn.realtor.ca/individual/TS638312626800000000/lowres/1430181.jpg",
-            "Position": "Certified Residential and Commercial Real Estate Broker AEO",
-            "PermitFreetextEmail": true,
-            "FirstName": "Paul-Éric",
-            "LastName": "Poitras",
-            "CorporationName": "Immobilier Paul-Éric Poitras Inc.",
-            "CorporationDisplayTypeId": "1",
-            "PermitShowListingLink": true,
-            "RelativeDetailsURL": "/agent/2180151/paul-éric-poitras-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-            "AgentPhotoLastUpdated": "2023-09-25 18:18:00",
-            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638312626800000000/highres/1430181.jpg",
-            "RankMyAgentKey": "",
-            "RealSatisfiedKey": "",
-            "TestimonialTreeKey": ""
-        },
-        {
-            "IndividualID": 2180172,
-            "Name": "Shlomo Benarroch",
-            "Organization": {
-                "OrganizationID": 293679,
-                "Name": "NAI TERRAMONT COMMERCIAL",
-                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
-                "Address": {
-                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
-                    "PermitShowAddress": true,
-                    "DisseminationArea": null
-                },
-                "Phones": [
-                    {
-                        "PhoneType": "Telephone",
-                        "PhoneNumber": "866-3333",
-                        "AreaCode": "514",
-                        "PhoneTypeId": "1"
-                    }
-                ],
-                "Emails": [
-                    {
-                        "ContactId": "532157071"
-                    }
-                ],
-                "Websites": [
-                    {
-                        "Website": "https://www.naiterramont.ca/",
-                        "WebsiteTypeId": "1"
-                    }
-                ],
-                "OrganizationType": "Firm",
-                "Designation": "Real Estate Agency",
-                "HasEmail": true,
-                "PermitFreetextEmail": true,
-                "PermitShowListingLink": true,
-                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
-            },
-            "Phones": [
-                {
-                    "PhoneType": "Telephone",
-                    "PhoneNumber": "866-3333",
-                    "AreaCode": "514",
-                    "Extension": "247",
-                    "PhoneTypeId": "1"
-                }
-            ],
-            "Websites": [
-                {
-                    "Website": "https://www.naiterramont.ca/",
-                    "WebsiteTypeId": "1"
-                }
-            ],
-            "Emails": [
-                {
-                    "ContactId": "508091052"
-                }
-            ],
-            "Photo": "https://cdn.realtor.ca/individual/TS638163904800000000/lowres/1430154.jpg",
-            "Position": "Residential and Commercial Real Estate Broker",
-            "PermitFreetextEmail": true,
-            "FirstName": "Shlomo",
-            "LastName": "Benarroch",
-            "CorporationName": "Immobilier Shlomo Benarroch inc.",
-            "CorporationDisplayTypeId": "1",
-            "PermitShowListingLink": true,
-            "RelativeDetailsURL": "/agent/2180172/shlomo-benarroch-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-            "AgentPhotoLastUpdated": "2023-04-06 15:08:00",
-            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638163904800000000/highres/1430154.jpg",
-            "RankMyAgentKey": "",
-            "RealSatisfiedKey": "",
-            "TestimonialTreeKey": ""
-        },
-        {
-            "IndividualID": 2180161,
-            "Name": "Shawn Machado",
-            "Organization": {
-                "OrganizationID": 293679,
-                "Name": "NAI TERRAMONT COMMERCIAL",
-                "Logo": "https://cdn.realtor.ca/organization/en-CA/TS638297062890000000/lowres/1430314.jpg",
-                "Address": {
-                    "AddressText": "200 - 615 boul. René-Lévesque O. |Montréal, Quebec H3B1P5",
-                    "PermitShowAddress": true,
-                    "DisseminationArea": null
-                },
-                "Phones": [
-                    {
-                        "PhoneType": "Telephone",
-                        "PhoneNumber": "866-3333",
-                        "AreaCode": "514",
-                        "PhoneTypeId": "1"
-                    }
-                ],
-                "Emails": [
-                    {
-                        "ContactId": "532157071"
-                    }
-                ],
-                "Websites": [
-                    {
-                        "Website": "https://www.naiterramont.ca/",
-                        "WebsiteTypeId": "1"
-                    }
-                ],
-                "OrganizationType": "Firm",
-                "Designation": "Real Estate Agency",
-                "HasEmail": true,
-                "PermitFreetextEmail": true,
-                "PermitShowListingLink": true,
-                "RelativeDetailsURL": "/office/firm/293679/nai-terramont-commercial-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-                "PhotoLastupdate": "2023-09-07 5:58:09 PM"
-            },
-            "Phones": [
-                {
-                    "PhoneType": "Telephone",
-                    "PhoneNumber": "294-8494",
-                    "AreaCode": "514",
-                    "PhoneTypeId": "1"
-                }
-            ],
-            "Websites": [
-                {
-                    "Website": "https://www.naiterramont.ca/",
-                    "WebsiteTypeId": "1"
-                }
-            ],
-            "Emails": [
-                {
-                    "ContactId": "515964277"
-                }
-            ],
-            "Photo": "https://cdn.realtor.ca/individual/TS638333401200000000/lowres/1430192.jpg",
-            "Position": "Residential and Commercial Real Estate Broker",
-            "PermitFreetextEmail": true,
-            "FirstName": "Shawn",
-            "LastName": "Machado",
-            "CorporationDisplayTypeId": "0",
-            "PermitShowListingLink": true,
-            "RelativeDetailsURL": "/agent/2180161/shawn-machado-200-615-boul-rené-lévesque-o-montréal-quebec-h3b1p5",
-            "AgentPhotoLastUpdated": "2023-10-19 19:22:00",
-            "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638333401200000000/highres/1430192.jpg",
-            "RankMyAgentKey": "",
-            "RealSatisfiedKey": "",
-            "TestimonialTreeKey": ""
-        }
-    ],
-    "Property": {
-        "Price": "$0.20/sqft +  GST +  QST",
-        "Type": "Vacant Land",
+    "IndividualID": 2199324,
+    "Name": "SARKIS KURKJIAN",
+    "Organization": {
+        "OrganizationID": 255488,
+        "Name": "HOME LEADER REALTY  INC.",
+        "Logo": "https://cdn.realtor.ca/organization/en-CA/TS637496887200000000/lowres/255488.jpg",
         "Address": {
-            "AddressText": "600 Mtée de Montcalm|Montcalm, Quebec J0T2V0",
-            "Longitude": "-74.52364648",
-            "Latitude": "45.9208929",
+            "AddressText": "300 RICHMOND ST WEST #300|TORONTO, Ontario M5V1X2",
             "PermitShowAddress": true,
             "DisseminationArea": null
         },
-        "Photo": [
+        "Phones": [
             {
-                "SequenceId": "1",
-                "HighResPath": "https://cdn.realtor.ca/listings/TS638297064741170000/reb5/highres/4/23740244_1.jpg",
-                "MedResPath": "https://cdn.realtor.ca/listings/TS638297064741170000/reb5/medres/4/23740244_1.jpg",
-                "LowResPath": "https://cdn.realtor.ca/listings/TS638297064741170000/reb5/lowres/4/23740244_1.jpg",
-                "Description": "Exterior",
-                "LastUpdated": "2023-09-07 6:01:14 PM",
-                "TypeId": "0"
+                "PhoneType": "Telephone",
+                "PhoneNumber": "599-9599",
+                "AreaCode": "416",
+                "PhoneTypeId": "1"
+            },
+            {
+                "PhoneType": "Fax",
+                "PhoneNumber": "970-7654",
+                "AreaCode": "800",
+                "PhoneTypeId": "4"
             }
         ],
-        "TypeId": "303",
-        "FarmType": "Other",
-        "ZoningType": "Residential/Commercial",
-        "PriceUnformattedValue": "0.2"
+        "Emails": [
+            {
+                "ContactId": "464118933"
+            }
+        ],
+        "Websites": [
+            {
+                "Website": "http://www.homeleaderrealty.com",
+                "WebsiteTypeId": "1"
+            }
+        ],
+        "OrganizationType": "Firm",
+        "Designation": "Brokerage",
+        "HasEmail": true,
+        "HasListings": true,
+        "PermitFreetextEmail": true,
+        "PermitShowListingLink": true,
+        "RelativeDetailsURL": "/office/firm/255488/home-leader-realty-inc-300-richmond-st-west-300-toronto-ontario-m5v1x2",
+        "PhotoLastupdate": "2021-02-23 2:52:00 PM"
     },
-    "Business": {},
-    "Land": {
-        "SizeTotal": "13884930 sqft"
-    },
-    "AlternateURL": {
-        "VideoLink": "https://www.youtube.com/watch?v=pLRgtP0fuII"
-    },
-    "PostalCode": "J0T2V0",
-    "HistoricalDataIsCleared": false,
-    "ProvinceName": "Quebec",
-    "RelativeDetailsURL": "/real-estate/26028939/600-mtée-de-montcalm-montcalm",
-    "StatusId": "1",
-    "PhotoChangeDateUTC": "2023-09-07 10:01:14 PM",
-    "Distance": "",
-    "RelativeURLEn": "/real-estate/26028939/600-mtée-de-montcalm-montcalm",
-    "RelativeURLFr": "/immobilier/26028939/600-mtée-de-montcalm-montcalm",
-    "Media": [
+    "Phones": [
         {
-            "MediaCategoryId": "2",
-            "MediaCategoryURL": "https://www.youtube.com/watch?v=pLRgtP0fuII",
-            "Description": "VideoTourWebsite",
-            "Order": 5,
-            "VideoType": "Youtube"
+            "PhoneType": "Telephone",
+            "PhoneNumber": "599-9599",
+            "AreaCode": "416",
+            "PhoneTypeId": "1"
         }
     ],
-    "InsertedDateUTC": "638297206892200000",
-    "TimeOnRealtor": "",
-    "Tags": [],
-    "UploadedBy": 5
+    "Emails": [
+        {
+            "ContactId": "530602038"
+        }
+    ],
+    "Photo": "https://cdn.realtor.ca/individual/TS638307417600000000/lowres/1448128.jpg",
+    "Position": "Salesperson",
+    "HasOrganizationListings": true,
+    "PermitFreetextEmail": true,
+    "FirstName": "SARKIS",
+    "LastName": "KURKJIAN",
+    "CorporationDisplayTypeId": "0",
+    "PermitShowListingLink": true,
+    "RelativeDetailsURL": "/agent/2199324/sarkis-kurkjian-300-richmond-st-west-300-toronto-ontario-m5v1x2",
+    "AgentPhotoLastUpdated": "2023-09-19 17:36:00",
+    "PhotoHighRes": "https://cdn.realtor.ca/individual/TS638307417600000000/highres/1448128.jpg",
+    "RankMyAgentKey": "",
+    "RealSatisfiedKey": "",
+    "TestimonialTreeKey": ""
 }

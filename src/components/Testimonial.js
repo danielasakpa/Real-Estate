@@ -18,7 +18,7 @@ const Testimonial = () => {
         return (
           <span
             style={style}
-            className="h-[10px] w-[10px] rounded-sm border border-[#171717] p-1 px-2 mx-2"
+            className="h-[10px] w-[10px] rounded-sm border border-[#000000] p-1 px-2 mx-2"
             onClick={onClickHandler}
             onKeyDown={onClickHandler}
             value={index}

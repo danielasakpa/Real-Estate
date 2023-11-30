@@ -4,11 +4,11 @@ import { AgentsOptions, AgentOptions } from '../utils/realEstateOptions';
 export const fetchAgents = async () => {
     console.log("Fetching agents...");
 
-    const response = await axios.request('https://realty-in-us.p.rapidapi.com/agents/list', AgentsOptions)
+    const response = await axios.request('https://realty-in-ca1.p.rapidapi.com/agents/list', AgentsOptions)
     const agents = response;
 
-    console.log("agents", agents.data);
-    if (agents) return agents.data.agents;
+    console.log("agents", agents.data.Results);
+    if (agents) return agents.data.Results;
 }
 
 export const fetchAgent = async (advertiser_id, nrds_id) => {

@@ -32,13 +32,13 @@ const Hero = () => {
           className='mx-auto md:mt-[30px] px-4 lg:mt-[100px] xl:mt-[150px] basis-1/2 text-left'>
           <m.p
             variants={item}
-            className='xs:text-[15px] xl:text-[20px] text-[#171717] mb-3 font-bold'>EXPLORE DREAM PROPERTIES</m.p>
+            className='xs:text-[15px] xl:text-[20px] text-[#1F1717] font-Barlow mb-3 font-medium'>EXPLORE DREAM PROPERTIES</m.p>
           <m.h1
             variants={item}
-            className='xs:text-[35px] xl:text-[55px]  font-Roboto text-[#171717] text-left xs:leading-[45px] lg:leading-[50px] xl:leading-[60px]  font-bold'>Find the place that's perfect for you</m.h1>
+            className='xs:text-[35px] xl:text-[55px] font-Questrial text-[#000000] text-left xs:leading-[45px] lg:leading-[50px] xl:leading-[60px]  font-bold'>Find the place that's perfect for you</m.h1>
           <m.p
             variants={item}
-            className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>The best solution ever for those who're looking for an exceptional home and life</m.p>
+            className='xs:text-[18px] xl:text-[22px]  text-[#1F1717] mt-4 font-Arimo'>The best solution ever for those who're looking for an exceptional home and life</m.p>
           <m.div
             variants={item}
             className="flex mt-6">
@@ -50,8 +50,8 @@ const Hero = () => {
             className='flex xs:mt-[50px] lg:mt-[70px] xl:mt-[90px] xs:justify-between lg:justify-start'>
             {ratings.map((rating, i) =>
               <div key={i} className='flex flex-col xs:mr-[10px] md:mr-[60px]'>
-                <p className='xs:text-[20px] xl:text-[25px] text-[#171717] font-Roboto text-left leading-[30px] font-medium'>{rating.name}</p>
-                <p className='xs:text-[13px] xl:text-[15px] text-[#A3A3A3] font-lightfont-Roboto'>{rating.text}</p>
+                <p className='xs:text-[20px] xl:text-[25px] text-[#1F1717] font-Barlow text-left leading-[30px] font-medium'>{rating.name}</p>
+                <p className='xs:text-[13px] xl:text-[15px] text-[#1F1717] font-light font-Arimo'>{rating.text}</p>
               </div>
             )}
           </m.div>
@@ -73,7 +73,7 @@ const Hero = () => {
           </m.div>
         </div>
       </div>
-      <h2 className='xs:text-[25px] xl:text-[40px] text-[#171717] mt-10 text-center font-Roboto lg:leading-[50px] xl:leading-[70px] font-bold'>Your home anywhere in the world</h2>
+      <h2 className='xs:text-[25px] xl:text-[40px] text-[#000000] mt-10 text-center font-Questrial font-Roboto lg:leading-[50px] xl:leading-[70px] font-bold'>Your home anywhere in the world</h2>
     </section>
   )
 }

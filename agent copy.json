@@ -292,7 +292,8 @@
     "AddressText": "600 Ch Du Golf, Ile -Des -Soeurs, Quebec H3E 1A8",
     "PermitShowAddress": true,
     "DisseminationArea": null
-  },
+  },                       
+
   "Media": [
     {
       "MediaCategoryId": "1",

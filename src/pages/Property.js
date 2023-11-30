@@ -55,7 +55,7 @@ const Property = () => {
                   <div className="flex items-center mr-4">
                     <IoChevronDownCircleOutline size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Land Size: </span>{data.Land.SizeTotal}
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Land Size: </span>{data.Land.SizeTotal}
                     </p>
                   </div>
                 }
@@ -65,7 +65,7 @@ const Property = () => {
                   <div className="flex items-center">
                     <IoHammerOutline size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] ml-1 text-[#171717] font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Building Year: </span>{data.Building.DisplayAsYears ? data.Building.DisplayAsYears : "none"}
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Building Year: </span>{data.Building.DisplayAsYears ? data.Building.DisplayAsYears : "none"}
                     </p>
                   </div>
                 }
@@ -74,7 +74,7 @@ const Property = () => {
                 <div className="flex items-center ml-4">
                   <IoBedOutline size={20} />
                   <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                    <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'> Type of Property: </span> {data.Property.Type}
+                    <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'> Type of Property: </span> {data.Property.Type}
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Property = () => {
                   <div className="flex items-center mr-4">
                     <IoChevronDownCircleOutline size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Size of Property: </span> {data.Property.SizeTotal}
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Size of Property: </span> {data.Property.SizeTotal}
                     </p>
                   </div>
                 }
@@ -105,7 +105,7 @@ const Property = () => {
                   <div className="flex items-center mr-4">
                     <IoLocationOutline size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Waterfront Type: </span>{data.Property.WaterFrontType}
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Waterfront Type: </span>{data.Property.WaterFrontType}
                     </p>
                   </div>
                 }
@@ -114,7 +114,7 @@ const Property = () => {
                 {data.Property.ZoningType &&
                   <div className="flex items-center">
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Zoning Category:</span> {data.Property.ZoningType}
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Zoning Category:</span> {data.Property.ZoningType}
                     </p>
                   </div>
                 }
@@ -123,7 +123,7 @@ const Property = () => {
                 {data.Land.Sewer &&
                   <div className="flex items-center ml-4">
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Sewer: </span> {data.Land.Sewer}
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Sewer: </span> {data.Land.Sewer}
                     </p>
                   </div>
                 }
@@ -132,7 +132,7 @@ const Property = () => {
                 {data.TimeOnRealtor &&
                   <div className="flex items-center ml-4">
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#A3A3A3] font-Barlow'>Time On Realtor: </span> {data.TimeOnRealtor}
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Time On Realtor: </span> {data.TimeOnRealtor}
                     </p>
                   </div>
                 }
@@ -142,7 +142,7 @@ const Property = () => {
             {/* Public Remarks */}
             <div className="mt-6">
               <p className="xs:text-[15px] xl:text-[20px] text-[#171717] text-400 font-Bebas text-left font-medium">Public Remarks:</p>
-              <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mt-1 font-Arimo text-left">
+              <p className="xs:text-[15px] xl:text-[16px] text-[#1F1717] mt-1 font-Arimo text-left">
                 {data.PublicRemarks}
               </p>
             </div>
@@ -164,7 +164,7 @@ const Property = () => {
                           <p className="xs:text-[15px] xl:text-[16px] text-[#171717] font-Arimo text-left font-medium">
                             {agent.Name}
                           </p>
-                          <p className="xs:text-[15px] xl:text-[16px] text-[#A3A3A3] mt-1 font-Arimo text-left">
+                          <p className="xs:text-[15px] xl:text-[16px] text-[#1F1717] mt-1 font-Arimo text-left">
                             {agent.Position} at {agent.CorporationName}
                           </p>
                         </div>

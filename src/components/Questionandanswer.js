@@ -47,13 +47,13 @@ const Questionandanswer = ({ QandA }) => {
                 >
                     <Accordion
                         open={open === qanda.num} className="py-2" icon={<Icon id={1} open={open} />} animate={customAnimation} key={i}>
-                        <AccordionHeader onClick={() => handleOpen(qanda.num)} className="text-[17px] text-left text-[#171717] font-normal font-Roboto">
+                        <AccordionHeader onClick={() => handleOpen(qanda.num)} className="text-[17px] text-left text-[#171717] font-normal font-Arimo">
                             {qanda.question}
                         </AccordionHeader>
-                        <AccordionBody className="px-6 py-3 font-light border-b border-gray-200">
-                            <ol type="1" className='list-decimal'>
+                        <AccordionBody className="px-6 py-3 border-b border-gray-200">
+                            <ol type="1" className='list-decimal font-bold text-[17px]'>
                                 {qanda.ans.map((anstext, p) =>
-                                    <li key={p}><p className="mb-2 text-[15px] dark:text-[#A3A3A3] font-Roboto">{anstext}</p></li>
+                                    <li key={p}><p className="mb-2 text-[15px] font-normal dark:text-[#1F1717] font-Arimo">{anstext}</p></li>
                                 )}
                             </ol>
                         </AccordionBody>

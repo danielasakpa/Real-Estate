@@ -34,15 +34,15 @@ export const PropertyOptions = {
 export const AgentsOptions = {
   method: 'GET',
   params: {
-    postal_code: '11234',
-    offset: '0',
-    limit: '20',
-    sort: 'recent_activity_high',
-    types: 'agent'
+    CurrentPage: '1',
+    RecordsPerPage: '10',
+    SortOrder: 'A',
+    SortBy: '11',
+    CultureId: '1'
   },
   headers: {
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
-    'X-RapidAPI-Host': 'realty-in-us.p.rapidapi.com'
+    'X-RapidAPI-Key': '0cb117725emshc885ab7f2a7265ap1b697djsn956cfe69679e',
+    'X-RapidAPI-Host': 'realty-in-ca1.p.rapidapi.com'
   }
 }
 

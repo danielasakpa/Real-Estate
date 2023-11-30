@@ -27,16 +27,16 @@ const Nav = () => {
                                 transition={{ duration: 0.6, ease: "easeOut" }}
                                 viewport={{ once: true }}
                                 key={link.id}
-                                className='px-4 py-2 mr-5 text-sm font-Roboto text-[#171717] cursor-pointer border-opacity-0 hover:border-opacity-25 border border-[#1e293b] rounded-md'
+                                className='px-4 py-2 mr-5 text-sm font-Arimo text-[#000000] cursor-pointer border-opacity-0 hover:border-opacity-25 border border-[#1e293b] rounded-md'
                             >
-                                {link.name}
+                                {link.name.toUpperCase()}
                             </m.li>
                         </Link>
                     ))}
                 </ul>
             </nav>
             <Link to='/properties'>
-                <button className='px-3 py-2  xs:hidden text-sm  lg:block font-Roboto bg-[#171717]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-5 border-[#1e293b]'
+                <button className='px-3 py-2  xs:hidden text-sm  lg:block font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-5 border-[#1e293b]'
                 >
                     Browse all
                 </button>
@@ -70,20 +70,20 @@ const Nav = () => {
                         </svg>
                     </div>
                     <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-                        <li className="mb-5 uppercase font-Roboto">
+                        <li className="mb-5 uppercase font-Arimo">
                             <Link to="/properties">Properties</Link>
                         </li>
-                        <li className="my-5 uppercase font-Roboto">
+                        <li className="my-5 uppercase font-Arimo">
                             <Link to="/agents">Agents</Link>
                         </li>
-                        <li className="my-5 uppercase font-Roboto">
+                        <li className="my-5 uppercase font-Arimo">
                             <Link to="/about">About</Link>
                         </li>
-                        <li className="my-5 uppercase font-Roboto">
+                        <li className="my-5 uppercase font-Arimo">
                             <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
-                    <button className='w-[80%] mt-16 py-2 font-Roboto bg-black rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 hover:border-solid hover:border hover:border-black'
+                    <button className='w-[80%] mt-16 py-2 font-Arimo bg-black rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 hover:border-solid hover:border hover:border-black'
                     >
                         Browse all
                     </button>

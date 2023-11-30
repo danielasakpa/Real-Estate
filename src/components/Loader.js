@@ -1,5 +1,5 @@
 import React from 'react'
-import {ThreeCircles} from "react-loader-spinner"
+import { ThreeCircles } from "react-loader-spinner"
 
 const Loader = () => {
     return (
@@ -7,7 +7,7 @@ const Loader = () => {
             <ThreeCircles
                 height="100"
                 width="100"
-                color="#A3A3A3"
+                color="#1F1717"
                 wrapperStyle={{}}
                 wrapperClass=""
                 visible={true}

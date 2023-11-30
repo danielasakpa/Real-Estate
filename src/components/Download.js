@@ -29,14 +29,14 @@ const Download = () => {
               <TbBath size={30} />
             </div>
           </div>
-          <p className='mt-[30px] xs:text-[10px] md:text-[12px] text-[#171717] mb-3 font-bold'>BECOME A LEGENDARY DESIGNER</p>
-          <h1 className='xs:text-[20px] md:text-[26px] font-Roboto text-[#171717]-left xs:leading-[20px] md:leading-[30px] font-bold'>A headline to make big impact on visitors</h1>
-          <p className='xs:text-[12px] md:text-[15px] text-[#A3A3A3] mt-4 font-Roboto'>A subheading that addresses the what, the why we should care and hopefully some social proof.</p>
-          <button className='xs:mt-10 md:mt-7 w-[100%] px-3 py-2  font-Roboto bg-[#171717] rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#171717]'
+          <p className='mt-[30px] xs:text-[12px] md:text-[15px] text-[#1F1717] font-Barlow font-medium'>BECOME A LEGENDARY DESIGNER</p>
+          <h1 className='xs:text-[20px] md:text-[26px] mt-2 font-Questrial text-[#000000] text-left xs:leading-[20px] md:leading-[30px] font-bold'>A headline to make big impact on visitors</h1>
+          <p className='xs:text-[12px] md:text-[15px] text-[#1F1717] mt-2 md:mt-4 font-Arimo'>A subheading that addresses the what, the why we should care and hopefully some social proof.</p>
+          <button className='xs:mt-6 md:mt-7 w-[100%] px-3 py-2 font-Arimo bg-[#000000] rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1f1717]'
           >
             Download the app
           </button>
-          <button className='mt-3 w-[100%] py-2 font-Roboto bg-[#FFFFFF] border-solid border border-[#171717] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
+          <button className='mt-3 w-[100%] py-2 font-Arimo bg-[#FFFFFF] border-solid border border-[#1f1717] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
           >
             Browse all property
           </button>
@@ -50,9 +50,9 @@ const Download = () => {
             whileInView="show"
             viewport={{ once: true }}
             className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
-            <m.p variants={item} className='text-[15px] text-[#171717] mb-3 font-bold'>DOWNLOAD OUR APP FOR IOS & ANDROID</m.p>
-            <m.h1 variants={item} className='xs:text-[35px] lg:text-[40px] text-[#171717] xl:text-[50px] font-Roboto text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>Finding your home has never been so easy</m.h1>
-            <m.p variants={item} className='xs:text-[18px] xl:text-[22px]  text-[#A3A3A3] mt-4 font-Roboto'>Innovative technologies and expert agents will help you find the best place to call home.</m.p>
+            <m.p variants={item} className='xs:text-[15px] lg:text-[17px] text-[#1F1717] mb-3 font-medium font-Barlow'>DOWNLOAD OUR APP FOR IOS & ANDROID</m.p>
+            <m.h1 variants={item} className='xs:text-[35px] lg:text-[40px] text-[#000000] xl:text-[50px] font-Questrial text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>Finding your home has never been so easy</m.h1>
+            <m.p variants={item} className='xs:text-[18px] xl:text-[22px]  text-[#1F1717] mt-4 font-Arimo'>Innovative technologies and expert agents will help you find the best place to call home.</m.p>
             <m.div variants={item} className="flex mt-10 xs:flex-col md:flex-row">
               <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
               <button className='mr-3 transition duration-300 ease-in xs:mt-4 md:mt-0 delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
