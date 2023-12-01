@@ -6,7 +6,7 @@ const PropertyCard = ({ property }) => {
     console.log(property)
     return (
         <Link className='list-none' to={`/properties/${property.Id}`}>
-            <div className="h-full max-w-sm overflow-hidden rounded cursor-pointer shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+            <div className="h-full max-w-sm overflow-hidden rounded cursor-pointer bg-[#f5faff] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
                 <div className='h-[150px]'>
                     <img className="w-full h-[150px] object-cover" src={property.Property?.Photo[0].HighResPath} alt="Sunset in the mountains" />
                 </div>

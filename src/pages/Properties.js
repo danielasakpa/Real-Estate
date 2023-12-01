@@ -20,9 +20,9 @@ const Properties = () => {
                     <m.h1 variants={item} className='xs:text-[30px] lg:text-[35px] xl:text-[37px] text-[#000000] font-Questrial text-left xs:leading-[35px] lg:leading-[40px] xl:leading-[50px] font-bold'>Properties for a dreamy lifestyle</m.h1>
                     <m.p variants={item} className='xs:text-[18px] xl:text-[17px]  text-[#1F1717] mt-6 font-Arimo'>Find the home that best suit your needs and dreams</m.p>
                     <m.div variants={item} className='flex items-center mt-5 px-1'>
-                        <input type="text" className="form-input  rounded  border border-[#1f1717] border-opacity-25 focus:border-none xs:w-[80%] md:w-[75%] md:px-6  lg:px-10 py-2.5 mr-2"
+                        <input type="text" className="form-input rounded bg-[#f5faff] border border-[#1f1717] border-opacity-25 focus:border-none xs:w-[80%] md:w-[75%] md:px-6  lg:px-10 py-2.5 mr-2"
                         />
-                        <button className='xs:px-3 lg:px-4 py-3 xs:text-[14px] md:text-[15px] font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
+                        <button className='xs:px-3 lg:px-4 py-3 xs:text-[14px] md:text-[15px] font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-[#f5faff] hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                         >
                             Search
                         </button>

@@ -36,7 +36,7 @@ const Download = () => {
           >
             Download the app
           </button>
-          <button className='mt-3 w-[100%] py-2 font-Arimo bg-[#FFFFFF] border-solid border border-[#1f1717] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
+          <button className='mt-3 w-[100%] py-2 font-Arimo bg-[#f5faff] border-solid border border-[#1f1717] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
           >
             Browse all property
           </button>

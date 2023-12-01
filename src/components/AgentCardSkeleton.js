@@ -8,7 +8,7 @@ const AgentCardSkeleton = () => {
             whileInView={{ x: "0" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="max-w-96 shadow-md py-2 flex items-center bg-[#FFFFFF] animate-pulse cursor-pointer rounded-sm">
+            className="max-w-96 shadow-md py-2 flex items-center bg-[#f5faff] animate-pulse cursor-pointer rounded-sm">
             <div className='w-[100px] h-[100px] bg-[#A3A3A3] rounded-sm mr-5'>
             </div>
             <div className="text-left">

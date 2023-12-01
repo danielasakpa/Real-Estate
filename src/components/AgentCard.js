@@ -9,7 +9,7 @@ export default function AgentCard({ agent }) {
         whileInView={{ x: "0" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="max-w-96 h-[100px] flex items-center bg-[#FFFFFF] cursor-pointer rounded-sm shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+        className="max-w-96 h-[100px] flex items-center bg-[#f5faff] cursor-pointer rounded-sm shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
         <div className="w-[100px] h-[100px]">
           <img
             loading="lazy"

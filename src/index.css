@@ -59,8 +59,8 @@ h1 {
   margin-right: 10px;
   border-radius: 5px;
   font-family: "Arimo";
-  border: 1px solid #1f1717;
-  color: #1f1717;
+  border: 1px solid #000000;
+  color: #000000;
 }
 
 .pagination__link {
@@ -68,14 +68,14 @@ h1 {
 }
 
 .pagination__link--active a {
-  color: #fff;
-  background: #1f1717;
+  color: #f5faff;
+  background: #000000;
   border: none;
 }
 
 .pagination__link--disabled a {
-  color: #1f1717;
-  border: 1px solid #1f1717;
+  color: #000000;
+  border: 1px solid #000000;
 }
 
 .carousel {

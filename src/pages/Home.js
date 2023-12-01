@@ -57,7 +57,7 @@ const Home = () => {
             <div className='list-none'>
                 <Properties Pagination={false} />
                 <Link to='/properties'>
-                    <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden lg:block font-Arimo bg-[#FFFFFF] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
+                    <button className='mt-[80px] mx-auto px-10 py-4 xs:hidden lg:block font-Arimo bg-[#f5faff] border-solid border border-[#1e293b] border-opacity-25 rounded-md  text-black hover:bg-[#f5faff} hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
                     >
                         Browse all property
                     </button>
@@ -71,7 +71,7 @@ const Home = () => {
                         <h1 className='xs:text-[45px] lg:text-[30px] xl:text-[50px] text-[#000000] font-Questrial text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>A headline to make an impact on visitors</h1>
                         <p className='xs:text-[18px] xl:text-[22px]  text-[#1F1717] mt-4 font-Arimo'>We work to elevate you experience and help you make <br className='xs:hidden lg:block' /> inhtmlFormed decisions.</p>
                         <div className='flex mt-[30px] xs:flex-col md:flex-row md:items-center'>
-                            <button className='mr-3 px-4 py-2  font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
+                            <button className='mr-3 px-4 py-2  font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-[#f5faff} hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                             >
                                 Start now
                             </button>
@@ -107,14 +107,14 @@ const Home = () => {
                     <m.p variants={item} className='xs:text-[16px] lg:text-[17px] text-[#1f1717] text-center mb-3 font-medium font-Barlow'>WHY TO CHOOSE HOMEQ</m.p>
                     <m.h1 variants={item} className='xs:text-[30px] xl:text-[35px] mt-4 font-Questrial text-[#000000] text-center xs:leading-[35px] lg:leading-[50px] xl:leading-[45px] font-bold'>The best experience to sell/rent <br className='xs:hidden lg:block' /> your house</m.h1>
                 </m.div>
-                <div className='grid gap-4 m-10 mx-auto xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                <div className='grid gap-4 m-10 mx-auto xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3'>
                     {experiences.map((experience, i) =>
                         <m.div
                             initial={{ y: "100%", opacity: 0 }}
                             whileInView={{ y: "0", opacity: 1 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            key={i} className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] bg-[#FFFFFF]'>
+                            key={i} className='h-[220px] max-w-[410px] px-3 py-5 rounded-lg bg-[#f5faff] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] bg-[#f5faff]'>
                             <div className='p-1 w-[40px] flex justify-center bg-[#F5F5F5] items-center h-[40px]  rounded-full'>
                                 <experience.icon size={25} />
                             </div>
@@ -143,7 +143,7 @@ const Home = () => {
                         <m.h1 variants={item} className='xs:text-[45px] lg:text-[30px] xl:text-[37px] font-Questrial text-left xs:leading-[48px] lg:leading-[40px] xl:leading-[50px] font-bold'>Guides to get started</m.h1>
                         <m.p variants={item} className='xs:text-[18px] xl:text-[17px]  text-[#1F1717] mt-3 font-Arimo'>It's important for us to help you make informed decisions.</m.p>
                         <m.div variants={item} className='mt-[30px]'>
-                            <button className='mr-3 px-4 py-2 font-Arimo bg-[#000000] rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
+                            <button className='mr-3 px-4 py-2 font-Arimo bg-[#000000] rounded-md text-stone-50 hover:bg-[#f5faff}hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                             >
                                 Contact us
                             </button>

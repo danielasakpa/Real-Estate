@@ -36,7 +36,7 @@ const Nav = () => {
                 </ul>
             </nav>
             <Link to='/properties'>
-                <button className='px-3 py-2  xs:hidden text-sm  lg:block font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-5 border-[#1e293b]'
+                <button className='px-3 py-2  xs:hidden text-sm lg:block font-Arimo bg-[#000000] rounded-md text-stone-50 hover:bg-[#f5faff] hover:text-stone-900 border border-[#1e293b] border-opacity-0 hover:border-opacity-25'
                 >
                     Browse all
                 </button>
@@ -83,7 +83,7 @@ const Nav = () => {
                             <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
-                    <button className='w-[80%] mt-16 py-2 font-Arimo bg-black rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 hover:border-solid hover:border hover:border-black'
+                    <button className='w-[80%] mt-16 py-2 font-Arimo bg-black rounded-md text-stone-50 hover:bg-[#f5faff] hover:text-stone-900 hover:border-solid hover:border hover:border-black'
                     >
                         Browse all
                     </button>

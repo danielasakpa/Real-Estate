@@ -3,13 +3,14 @@ import { useParams } from 'react-router-dom';
 import { useQuery } from "@tanstack/react-query";
 import { fetchProperty } from "../fetchers/Properties"
 import { Carousel } from 'react-responsive-carousel';
-import { IoLocationOutline, IoBedOutline, IoChevronDownCircleOutline, IoHammerOutline } from "react-icons/io5"
+import { IoLocationOutline, IoHomeOutline, IoChevronDownCircleOutline, IoHammerOutline } from "react-icons/io5"
+import { FaWater } from "react-icons/fa";
+import { RxLapTimer } from "react-icons/rx";
+import { GrMapLocation } from "react-icons/gr";
+import { GiNuclearWaste } from "react-icons/gi";
+
+import { MdLandscape } from "react-icons/md";
 import Loader from '../components/Loader'
-
-
-// ... (import statements remain unchanged)
-
-// ... (import statements remain unchanged)
 
 const Property = () => {
   let { id } = useParams();
@@ -48,11 +49,11 @@ const Property = () => {
               </p>
 
               {/* Property Details */}
-              <div className='flex flex-wrap mt-5'>
+              <div className='flex flex-col md:flex-row flex-wrap gap-y-2 md:gap-y-0 mt-5'>
                 {/* Land Size */}
                 {data.Land.SizeTotal &&
                   <div className="flex items-center mr-4">
-                    <IoChevronDownCircleOutline size={20} />
+                    <MdLandscape size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
                       <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Land Size: </span>{data.Land.SizeTotal}
                     </p>
@@ -61,7 +62,7 @@ const Property = () => {
 
                 {/* Building Year */}
                 {data.Building.DisplayAsYears &&
-                  <div className="flex items-center">
+                  <div className="flex items-center md:mr-4">
                     <IoHammerOutline size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] ml-1 text-[#171717] font-Arimo text-left font-medium">
                       <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Building Year: </span>{data.Building.DisplayAsYears ? data.Building.DisplayAsYears : "none"}
@@ -70,25 +71,28 @@ const Property = () => {
                 }
 
                 {/* Type of Property */}
-                <div className="flex items-center ml-4">
-                  <IoBedOutline size={20} />
+                <div className="flex items-center">
+                  <IoHomeOutline size={20} />
                   <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                    <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'> Type of Property: </span> {data.Property.Type}
+                    <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Type of Property: </span> {data.Property.Type}
                   </p>
                 </div>
               </div>
 
               {/* Address */}
               {data.Property.Address &&
-                <div className="flex items-center mt-4">
-                  <p className="xs:text-[15px] xl:text-[26px] text-[#171717] ml-1 font-Arimo text-left font-medium">
+                <div className="flex items-start justify-start md:items-center mt-4">
+                  <div className="mr-1">
+                    <IoLocationOutline size={20} />
+                  </div>
+                  <p className="xs:text-[15px] xl:text-[26px] text-[#171717]  font-Arimo text-left font-medium">
                     {`Residential for sale - ${data.Property.Address.AddressText}`}
                   </p>
                 </div>
               }
 
               {/* Other Property Details */}
-              <div className="flex flex-wrap mt-4">
+              <div className="flex flex-col md:flex-row flex-wrap gap-y-2 md:gap-y-0 mt-4">
                 {/* Size of Property */}
                 {data.Property.SizeTotal &&
                   <div className="flex items-center mr-4">
@@ -101,8 +105,8 @@ const Property = () => {
 
                 {/* Waterfront Type */}
                 {data.Property.WaterFrontType &&
-                  <div className="flex items-center mr-4">
-                    <IoLocationOutline size={20} />
+                  <div className="flex items-center md:mr-4">
+                    <FaWater size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
                       <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Waterfront Type: </span>{data.Property.WaterFrontType}
                     </p>
@@ -111,7 +115,8 @@ const Property = () => {
 
                 {/* Zoning Type */}
                 {data.Property.ZoningType &&
-                  <div className="flex items-center">
+                  <div className="flex items-center md:mr-4">
+                    <GrMapLocation size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
                       <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Zoning Category:</span> {data.Property.ZoningType}
                     </p>
@@ -120,7 +125,8 @@ const Property = () => {
 
                 {/* Sewer */}
                 {data.Land.Sewer &&
-                  <div className="flex items-center ml-4">
+                  <div className="flex items-center md:mr-4">
+                    <GiNuclearWaste size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
                       <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Sewer: </span> {data.Land.Sewer}
                     </p>
@@ -129,7 +135,8 @@ const Property = () => {
 
                 {/* Time On Realtor */}
                 {data.TimeOnRealtor &&
-                  <div className="flex items-center ml-4">
+                  <div className="flex items-center md:mr-4">
+                    <RxLapTimer size={20} />
                     <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
                       <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Time On Realtor: </span> {data.TimeOnRealtor}
                     </p>
@@ -150,7 +157,7 @@ const Property = () => {
             {data.Individual && data.Individual.length > 0 && (
               <div className="mt-8">
                 <p className="xs:text-[15px] xl:text-[20px] text-[#171717] text-400 font-Bebas text-left font-medium">Agent:</p>
-                <div className='flex flex-wrap  gap-y-7'>
+                <div className='flex flex-col md:flex-row flex-wrap gap-y-7'>
                   {data.Individual.map((agent, index) => (
                     <div className='basis-1/2'>
                       <div key={index} className="flex items-start mt-2">
@@ -169,7 +176,7 @@ const Property = () => {
                         </div>
                       </div>
                       <button
-                        className="mt-3 cursor-pointer focus:outline-none px-2 py-2 font-Roboto bg-[#171717] rounded-md text-stone-50 hover:bg-stone-100 hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]"
+                        className="mt-3 cursor-pointer focus:outline-none px-2 py-2 font-Roboto bg-[#171717] rounded-md text-stone-50 hover:bg-[#f5faff}hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]"
                       >
                         View Agent
                       </button>
