@@ -1,15 +1,21 @@
 import axios from "axios";
 import { AgentsOptions, AgentOptions } from '../utils/realEstateOptions';
 
-export const fetchAgents = async () => {
-    console.log("Fetching agents...");
+export const fetchAgents = async (page) => {
+    console.log(`Fetching agents for page ${page}...`);
 
-    const response = await axios.request('https://realty-in-ca1.p.rapidapi.com/agents/list', AgentsOptions)
-    const agents = response;
+    const response = await axios.request('https://realty-in-ca1.p.rapidapi.com/agents/list', {
+        ...AgentsOptions,
+        params: {
+            ...AgentsOptions.params,
+            CurrentPage: page.toString(),
+        },
+    });
 
-    console.log("agents", agents.data.Results);
-    if (agents) return agents.data.Results;
-}
+    const agents = response.data;
+
+    if (agents) return agents;
+};
 
 export const fetchAgent = async (advertiser_id, nrds_id) => {
     console.log("Fetching agent...");

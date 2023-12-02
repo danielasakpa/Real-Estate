@@ -50,11 +50,12 @@ h1 {
   display: flex;
   margin: 60px auto;
   justify-content: center;
+  align-items: center;
   list-style: none;
   cursor: pointer;
 }
 
-.pagination a {
+.pagination button {
   padding: 10px;
   margin-right: 10px;
   border-radius: 5px;
@@ -63,20 +64,20 @@ h1 {
   color: #000000;
 }
 
-.pagination__link {
+/* .pagination__link {
   font-weight: bold;
 }
 
-.pagination__link--active a {
+.pagination__link--active button {
   color: #f5faff;
   background: #000000;
   border: none;
 }
 
-.pagination__link--disabled a {
+.pagination__link--disabled button {
   color: #000000;
   border: 1px solid #000000;
-}
+} */
 
 .carousel {
   height: 290px;

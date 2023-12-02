@@ -5,7 +5,7 @@ export const PropertiesOptions = {
     CurrentPage: '1',
     LatitudeMin: '-22.26872153207163',
     LongitudeMax: '-10.267941690981388',
-    RecordsPerPage: '50',
+    RecordsPerPage: '24',
     LongitudeMin: '-136.83037765324116',
     LatitudeMax: '81.14747595814636',
     BedRange: '0-0',

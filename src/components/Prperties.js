@@ -1,52 +1,67 @@
+import React, { useEffect, useState } from 'react';
+import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { fetchProperties } from "../fetchers/Properties"
 import PropertyCard from './PropertyCard';
 import PropertyCardSkeleton from './PropertyCardSkeleton';
-import ReactPaginate from 'react-paginate';
-import { useQuery } from "@tanstack/react-query";
-import { fetchProperties } from "../fetchers/Properties"
-import { usePaginate } from '../hooks/usePaginate';
+import usePaginate from '../hooks/usePaginate';
 
 const Properties = ({ Pagination }) => {
+    const queryClient = useQueryClient();
+
+    // Use state to manage the current page
+    const [currentPage, setCurrentPage] = useState(1);
+
     const { status, data, error } = useQuery(
-        ["properties"],
-        fetchProperties,
-        { staleTime: Infinity },
-        { cacheTime: Infinity }
+        ['properties', currentPage],
+        () => fetchProperties(currentPage),
+        { staleTime: Infinity, cacheTime: Infinity }
     );
 
-    const { handlePageClick, currentItems, pageCount } = usePaginate(data === undefined || null ? [1, 2, 3, 4, 5, 6, 7, 8] : data, 12);
+    const { handlePageChange, totalPages } = usePaginate(
+        data ? data.Paging.TotalPages : 1, setCurrentPage
+    );
 
-    if (status === "error") {
-        console.log("Error: ", error);
+    useEffect(() => {
+        if (currentPage < totalPages) {
+            queryClient.prefetchQuery(['properties', currentPage + 1], () => fetchProperties(currentPage + 1));
+        }
+    }, [currentPage, totalPages, queryClient]);
+
+    if (status === 'error') {
+        console.log(error);
     }
-
-
-    console.log("data", currentItems)
 
 
     return (
         <section>
-            <div className='grid xs:grid-cols-1 mt-[50px] pb-10 px-3 overflow-hidden mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+            <div className='grid xs:grid-cols-1 mt-[50px] py-5 px-3 overflow-hidden mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
                 {status === "loading" ?
-                    currentItems.map(num => <PropertyCardSkeleton key={num} />) :
-                    currentItems.map(property =>
+                    Array.from({ length: 12 }).map(num => <PropertyCardSkeleton key={num} />) :
+                    data.Results.map(property =>
                         <PropertyCard key={property.id} property={property} />
                     )}
             </div>
-            {Pagination ? <ReactPaginate
-                breakLabel="..."
-                nextLabel="next >"
-                onPageChange={handlePageClick}
-                pageRangeDisplayed={5}
-                pageCount={pageCount}
-                previousLabel="< previous"
-                renderOnZeroPageCount={null}
-                containerClassName={"pagination"}
-                previousLinkClassName={"pagination__link"}
-                nextLinkClassName={"pagination__link"}
-                pageClassName={"pagination__page_count"}
-                disabledClassName={"pagination__link--disabled"}
-                activeClassName={"pagination__link--active"}
-            /> : null}
+            {Pagination ? <div className="pagination">
+                <button
+                    disabled={currentPage === 1}
+                    onClick={() => {
+                        handlePageChange(currentPage - 1);
+                        setCurrentPage(currentPage - 1);
+                    }}
+                >
+                    Previous
+                </button>
+                <span className='mr-2 font-Arimo'>{`Page ${currentPage} of ${totalPages}`}</span>
+                <button
+                    disabled={currentPage === totalPages}
+                    onClick={() => {
+                        handlePageChange(currentPage + 1);
+                        setCurrentPage(currentPage + 1);
+                    }}
+                >
+                    Next
+                </button>
+            </div> : null}
         </section>
     )
 }

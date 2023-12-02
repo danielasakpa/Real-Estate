@@ -27,8 +27,7 @@ const Hero = () => {
         <m.div
           variants={container}
           initial="hidden"
-          whileInView="show"
-          viewport={{ once: true }}
+          animate="show"
           className='mx-auto md:mt-[30px] px-4 lg:mt-[100px] xl:mt-[150px] basis-1/2 text-left'>
           <m.p
             variants={item}

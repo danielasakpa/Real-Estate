@@ -1,14 +1,19 @@
 import axios from "axios";
 import { PropertiesOptions, PropertyOptions } from '../utils/realEstateOptions';
 
-export const fetchProperties = async () => {
-    console.log("Fetching properties...");
+export const fetchProperties = async (page) => {
+    console.log(`Fetching properties for page ${page}....`);
 
-    const response = await axios.request('https://realtor-canadian-real-estate.p.rapidapi.com/properties/list-residential', PropertiesOptions)
-    const properties = response;
+    const response = await axios.request('https://realtor-canadian-real-estate.p.rapidapi.com/properties/list-residential', {
+        ...PropertiesOptions,
+        params: {
+            ...PropertiesOptions.params,
+            CurrentPage: page.toString(),
+        },
+    })
+    const properties = response.data;;
 
-    console.log("properties", properties.data);
-    if (properties) return properties.data.Results;
+    if (properties) return properties;
 }
 
 export const fetchProperty = async (property_id) => {

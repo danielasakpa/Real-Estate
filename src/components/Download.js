@@ -45,7 +45,7 @@ const Download = () => {
       <div className='lg:h-[700px] xs:w-[100%] lg:w-[50%]'>
         <div className='lg:pl-20 xs:mt-[50px] lg:mt-[220px] xs:block'>
           <m.div
-            ariants={container}
+            variants={container}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
@@ -60,7 +60,7 @@ const Download = () => {
           </m.div>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 
