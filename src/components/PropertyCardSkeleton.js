@@ -8,7 +8,7 @@ const PropertyCardSkeleton = () => {
             whileInView={{ x: "0" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="max-w-sm overflow-hidden rounded shadow-lg animate-pulse">
+            className="max-w-sm overflow-hidden rounded shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] animate-pulse">
             <div className="w-full h-[170px] rounded-sm bg-[#A3A3A3]"></div>
             <div className="px-3 py-4">
                 <div className="w-[200px] h-[20px] rounded-sm bg-[#A3A3A3]"></div>

@@ -44,6 +44,7 @@ const Questionandanswer = ({ QandA }) => {
                     whileInView={{ x: "0" }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true }}
+                    key={i}
                 >
                     <Accordion
                         open={open === qanda.num} className="py-2" icon={<Icon id={1} open={open} />} animate={customAnimation} key={i}>
@@ -52,8 +53,8 @@ const Questionandanswer = ({ QandA }) => {
                         </AccordionHeader>
                         <AccordionBody className="px-6 py-3 border-b border-gray-200">
                             <ol type="1" className='list-decimal font-bold text-[17px]'>
-                                {qanda.ans.map((anstext, p) =>
-                                    <li key={p}><p className="mb-2 text-[15px] font-normal dark:text-[#1F1717] font-Arimo">{anstext}</p></li>
+                                {qanda.ans.map((anstext, i) =>
+                                    <li key={i}><p className="mb-2 text-[15px] font-normal text-[#404040] font-Arimo">{anstext}</p></li>
                                 )}
                             </ol>
                         </AccordionBody>

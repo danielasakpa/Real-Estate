@@ -22,8 +22,15 @@ const Properties = ({ Pagination }) => {
     );
 
     useEffect(() => {
-        if (currentPage < totalPages) {
-            queryClient.prefetchQuery(['properties', currentPage + 1], () => fetchProperties(currentPage + 1));
+        const prefetchPages = 5; // Set the number of pages to prefetch
+
+        // Use a loop to prefetch multiple pages
+        for (let i = 1; i <= prefetchPages; i++) {
+            const nextPage = currentPage + i;
+
+            if (nextPage <= totalPages) {
+                queryClient.prefetchQuery(['properties', nextPage], () => fetchProperties(nextPage));
+            }
         }
     }, [currentPage, totalPages, queryClient]);
 
@@ -31,12 +38,11 @@ const Properties = ({ Pagination }) => {
         console.log(error);
     }
 
-
     return (
         <section>
-            <div className='grid xs:grid-cols-1 mt-[50px] py-5 px-3 overflow-hidden mx-auto md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
-                {status === "loading" ?
-                    Array.from({ length: 12 }).map(num => <PropertyCardSkeleton key={num} />) :
+            <div className='grid xs:grid-cols-1 mt-[50px] py-5  mx-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+                {status === "loading" || data === (null || undefined) ?
+                    Array.from({ length: 12 }).map((num, i) => <PropertyCardSkeleton key={i} />) :
                     data.Results.map(property =>
                         <PropertyCard key={property.id} property={property} />
                     )}

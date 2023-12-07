@@ -9,13 +9,13 @@ export default function AgentCard({ agent }) {
         whileInView={{ x: "0" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="max-w-96 h-[100px] flex items-center bg-[#f5faff] cursor-pointer rounded-md shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
+        className="max-w-96 h-[100px] flex items-center bg-[#f5faff] cursor-pointer rounded-md shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
         <div className="w-[100px] h-[100px]">
           {
             agent.PhotoHighRes ?
               <img
                 loading="lazy"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover flex justify-center items-center"
                 src={agent.PhotoHighRes}
                 alt="agentImg"
               />

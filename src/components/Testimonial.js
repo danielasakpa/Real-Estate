@@ -18,7 +18,7 @@ const Testimonial = () => {
         return (
           <span
             style={style}
-            className="h-[10px] w-[10px] rounded-sm border border-[#000000] p-1 px-2 mx-2"
+            className="h-[10px] w-[10px] rounded-sm border font-Arimo border-[#000000] p-1 px-2 mx-2"
             onClick={onClickHandler}
             onKeyDown={onClickHandler}
             value={index}
@@ -34,17 +34,17 @@ const Testimonial = () => {
     >
       <div className="flex flex-col w-full text-center">
         <img className='xs:h-[30px] md:h-[40px]' src={quoteImg} alt="quoteImg" />
-        <p className='xs:text-[15px] md:text-[20px] text-[#171717] lg:text-[25px] mt-2 m-auto w-[100%] lg:w-[70%] font-medium'>Ac faucibus orci id quis consectetur laoreet sed. Enim congue molestie nam odio pulvinar ac ultricies. Elementum ut pellentesque volutpat mi.</p>
+        <p className='xs:text-[15px] md:text-[20px] text-[#171717] lg:text-[25px] mt-2 m-auto w-[100%] lg:w-[70%] font-Arimo font-medium'>Ac faucibus orci id quis consectetur laoreet sed. Enim congue molestie nam odio pulvinar ac ultricies. Elementum ut pellentesque volutpat mi.</p>
         <img className='xs:h-[15px] md:h-[20px] mt-3' src={testimonialImg} alt="testimonialImg" />
       </div>
       <div className="flex flex-col w-full text-center">
         <img className='xs:h-[30px] md:h-[40px]' src={quoteImg} alt="quoteImg" />
-        <p className='xs:text-[15px] md:text-[20px] text-[#171717] lg:text-[25px] mt-2 m-auto w-[100%] lg:w-[70%] font-medium'>Ac faucibus orci id quis consectetur laoreet sed. Enim congue molestie nam odio pulvinar ac ultricies. Elementum ut pellentesque volutpat mi. Faucibus sit posuere nisi aenean ultrices. Suscipit malesuada aenean nullam et sit dapibus eget a eu. Nisl tortor arcu et.</p>
+        <p className='xs:text-[15px] md:text-[20px] text-[#171717] lg:text-[25px] mt-2 m-auto w-[100%] lg:w-[70%] font-Arimo font-medium'>Ac faucibus orci id quis consectetur laoreet sed. Enim congue molestie nam odio pulvinar ac ultricies. Elementum ut pellentesque volutpat mi. Faucibus sit posuere nisi aenean ultrices. Suscipit malesuada aenean nullam et sit dapibus eget a eu. Nisl tortor arcu et.</p>
         <img className='xs:h-[15px] md:h-[20px] mt-3' src={testimonialImg} alt="testimonialImg" />
       </div>
       <div className="flex flex-col w-full text-center">
         <img className='xs:h-[30px] md:h-[40px]' src={quoteImg} alt="quoteImg" />
-        <p className='xs:text-[15px] md:text-[20px] text-[#171717] lg:text-[25px] mt-2 m-auto w-[100%] lg:w-[70%] font-medium'>Ac faucibus orci id quis consectetur laoreet sed. Enim congue molestie nam odio pulvinar ac ultricies. Elementum ut pellentesque volutpat mi.</p>
+        <p className='xs:text-[15px] md:text-[20px] text-[#171717] lg:text-[25px] mt-2 m-auto w-[100%] lg:w-[70%] font-Arimo font-medium'>Ac faucibus orci id quis consectetur laoreet sed. Enim congue molestie nam odio pulvinar ac ultricies. Elementum ut pellentesque volutpat mi.</p>
         <img className='xs:h-[15px] md:h-[20px] mt-3' src={testimonialImg} alt="testimonialImg" />
       </div>
     </Carousel>

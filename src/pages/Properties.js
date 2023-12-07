@@ -16,13 +16,13 @@ const Properties = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true, amount: 0.7 }}
-                    className='mr-10 basis-2/3'>
-                    <m.h1 variants={item} className='xs:text-[30px] lg:text-[35px] xl:text-[37px] text-[#000000] font-Questrial text-left xs:leading-[35px] lg:leading-[40px] xl:leading-[50px] font-bold'>Properties for a dreamy lifestyle</m.h1>
-                    <m.p variants={item} className='xs:text-[18px] xl:text-[17px]  text-[#1F1717] mt-6 font-Arimo'>Find the home that best suit your needs and dreams</m.p>
-                    <m.div variants={item} className='flex items-center mt-5 px-1'>
-                        <input type="text" className="form-input rounded bg-[#f5faff] border border-[#1f1717] border-opacity-25 focus:border-none xs:w-[80%] md:w-[75%] md:px-6  lg:px-10 py-2.5 mr-2"
+                    className='w-[100%] lg:mr-10 lg:basis-2/3'>
+                    <m.h1 variants={item} className='xs:text-[32px] sm:text-[36px] text-[#000000] mb-[16px] font-Inter text-left -tracking-[0.02em] xs:leading-[40px] sm:leading-[44px] font-[800]'>Properties for a dreamy lifestyle</m.h1>
+                    <m.p variants={item} className='xs:text-[14px] text-[#404040] leading-[20px] font-[500] font-Arimo'>Find the home that best suit your needs and dreams</m.p>
+                    <m.div variants={item} className='flex items-center mt-5'>
+                        <input type="text" className="form-input rounded bg-[#f5faff] border border-[#1f1717] border-opacity-25 focus:border-none xs:w-[80%] sm:w-[75%] sm:px-6 lg:px-10 py-2.5 mr-2"
                         />
-                        <button className='xs:px-3 lg:px-4 py-3 xs:text-[14px] md:text-[15px] font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-[#f5faff] hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
+                        <button className='xs:px-3 lg:px-4 py-3 xs:text-[14px] sm:text-[15px] font-Arimo bg-[#000000]  rounded-md  text-stone-50 hover:bg-[#f5faff] hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1e293b]'
                         >
                             Search
                         </button>
@@ -44,7 +44,7 @@ const Properties = () => {
                     </m.div>
                 </div>
             </div>
-            <div className='mt-[170px]'>
+            <div className='lg:mt-[170px]'>
                 <Prperties Pagination={true} />
             </div>
             <div className='xs:mt-[160px] lg:mt-[220px] xs:block'>
@@ -53,21 +53,21 @@ const Properties = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true, amount: 0.7 }}
-                    className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
-                    <m.p variants={item} className='text-[16px] text-[#1f1717] mb-3 font-medium font-Barlow'>THE PERFECT SOLUTION FOR YOUR NEEDS</m.p>
-                    <m.h1 variants={item} className='xs:text-[35px] lg:text-[40px] text-[#000000] xl:text-[50px] font-Questrial text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>A team of professional agents</m.h1>
-                    <m.p variants={item} className='xs:text-[18px] xl:text-[22px]  text-[#1F1717] mt-4 font-Arimo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus justo sit amet felis pulvinar tempus.</m.p>
-                    <m.div variants={item} className="flex mt-10 xs:flex-col md:flex-row">
-                        <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110'><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
-                        <button className='mr-3 transition duration-300 ease-in xs:mt-4 md:mt-0 delay-50 hover:-translate-y-1 hover:scale-110'><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
+                    className='mx-auto sm:mt-[30px] lg:mt-[50px] sm:mt-[200px] text-left'>
+                    <m.p variants={item} className='text-[14px] text-[#1F1717] mb-[12px] tracking-[1px] leading-[20px] font-[400] font-Arimo'>THE PERFECT SOLUTION FOR YOUR NEEDS</m.p>
+                    <m.h1 variants={item} className='text-[32px] sm:text-[36px] text-[#000000] mb-[16px] font-Inter text-left -tracking-[0.02em] xs:leading-[40px] sm:leading-[44px] font-bold'>A team of professional agents</m.h1>
+                    <m.p variants={item} className='text-[18px] leading-[28px] text-[#404040] font-[400] font-Arimo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus justo sit amet felis pulvinar tempus.</m.p>
+                    <m.div variants={item} className="flex mt-10 ">
+                        <button className='mr-3'><img className='rounded-md w-[135px] h-[45px]' src={Apple} alt="Apple" /></button>
+                        <button><img className='rounded-md -[135px] h-[45px]' src={Play} alt="Play" /></button>
                     </m.div>
                 </m.div>
             </div>
-            <div className='xs:mt-[100px] md:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
+            <div className='xs:mt-[100px] sm:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
                 <div className='text-left basis-1/2'>
-                    <h1 className='xs:text-[30px] lg:text-[35px] xl:text-[37px] text-[#000000] font-Questrial text-left xs:leading-[35px] lg:leading-[40px] xl:leading-[50px] font-bold'>Frequently Asked Questions</h1>
-                    <p className='xs:text-[18px] xl:text-[17px]  text-[#1F1717] mt-6 font-Arimo'>Can’t find answers you’re looking for?</p>
-                    <p className='xs:text-[18px] xl:text-[17px]  text-[#1F1717] mt-1 font-Arimo'>Drop us a line. We'll be happy to help you.</p>
+                    <h1 className='xs:text-[32px] sm:text-[36px] font-Inter text-left mb-[12px] xs:leading-[40px] sm:leading-[44px] font-[800]'>Frequently Asked Questions</h1>
+                    <p className='xs:text-[16px] leading-[28px] text-[#404040] font-[400] font-Arimo'>Can’t find answers you’re looking for?</p>
+                    <p className='xs:text-[16px] leading-[28px] text-[#404040] font-[400] font-Arimo'>Drop us a line. We'll be happy to help you.</p>
                     <div className='mt-[30px]'>
                     </div>
                 </div>

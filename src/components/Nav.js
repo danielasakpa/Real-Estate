@@ -43,12 +43,12 @@ const Nav = () => {
             </Link>
             <section className="flex MOBILE-MENU lg:hidden">
                 <div
-                    className="HAMBURGER-ICON space-y-1.5 mt-[9px]"
+                    className="HAMBURGER-ICON space-y-1.5 mt-[9px] animate-pulse cursor-pointer px-2 py-3 border-solid border border-[#1e293b] border-opacity-25 rounded-md"
                     onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
                 >
-                    <span className="block h-0.5 w-6 animate-pulse bg-gray-600"></span>
-                    <span className="block h-0.5 w-6 animate-pulse bg-gray-600"></span>
-                    <span className="block h-0.5 w-6 animate-pulse bg-gray-600"></span>
+                    <span className="block h-0.5 w-6 bg-[#1e293b] border-opacity-25"></span>
+                    <span className="block h-0.5 w-6 bg-[#1e293b] border-opacity-25"></span>
+                    <span className="block h-0.5 w-6 bg-[#1e293b] border-opacity-25"></span>
                 </div>
 
                 <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>

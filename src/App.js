@@ -5,7 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 
 const App = () => {
   return (
-    <div className="max-w-2/3 xl:max-w-screen-xl mx-auto my-0">
+    <div className="px-[5%] sm:px-[4%] 2xl:max-w-screen-2xl mx-auto my-0">
       <BrowserRouter>
         <AnimatePresence>
           <MainRouter />

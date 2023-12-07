@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -17,6 +19,11 @@
 
 body {
   background-color: #f5faff;
+}
+
+.section {
+  position: relative;
+  padding: 0 5%;
 }
 
 ::-webkit-scrollbar {
@@ -39,11 +46,13 @@ h1 {
 .react-horizontal-scrolling-menu--wrapper {
   width: 100%;
   overflow: hidden;
+  padding: 5px;
   display: flex;
 }
 
 .react-horizontal-scrolling-menu--scroll-container {
   overflow: hidden;
+  padding: 5px;
 }
 
 .pagination {

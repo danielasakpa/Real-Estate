@@ -15,47 +15,47 @@ const Download = () => {
         whileInView={{ x: "0" }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
         viewport={{ once: true }}
-        className='h-[700px] xs:w-[100%] flex lg:w-[50%] bg-black'>
-        <div className='xs:h-[500px] md:h-[520px] xs:w-[80%] p-6 self-center mx-auto md:w-[300px] rounded-lg bg-[#F5FAFF]'>
-          <img src={navLogo} alt="navLog" />
-          <div className='flex justify-between px-5 mt-7'>
-            <div>
+        className='h-[734px] xs:w-[100%] flex lg:w-[50%] bg-black'>
+        <div className='xs:h-[462px] sm:h-[502px] xs:max-w-[300px] p-[32px] self-center mx-auto rounded-lg bg-[#F5FAFF]'>
+          <img className='mb-[16px]' src={navLogo} alt="navLog" />
+          <div className='flex justify-between mb-[20px]'>
+            <div className="p-3 rounded-xs bg-[#f5f5f5]">
               <IoLocationOutline size={30} />
             </div>
-            <div>
+            <div className="p-3 rounded-xs bg-[#f5f5f5]">
               <IoBedOutline size={30} />
             </div>
-            <div>
+            <div className="p-3 rounded-xs bg-[#f5f5f5]">
               <TbBath size={30} />
             </div>
           </div>
-          <p className='mt-[30px] xs:text-[12px] md:text-[15px] text-[#1F1717] font-Barlow font-medium'>BECOME A LEGENDARY DESIGNER</p>
-          <h1 className='xs:text-[20px] md:text-[26px] mt-2 font-Questrial text-[#000000] text-left xs:leading-[20px] md:leading-[30px] font-bold'>A headline to make big impact on visitors</h1>
-          <p className='xs:text-[12px] md:text-[15px] text-[#1F1717] mt-2 md:mt-4 font-Arimo'>A subheading that addresses the what, the why we should care and hopefully some social proof.</p>
-          <button className='xs:mt-6 md:mt-7 w-[100%] px-3 py-2 font-Arimo bg-[#000000] rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1f1717]'
+          <p className='xs:text-[9px] text-[#1F1717] font-Arimo mb-[4px] tracking-[0.5px] leading-[12px] font-[400]'>BECOME A LEGENDARY DESIGNER</p>
+          <h1 className='xs:text-[20px] sm:text-[24px] font-Inter mb-[8px] text-[#000000] text-left -tracking-[0.02em] xs:leading-[28px] sm:leading-[32px] font-[800]'>A headline to make big impact on visitors</h1>
+          <p className='text-[14px] text-[#404040] font-Arimo'>A subheading that addresses the what, the why we should care and hopefully some social proof.</p>
+          <button className='mt-[32px] w-[100%] px-3 py-2 font-Arimo bg-[#000000] rounded-md  text-stone-50 hover:bg-stone-100  hover:text-stone-900 border border-opacity-0 hover:border-opacity-25 border-[#1f1717]'
           >
             Download the app
           </button>
           <button className='mt-3 w-[100%] py-2 font-Arimo bg-[#f5faff] border-solid border border-[#1f1717] border-opacity-25 rounded-md  text-black hover:bg-stone-100  hover:text-stone-900 hover:border-opacity-50 hover:border hover:border-black'
           >
-            Browse all property
+            Learn more
           </button>
         </div>
       </m.div>
-      <div className='lg:h-[700px] xs:w-[100%] lg:w-[50%]'>
-        <div className='lg:pl-20 xs:mt-[50px] lg:mt-[220px] xs:block'>
+      <div className='h-[400px] sm:h-[500px] lg:h-[700px] w-[100%] lg:w-[50%] flex justify-start items-center lg:block'>
+        <div className='lg:pl-20 xs:block'>
           <m.div
             variants={container}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
-            className='mx-auto md:mt-[30px] lg:mt-[50px] xl:mt-[200px]text-left'>
-            <m.p variants={item} className='xs:text-[15px] lg:text-[17px] text-[#1F1717] mb-3 font-medium font-Barlow'>DOWNLOAD OUR APP FOR IOS & ANDROID</m.p>
-            <m.h1 variants={item} className='xs:text-[35px] lg:text-[40px] text-[#000000] xl:text-[50px] font-Questrial text-left xs:leading-[40px] lg:leading-[50px] md:leading-[50px] xl:leading-[50px] font-bold'>Finding your home has never been so easy</m.h1>
-            <m.p variants={item} className='xs:text-[18px] xl:text-[22px]  text-[#1F1717] mt-4 font-Arimo'>Innovative technologies and expert agents will help you find the best place to call home.</m.p>
-            <m.div variants={item} className="flex mt-10 xs:flex-col md:flex-row">
-              <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
-              <button className='mr-3 transition duration-300 ease-in xs:mt-4 md:mt-0 delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
+            className='mx-auto sm:mt-[30px] lg:mt-[50px] xl:mt-[200px] text-left'>
+            <m.p variants={item} className='text-[14px] text-[#1F1717] mb-[12px] tracking-[1px] leading-[20px] font-[400] font-Arimo'>DOWNLOAD OUR APP FOR IOS & ANDROID</m.p>
+            <m.h1 variants={item} className='text-[32px] sm:text-[36px] text-[#000000] mb-[16px] font-Inter text-left -tracking-[0.02em] xs:leading-[40px] sm:leading-[44px] font-[800]'>Finding your home has never been so easy</m.h1>
+            <m.p variants={item} className='text-[18px] leading-[28px] text-[#404040] font-[400] font-Arimo sm:w-[60%] lg:w-[100%]'>Innovative technologies and expert agents will help you find the best place to call home.</m.p>
+            <m.div variants={item} className="flex mt-10 ">
+              <button className='mr-3'><img className='rounded-md w-[135px] h-[45px]' src={Apple} alt="Apple" /></button>
+              <button><img className='rounded-md -[135px] h-[45px]' src={Play} alt="Play" /></button>
             </m.div>
           </m.div>
         </div>

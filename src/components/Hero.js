@@ -23,45 +23,46 @@ const Hero = () => {
 
   return (
     <section>
-      <div className='overflow-hidden py-14 xs:block lg:flex'>
+      <div className='overflow-hidden py-14 xs:block lg:flex space-x-[10px]'>
         <m.div
           variants={container}
           initial="hidden"
           animate="show"
-          className='mx-auto md:mt-[30px] px-4 lg:mt-[100px] xl:mt-[150px] basis-1/2 text-left'>
+          viewport={{ once: true }}
+          className='mx-auto md:mt-[30px] lg:mt-[100px] xl:mt-[150px] basis-1/2 text-left'>
           <m.p
             variants={item}
-            className='xs:text-[15px] xl:text-[20px] text-[#1F1717] font-Barlow mb-3 font-medium'>EXPLORE DREAM PROPERTIES</m.p>
+            className='xs:text-[14px] text-[#1F1717] tracking-[1px] leading-[20px] font-Arimo mb-[12px] font-[400]'>EXPLORE DREAM PROPERTIES</m.p>
           <m.h1
             variants={item}
-            className='xs:text-[35px] xl:text-[55px] font-Questrial text-[#000000] text-left xs:leading-[45px] lg:leading-[50px] xl:leading-[60px]  font-bold'>Find the place that's perfect for you</m.h1>
+            className='xs:text-[44px] md:text-[52px] font-Inter text-[#000000] text-left -tracking-[0.02em] mb-[24px] xs:leading-[54px] md:leading-[56px] font-[800]'>Find the place that's perfect for you</m.h1>
           <m.p
             variants={item}
-            className='xs:text-[18px] xl:text-[22px]  text-[#1F1717] mt-4 font-Arimo'>The best solution ever for those who're looking for an exceptional home and life</m.p>
+            className='xs:text-[18px] text-[#404040] leading-[28px] mt-4 font-Arimo font-[400]'>The best solution ever for those who're looking for an exceptional home and life</m.p>
           <m.div
             variants={item}
             className="flex mt-6">
-            <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
-            <button className='mr-3 transition duration-300 ease-in delay-50 hover:-translate-y-1 hover:scale-110 '><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
+            <button className='mr-3'><img className='rounded-md h-[50px]' src={Apple} alt="Apple" /></button>
+            <button><img className='rounded-md h-[50px]' src={Play} alt="Play" /></button>
           </m.div>
           <m.div
             variants={item}
             className='flex xs:mt-[50px] lg:mt-[70px] xl:mt-[90px] xs:justify-between lg:justify-start'>
             {ratings.map((rating, i) =>
-              <div key={i} className='flex flex-col xs:mr-[10px] md:mr-[60px]'>
-                <p className='xs:text-[20px] xl:text-[25px] text-[#1F1717] font-Barlow text-left leading-[30px] font-medium'>{rating.name}</p>
-                <p className='xs:text-[13px] xl:text-[15px] text-[#1F1717] font-light font-Arimo'>{rating.text}</p>
+              <div key={i} className='flex flex-col xs:mr-[10px] md:mr-[80px]'>
+                <p className='xs:text-[20px] xl:text-[24px] text-[#1F1717] font-Inter text-left leading-[28px] font-[500]'>{rating.name}</p>
+                <p className='xs:text-[14px] md:text-[15px] text-[#404040] font-light font-Arimo'>{rating.text}</p>
               </div>
             )}
           </m.div>
         </m.div>
-        <div className='basis-1/2 relative mt-[50px] xs:w-[100%] overflow-hidden lg:w-[750px] mx-auto'>
+        <div className='basis-1/2 relative mt-[50px] xs:w-[100%] xs:h-[500px] lg:h-[764px] overflow-hidden lg:w-[750px] mx-auto'>
           <m.img
             initial={{ scale: 1.2 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.75, ease: "easeIn" }}
             viewport={{ once: true }}
-            className='xs:w-[100%] lg:w-[750px]' src={heroImg} alt="heroImg" />
+            className='xs:w-[100%] xs:h-[500px] lg:w-[750px] lg:h-[764px]' src={heroImg} alt="heroImg" />
           <m.div
             initial={{ width: "100%" }}
             whileInView={{ width: "0" }}
@@ -72,7 +73,7 @@ const Hero = () => {
           </m.div>
         </div>
       </div>
-      <h2 className='xs:text-[25px] xl:text-[40px] text-[#000000] mt-10 text-center font-Questrial font-Roboto lg:leading-[50px] xl:leading-[70px] font-bold'>Your home anywhere in the world</h2>
+      <h2 className='xs:text-[32px] md:text-[36px] text-[#000000] mt-3 font-Inter -tracking-[0.02em] text-center xs:leading-[40px] md:leading-[44px] md:leading-[44px] font-[800]'>Your home anywhere in the world</h2>
     </section>
   )
 }

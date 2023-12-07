@@ -11,8 +11,8 @@ module.exports = {
         'Bebas': ["Bebas Neue"],
         'Barlow': ["Barlow Condensed"],
         'Arimo': ["Arimo"],
-        'Questrial': ["Questrial"],
         'Archivo': ["Archivo Black"],
+        'Inter': ["Inter"],
       },
       maxWidth: {
         '2/3': '90%',

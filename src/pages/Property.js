@@ -18,6 +18,7 @@ const Property = () => {
   const { data, error, status, isRefetching } = useQuery(
     ["property"],
     async () => await fetchProperty(id),
+    { staleTime: Infinity, cacheTime: Infinity }
   );
 
   if (status === "error") {
@@ -54,8 +55,8 @@ const Property = () => {
                 {data.Land.SizeTotal &&
                   <div className="flex items-center mr-4">
                     <MdLandscape size={20} />
-                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Land Size: </span>{data.Land.SizeTotal}
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#404040] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Land Size: </span>{data.Land.SizeTotal}
                     </p>
                   </div>
                 }
@@ -64,8 +65,8 @@ const Property = () => {
                 {data.Building.DisplayAsYears &&
                   <div className="flex items-center md:mr-4">
                     <IoHammerOutline size={20} />
-                    <p className="xs:text-[15px] xl:text-[16px] ml-1 text-[#171717] font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Building Year: </span>{data.Building.DisplayAsYears ? data.Building.DisplayAsYears : "none"}
+                    <p className="xs:text-[15px] xl:text-[16px] ml-1 text-[#404040] font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Building Year: </span>{data.Building.DisplayAsYears ? data.Building.DisplayAsYears : "none"}
                     </p>
                   </div>
                 }
@@ -73,8 +74,8 @@ const Property = () => {
                 {/* Type of Property */}
                 <div className="flex items-center">
                   <IoHomeOutline size={20} />
-                  <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                    <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Type of Property: </span> {data.Property.Type}
+                  <p className="xs:text-[15px] xl:text-[16px] text-[#404040] ml-1 font-Arimo text-left font-medium">
+                    <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Type of Property: </span> {data.Property.Type}
                   </p>
                 </div>
               </div>
@@ -85,7 +86,7 @@ const Property = () => {
                   <div className="mr-1">
                     <IoLocationOutline size={20} />
                   </div>
-                  <p className="xs:text-[15px] xl:text-[26px] text-[#171717]  font-Arimo text-left font-medium">
+                  <p className="xs:text-[15px] xl:text-[26px] text-[#404040]  font-Arimo text-left font-medium">
                     {`Residential for sale - ${data.Property.Address.AddressText}`}
                   </p>
                 </div>
@@ -97,8 +98,8 @@ const Property = () => {
                 {data.Property.SizeTotal &&
                   <div className="flex items-center mr-4">
                     <IoChevronDownCircleOutline size={20} />
-                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Size of Property: </span> {data.Property.SizeTotal}
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#404040] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Size of Property: </span> {data.Property.SizeTotal}
                     </p>
                   </div>
                 }
@@ -107,8 +108,8 @@ const Property = () => {
                 {data.Property.WaterFrontType &&
                   <div className="flex items-center md:mr-4">
                     <FaWater size={20} />
-                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Waterfront Type: </span>{data.Property.WaterFrontType}
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#404040] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Waterfront Type: </span>{data.Property.WaterFrontType}
                     </p>
                   </div>
                 }
@@ -117,8 +118,8 @@ const Property = () => {
                 {data.Property.ZoningType &&
                   <div className="flex items-center md:mr-4">
                     <GrMapLocation size={20} />
-                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Zoning Category:</span> {data.Property.ZoningType}
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#404040] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Zoning Category:</span> {data.Property.ZoningType}
                     </p>
                   </div>
                 }
@@ -127,8 +128,8 @@ const Property = () => {
                 {data.Land.Sewer &&
                   <div className="flex items-center md:mr-4">
                     <GiNuclearWaste size={20} />
-                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Sewer: </span> {data.Land.Sewer}
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#404040] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Sewer: </span> {data.Land.Sewer}
                     </p>
                   </div>
                 }
@@ -137,8 +138,8 @@ const Property = () => {
                 {data.TimeOnRealtor &&
                   <div className="flex items-center md:mr-4">
                     <RxLapTimer size={20} />
-                    <p className="xs:text-[15px] xl:text-[16px] text-[#171717] ml-1 font-Arimo text-left font-medium">
-                      <span className='xs:text-[17px] xl:text-[20px] text-[#1F1717] font-Barlow'>Time On Realtor: </span> {data.TimeOnRealtor}
+                    <p className="xs:text-[15px] xl:text-[16px] text-[#404040] ml-1 font-Arimo text-left font-medium">
+                      <span className='xs:text-[17px] xl:text-[20px] text-[#171717] font-Barlow'>Time On Realtor: </span> {data.TimeOnRealtor}
                     </p>
                   </div>
                 }
@@ -148,7 +149,7 @@ const Property = () => {
             {/* Public Remarks */}
             <div className="mt-6">
               <p className="xs:text-[15px] xl:text-[20px] text-[#171717] text-400 font-Bebas text-left font-medium">Public Remarks:</p>
-              <p className="xs:text-[15px] xl:text-[16px] text-[#1F1717] mt-1 font-Arimo text-left">
+              <p className="xs:text-[15px] xl:text-[16px] text-[#404040] mt-1 font-Arimo text-left">
                 {data.PublicRemarks}
               </p>
             </div>
@@ -157,21 +158,30 @@ const Property = () => {
             {data.Individual && data.Individual.length > 0 && (
               <div className="mt-8">
                 <p className="xs:text-[15px] xl:text-[20px] text-[#171717] text-400 font-Bebas text-left font-medium">Agent:</p>
-                <div className='flex flex-col md:flex-row flex-wrap gap-y-7'>
+                <div className='flex flex-col md:flex-row flex-wrap gap-y-7 gag-x-4 mt-4'>
                   {data.Individual.map((agent, index) => (
                     <div className='basis-1/2'>
+                      {
+                        console.log(agent)
+                      }
                       <div key={index} className="flex items-start mt-2">
-                        <img
-                          src={agent.Photo}
-                          alt="Agent"
-                          className="w-10 h-10 rounded-full mr-4"
-                        />
+                        {
+                          agent.Photo ?
+                            <img
+                              src={agent.Photo}
+                              alt="Agent"
+                              className="w-10 h-10 rounded-full mr-4"
+                            /> :
+                            <div className='flex justify-center items-center w-10 h-10 rounded-full mr-4 bg-[#A3A3A3]'>
+                              <p className="font-Arimo text-[#f5faff] text-[5px]">No Image</p>
+                            </div>
+                        }
                         <div>
-                          <p className="xs:text-[15px] xl:text-[16px] text-[#171717] font-Arimo text-left font-medium">
+                          <p className="xs:text-[15px] xl:text-[16px] text-[#171717] font-Arimo text-left font-[500]">
                             {agent.Name}
                           </p>
-                          <p className="xs:text-[15px] xl:text-[16px] text-[#1F1717] mt-1 font-Arimo text-left">
-                            {agent.Position} at {agent.CorporationName}
+                          <p className="xs:text-[15px] xl:text-[16px] text-[#404040] mt-1 font-Arimo text-left">
+                            {agent.Position} at {agent.Organization.Name}
                           </p>
                         </div>
                       </div>
