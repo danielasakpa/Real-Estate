@@ -40,7 +40,7 @@ const Properties = ({ Pagination }) => {
 
     return (
         <section>
-            <div className='grid xs:grid-cols-1 mt-[50px] py-5  mx-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+            <div className='grid mt-[50px] py-5 mx-auto xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
                 {status === "loading" || data === (null || undefined) ?
                     Array.from({ length: 12 }).map((num, i) => <PropertyCardSkeleton key={i} />) :
                     data.Results.map(property =>

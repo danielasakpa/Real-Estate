@@ -17,7 +17,7 @@ export const PropertiesOptions = {
     RentMin: '0'
   },
   headers: {
-    'X-RapidAPI-Key': '0cb117725emshc885ab7f2a7265ap1b697djsn956cfe69679e',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'realty-in-ca1.p.rapidapi.com'
   }
 };
@@ -25,7 +25,7 @@ export const PropertiesOptions = {
 export const PropertyOptions = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': '0cb117725emshc885ab7f2a7265ap1b697djsn956cfe69679e',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'realty-in-ca1.p.rapidapi.com'
   }
 };
@@ -40,7 +40,7 @@ export const AgentsOptions = {
     CultureId: '1'
   },
   headers: {
-    'X-RapidAPI-Key': '0cb117725emshc885ab7f2a7265ap1b697djsn956cfe69679e',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'realty-in-ca1.p.rapidapi.com'
   }
 }
@@ -48,8 +48,7 @@ export const AgentsOptions = {
 export const AgentOptions = {
   method: 'GET',
   headers: {
-    // 'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
-    'X-RapidAPI-Key': '0cb117725emshc885ab7f2a7265ap1b697djsn956cfe69679e',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'realty-in-ca1.p.rapidapi.com'
   }
 }

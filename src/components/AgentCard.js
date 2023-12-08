@@ -9,7 +9,7 @@ export default function AgentCard({ agent }) {
         whileInView={{ x: "0" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="max-w-96 h-[100px] flex items-center bg-[#f5faff] cursor-pointer rounded-md shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        className="max-w-96 h-[100px] flex items-center bg-[#f5faff] cursor-pointer rounded-md shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]">
         <div className="w-[100px] h-[100px]">
           {
             agent.PhotoHighRes ?

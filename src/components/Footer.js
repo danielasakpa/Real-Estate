@@ -19,7 +19,7 @@ const Footer = () => {
     ]
 
     return (
-        <div className='xs:mt-[100px] sm:mt-[170px] mx-auto'>
+        <section className='xs:mt-[100px] sm:mt-[170px] mx-auto'>
             <div className='flex mb-10 xs:flex-col sm:flex-row'>
                 <div className='sm:basis-1/2 lg:basis-2/3 overflow-hidden'>
                     <Link to="/">
@@ -54,7 +54,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-[50px] py-5 sm:border-t border-[#404040] border-opacity-50 flex xs:flex-col sm:flex-row justify-between items-center'>
+            <div className='mt-[50px] py-5 sm:border-t border-[#000000] border-opacity-50 flex xs:flex-col sm:flex-row justify-between items-center'>
                 <div className='flex mt-2 list-none'>
                     {logoLinks.map((logo) =>
                         <div
@@ -70,7 +70,7 @@ const Footer = () => {
                     <p className='xs:text-[14px] xl:text-[15px] text-[#404040] font-Arimo'>Powered by React </p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

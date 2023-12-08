@@ -13,7 +13,7 @@ const Nav = () => {
         { id: 4, name: "Contact", link: "/contact" }
     ]
     return (
-        <div className='flex justify-between list-none items-center h-[100%] py-8'>
+        <section className='flex justify-between list-none items-center h-[100%] py-8'>
             <Link to="/">
                 <img src={navLogo} alt="navLog" />
             </Link>
@@ -108,7 +108,7 @@ const Nav = () => {
                     align-items: center;
                 }`
             }</style>
-        </div>
+        </section>
     )
 }
 

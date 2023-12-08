@@ -56,13 +56,13 @@ const Hero = () => {
             )}
           </m.div>
         </m.div>
-        <div className='basis-1/2 relative mt-[50px] xs:w-[100%] xs:h-[500px] lg:h-[764px] overflow-hidden lg:w-[750px] mx-auto'>
+        <div className='basis-1/2 relative mt-[50px] xs:w-[100%] xs:h-[450px] lg:h-[764px] overflow-hidden lg:w-[750px] mx-auto'>
           <m.img
             initial={{ scale: 1.2 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.75, ease: "easeIn" }}
             viewport={{ once: true }}
-            className='xs:w-[100%] xs:h-[500px] lg:w-[750px] lg:h-[764px]' src={heroImg} alt="heroImg" />
+            className='xs:w-[100%] xs:h-[450px] lg:w-[750px] lg:h-[764px]' src={heroImg} alt="heroImg" />
           <m.div
             initial={{ width: "100%" }}
             whileInView={{ width: "0" }}

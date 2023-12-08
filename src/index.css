@@ -21,11 +21,6 @@ body {
   background-color: #f5faff;
 }
 
-.section {
-  position: relative;
-  padding: 0 5%;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -103,6 +98,12 @@ h1 {
   }
 }
 
+@media screen and (max-width: 1536px) {
+  section {
+    padding: 0 4%;
+  }
+}
+
 @media screen and (max-width: 640px) {
   body {
     overflow-x: hidden;
@@ -118,5 +119,11 @@ h1 {
 
   .pagination__link a {
     margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  section {
+    padding: 0 5%;
   }
 }

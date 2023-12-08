@@ -122,7 +122,7 @@ const Home = () => {
                         <m.div
                             variants={cardItem}
                             key={i} className='max-h-[250px] w-[100%] lg:max-w-[410px] px-2 sm:px-4 py-5 rounded-lg bg-[#f5faff]'>
-                            <div className='p-1 w-[40px] flex justify-center bg-[#F5F5F5] items-center h-[40px]  rounded-full'>
+                            <div className='p-1 w-[40px] flex justify-center bg-[#f5faff] items-center h-[40px]  rounded-full'>
                                 <experience.icon size={25} />
                             </div>
                             <p className='text-[17px] mt-4 font-Arimo text-[#000000] text-left font-[600]'>{experience.title}</p>

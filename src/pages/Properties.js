@@ -9,8 +9,8 @@ import { container, item } from "../animation";
 
 const Properties = () => {
     return (
-        <div>
-            <div className='flex justify-between xs:flex-col overflow-hidden lg:flex-row xs:mt-[80px] lg:mt-[120px]'>
+        <>
+            <section className='flex justify-between xs:flex-col overflow-hidden lg:flex-row xs:mt-[80px] lg:mt-[120px]'>
                 <m.div
                     ariants={container}
                     initial="hidden"
@@ -43,11 +43,11 @@ const Properties = () => {
                         className='absolute top-0 right-0 w-full h-full bg-[#f5faff]'>
                     </m.div>
                 </div>
-            </div>
+            </section>
             <div className='lg:mt-[170px]'>
                 <Prperties Pagination={true} />
             </div>
-            <div className='xs:mt-[160px] lg:mt-[220px] xs:block'>
+            <section className='xs:mt-[160px] lg:mt-[220px] xs:block'>
                 <m.div
                     ariants={container}
                     initial="hidden"
@@ -62,8 +62,8 @@ const Properties = () => {
                         <button><img className='rounded-md -[135px] h-[45px]' src={Play} alt="Play" /></button>
                     </m.div>
                 </m.div>
-            </div>
-            <div className='xs:mt-[100px] sm:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
+            </section>
+            <section className='xs:mt-[100px] sm:mt-[170px] basis-1/4 mb-10 flex xs:flex-col lg:flex-row'>
                 <div className='text-left basis-1/2'>
                     <h1 className='xs:text-[32px] sm:text-[36px] font-Inter text-left mb-[12px] xs:leading-[40px] sm:leading-[44px] font-[800]'>Frequently Asked Questions</h1>
                     <p className='xs:text-[16px] leading-[28px] text-[#404040] font-[400] font-Arimo'>Can’t find answers you’re looking for?</p>
@@ -72,8 +72,8 @@ const Properties = () => {
                     </div>
                 </div>
                 <Questionandanswer QandA={QandA} />
-            </div>
-        </div>
+            </section>
+        </>
     )
 }
 

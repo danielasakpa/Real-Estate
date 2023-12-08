@@ -44,7 +44,7 @@ const Agents = () => {
     }
 
     return (
-        <div>
+        <section>
             <m.div
                 variants={container}
                 initial="hidden"
@@ -55,7 +55,7 @@ const Agents = () => {
                 <m.p variants={item} className='xs:text-[18px] text-[#404040] text-center leading-[28px] mt-4 font-Arimo font-[400]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin nibh, mattis posuere massa.</m.p>
             </m.div>
             <div className="grid xs:grid-cols-1 mt-[70px] lg:mt-[120px] sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {status === 'loading' ? (
+                {status === 'loading' || data === (null || undefined) ? (
                     Array.from({ length: 12 }).map((_, index) => <AgentCardSkeleton key={index} />)
                 ) : (
                     data.Results.map((agent, index) => <AgentCard key={index} agent={agent} />)
@@ -101,7 +101,7 @@ const Agents = () => {
                 </m.div>
                 <Questionandanswer QandA={QandA} />
             </div>
-        </div>
+        </section>
     );
 };
 

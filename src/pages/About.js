@@ -43,7 +43,7 @@ const ratings = [
 
 const About = () => {
   return (
-    <m.div
+    <m.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 1 }}
@@ -103,8 +103,8 @@ const About = () => {
         {ratings.map((rating, i) =>
           <m.div
             variants={cardItem}
-            key={i} className='h-[100px] xs:w-[100%] xs:mb-4 bg-[#f5faff] px-3 py-5 flex items-center rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-[#f5faff]'>
-            <div className='py-4 px-5 bg-[#F5F5F5] mr-6 flex justify-center items-center rounded-lg'>
+            key={i} className='h-[100px] xs:w-[100%] xs:mb-4 bg-[#f5faff] px-3 py-5 flex items-center rounded-lg shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-[#f5faff]'>
+            <div className='py-4 px-5 bg-[#f5faff] mr-6 flex justify-center items-center rounded-lg'>
               <rating.icon size={25} />
             </div>
             <div>
@@ -156,7 +156,7 @@ const About = () => {
             <m.div
               variants={cardItem}
               key={i}
-              className='flex h-[170px] w-[280px] px-3 py-5 justify-center items-center bg-[#f5faff] rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-[#f5faff]'>
+              className='flex h-[170px] w-[280px] px-3 py-5 justify-center items-center bg-[#f5faff] rounded-lg shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-[#f5faff]'>
               <img src={image} alt="compImg" />
             </m.div>
           )}
@@ -176,7 +176,7 @@ const About = () => {
         </m.div>
         <Questionandanswer QandA={QandA} />
       </div>
-    </m.div>
+    </m.section>
   )
 }
 

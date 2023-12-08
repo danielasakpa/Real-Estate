@@ -3,7 +3,6 @@ export const container = {
   show: {
     opacity: 1,
     transition: {
-      delayChildren: 0.2,
       staggerChildren: 0.3
     }
   }
@@ -16,7 +15,6 @@ export const item = {
     opacity: 1,
     transition: {
       type: "spring",
-      damping: 12,
       stiffness: 100,
     },
   },

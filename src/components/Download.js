@@ -9,23 +9,23 @@ import { container, item } from "../animation";
 
 const Download = () => {
   return (
-    <section className='relative mt-[150px] flex xs:flex-col lg:flex-row'>
+    <div className='relative mt-[150px] flex xs:flex-col lg:flex-row'>
       <m.div
         initial={{ x: "-100%" }}
         whileInView={{ x: "0" }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
         viewport={{ once: true }}
         className='h-[734px] xs:w-[100%] flex lg:w-[50%] bg-black'>
-        <div className='xs:h-[462px] sm:h-[502px] xs:max-w-[300px] p-[32px] self-center mx-auto rounded-lg bg-[#F5FAFF]'>
+        <div className='xs:h-[462px] sm:h-[502px] xs:max-w-[90%] xs:w-[300px] p-[32px] self-center mx-auto rounded-lg bg-[#F5FAFF]'>
           <img className='mb-[16px]' src={navLogo} alt="navLog" />
           <div className='flex justify-between mb-[20px]'>
-            <div className="p-3 rounded-xs bg-[#f5f5f5]">
+            <div className="p-3 rounded-xs bg-[#f5faff]">
               <IoLocationOutline size={30} />
             </div>
-            <div className="p-3 rounded-xs bg-[#f5f5f5]">
+            <div className="p-3 rounded-xs bg-[#f5faff]">
               <IoBedOutline size={30} />
             </div>
-            <div className="p-3 rounded-xs bg-[#f5f5f5]">
+            <div className="p-3 rounded-xs bg-[#f5faff]">
               <TbBath size={30} />
             </div>
           </div>
@@ -42,7 +42,7 @@ const Download = () => {
           </button>
         </div>
       </m.div>
-      <div className='h-[400px] sm:h-[500px] lg:h-[700px] w-[100%] lg:w-[50%] flex justify-start items-center lg:block'>
+      <section className='h-[400px] xs:h-[500px] lg:h-[700px] w-[100%] lg:w-[50%] flex justify-start items-center lg:block px-[5%] sm:px-[4%] 2xl:px-0'>
         <div className='lg:pl-20 xs:block'>
           <m.div
             variants={container}
@@ -59,8 +59,8 @@ const Download = () => {
             </m.div>
           </m.div>
         </div>
-      </div>
-    </section >
+      </section>
+    </div >
   )
 }
 

@@ -42,7 +42,7 @@ const HorizontalScrollbar = () => {
                     itemID={agent.name}
                     title={agent.name}
                     key={agent.name}
-                    className='h-[350px] m-auto mr-4 w-[270px] cursor-pointer bg-[#f5faff] rounded-md shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]'
+                    className='h-[350px] m-auto mr-4 w-[270px] cursor-pointer bg-[#f5faff] rounded-md shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]'
                 >
                     <div className="max-w-sm">
                         <div className='w-full h-[250px] overflow-hidden rounded-md'>
