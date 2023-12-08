@@ -29,7 +29,7 @@ const Property = () => {
     <>
       {status === 'loading' || isRefetching ?
         <Loader />
-        : <>
+        : <section>
           <div className='mt-[40px] md:mt-[70px] flex justify-center'>
             <Carousel className='w-[900px] h-[100%]' showArrows={true} showThumbs={false} showIndicators={false}>
               {
@@ -196,7 +196,7 @@ const Property = () => {
               </div>
             )}
           </div>
-        </>
+        </section>
       }
     </>
   );
