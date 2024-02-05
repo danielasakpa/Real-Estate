@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Real Estate Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Latest-blueviolet)
+![React Query](https://img.shields.io/badge/React%20Query-4.20.4-orange)
+![Axios](https://img.shields.io/badge/Axios-1.2.3-yellow)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-8.1.1-brightgreen)
+![GSAP](https://img.shields.io/badge/GSAP-3.11.4-green)
+![React Router](https://img.shields.io/badge/React%20Router-6.6.1-lightgrey)
 
-## Available Scripts
+## Screenshots
+<br/>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://i.ibb.co/tpdD0wP/real-Estate-2.png" alt="Alt Text">
+</p>
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Overview](#overview)
+- [Features](#features)
+- [Learning Experience](#learning-experience)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
+This project is a Real Estate Finder web application that allows users to search and view properties for sale or rent in various locations. It is built with React, utilizing Tailwind CSS for styling and integrating with a real estate API through RapidAPI.
 
-### `npm test`
+## Features
+- Property search by location, price range, and other criteria
+- Sleek and responsive design with Material Tailwind and Flowbite
+- Smooth animations powered by Framer Motion and GSAP
+- Paginated property results for user-friendly navigation
+- Horizontal scrolling menu for an interactive user experience
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Learning Experience
+Building this Real Estate Finder was a valuable learning experience, enhancing skills in React, Tailwind CSS, API integration, and various libraries like React Query, Axios, and React Router. The project provides a practical application of front-end development principles.
 
-### `npm run build`
+## Technologies Used
+- React
+- Tailwind CSS
+- Material Tailwind
+- Flowbite
+- React Query
+- Axios
+- Framer Motion
+- GSAP
+- React Router
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up your environment: Create a `.env` file with `REACT_APP_RAPID_API_KEY=<your_api_key>`
+4. Run the application: `npm start`
+5. Open your browser and visit `http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+We welcome contributions to enhance and improve the Real Estate Finder project. Follow these steps:
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/new-feature`
+3. Make your changes
+4. Commit your changes: `git commit -m 'Add new feature'`
+5. Push to the branch: `git push origin feature/new-feature`
+6. Submit a pull request
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your projects.
